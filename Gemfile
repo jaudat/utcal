@@ -16,6 +16,9 @@ group :assets do
 
 
 #######################################################################
+  gem 'actionpack'
+
+
 group :development do
   gem 'rspec-rails'
   gem 'annotate'
