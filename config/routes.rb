@@ -1,5 +1,7 @@
 Utcal::Application.routes.draw do
 
+  devise_for :users
+
   root to: 'static_pages#home'
   match '/st_signup',  to: 'students#new'
   match '/prof_signup',  to: 'professors#new'
