@@ -1,10 +1,7 @@
 Utcal::Application.routes.draw do
 
-  devise_for :users
-
   root to: 'static_pages#home'
-  match '/st_signup',  to: 'students#new'
-  match '/prof_signup',  to: 'professors#new'
+  match '/signup',  to: 'users#new'
   match '/help',    to: 'static_pages#help'
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
@@ -14,6 +11,8 @@ Utcal::Application.routes.draw do
   resources :professors
 
   resources :courses
+
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

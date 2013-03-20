@@ -13,7 +13,7 @@ class ProfessorsController < ApplicationController
   # GET /professors/1
   # GET /professors/1.json
   def show
-    @professor = Professor.find(params[:id])
+   @professor = Professor.find_by_user_id(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -34,7 +34,7 @@ class ProfessorsController < ApplicationController
 
   # GET /professors/1/edit
   def edit
-    @professor = Professor.find(params[:id])
+    @professor = Professor.find_by_user_id(params[:id])
   end
 
   # POST /professors
@@ -56,7 +56,7 @@ class ProfessorsController < ApplicationController
   # PUT /professors/1
   # PUT /professors/1.json
   def update
-    @professor = Professor.find(params[:id])
+    @professor = Professor.find_by_user_id(params[:id])
 
     respond_to do |format|
       if @professor.update_attributes(params[:professor])
@@ -72,7 +72,7 @@ class ProfessorsController < ApplicationController
   # DELETE /professors/1
   # DELETE /professors/1.json
   def destroy
-    @professor = Professor.find(params[:id])
+    @professor = Professor.find_by_user_id(params[:id])
     @professor.destroy
 
     respond_to do |format|
