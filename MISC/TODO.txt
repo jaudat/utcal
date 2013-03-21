@@ -1,0 +1,5 @@
+STill haven't done friendly forwarding
+
+Flashes and messages do not show
+
+User model does not have destroy and show features, students and professors do

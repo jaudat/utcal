@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130320181621) do
+ActiveRecord::Schema.define(:version => 20130321201345) do
 
   create_table "courses", :force => true do |t|
     t.string   "code"
@@ -23,6 +23,11 @@ ActiveRecord::Schema.define(:version => 20130320181621) do
     t.string   "location"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+  end
+
+  create_table "courses_users", :id => false, :force => true do |t|
+    t.integer "course_id"
+    t.integer "user_id"
   end
 
   create_table "professors", :force => true do |t|
