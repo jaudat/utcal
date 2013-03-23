@@ -1,8 +1,8 @@
 class UsersController < ApplicationController
+
   def new
   	@user = User.new
   end
-
 
   def create
     @user = User.new(params[:user])
@@ -35,9 +35,14 @@ class UsersController < ApplicationController
     else
       render 'new'
     end
-  
-  def show
   end
 
+  def show
   end
+  
+  def mycourselist
+    @courses = current_user.mycourses
+    render 'mycourses'
+  end
+
 end

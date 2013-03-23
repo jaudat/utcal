@@ -11,4 +11,12 @@ class User < ActiveRecord::Base
   has_one :student, :dependent => :destroy
   has_one :professor, :dependent => :destroy
   has_and_belongs_to_many :courses
+
+
+
+  def mycourses
+  	#gets list of courses of the user
+    courses
+  end
+
 end

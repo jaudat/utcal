@@ -44,6 +44,7 @@ class CoursesController < ApplicationController
 
     respond_to do |format|
       if @course.save
+        # current_user.courses.concat(@course)
         format.html { redirect_to @course, notice: 'Course was successfully created.' }
         format.json { render json: @course, status: :created, location: @course }
       else
@@ -80,4 +81,11 @@ class CoursesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def mystudents
+    course = Course.find(params[:id])
+    @list = course.enrolledincourse
+    render 'mystudents'
+  end
+
 end

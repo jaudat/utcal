@@ -93,4 +93,7 @@ class StudentsController < ApplicationController
       redirect_to(root_path) unless current_user?(@user)
     end
 
+    def mycourselist
+      current_user.courses
+    end
 end
