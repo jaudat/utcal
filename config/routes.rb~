@@ -20,7 +20,7 @@ Utcal::Application.routes.draw do
 
   resources :users
 
-  resources :assgn_controller
+  resources :assgn
 
 
   resources :sessions, only: [:new, :create, :destroy]
