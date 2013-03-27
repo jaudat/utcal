@@ -1,0 +1,19 @@
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#calendar").fullCalendar({
+		header: {
+			left: 'prev, next today',
+			middle: 'title',
+			right: 'agendaWeek'
+		},
+		defaultView: 'agendaWeek',
+		editable: false,
+		slotMinutes: 60,
+		minTime: 9,
+		maxTime: 23,
+		height:1300				
+	})
+});
+</script>
+
+<div id='calendar'></div>

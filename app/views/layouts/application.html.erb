@@ -2,8 +2,12 @@
 <html>
   <head>
     <title>UofT Calander | <%= yield(:title) %></title>
+    <%= stylesheet_link_tag 'fullcalendar.css' %>
     <%= stylesheet_link_tag    "application", media: "all" %>
     <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "jquery-ui-1.8.11.custom.min.js" %>
+    <%= javascript_include_tag "fullcalendar.js" %>
+    <%= javascript_include_tag "calendar.js" %>
     <%= csrf_meta_tags %>
     <%= render 'layouts/shim' %>
   </head>
