@@ -83,6 +83,13 @@ class ProfessorsController < ApplicationController
     end
   end
 
+  def display
+    @professors = Professor.find_by_user_id(params[:id])
+    respond_to do |format|
+        format.html
+	format.json { render json: @professor }
+    end
+  end
   private
     def signed_in_user
       redirect_to signin_url, notice: "Please sign in" unless signed_in?

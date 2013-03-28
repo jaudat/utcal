@@ -13,7 +13,6 @@ class SessionsController < ApplicationController
 
 	      elsif !professor.nil?
 	      		redirect_to professor
-	      
 	      else
 	      	flash.now[:error] = 'Incorrect data record'
 	      	render 'new'

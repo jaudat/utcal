@@ -1,5 +1,24 @@
 <p id="notice"><%= notice %></p>
 
+<script type="text/javascript">
+$(document).ready(function(){
+        $("#calendar").fullCalendar({
+                header: {
+                        left: 'prev, next today',
+                        middle: 'title',
+                        right: 'agendaWeek'
+                },
+                defaultView: 'agendaWeek',
+                editable: false,
+                slotMinutes: 60,
+                minTime: 9,
+                maxTime: 23
+        })
+});
+</script>
+
+<div id='calendar'></div>
+
 <p>
   <b>First name:</b>
   <%= @professor.f_name %>
