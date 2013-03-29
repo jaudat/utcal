@@ -25,7 +25,7 @@ class UsersController < ApplicationController
         if @professor.save
           sign_in @user2
           flash[:success] = "Welcome to UTCal"
-          redirect_to @professor
+          redirect_to @professor   
         else
           render 'new'
         end
