@@ -83,13 +83,29 @@ class ProfessorsController < ApplicationController
     end
   end
 
-  def display
-    @professors = Professor.find_by_user_id(params[:id])
+  def add_students
+    @professor = Professor.find_by_user_id(params[:id])
+
     respond_to do |format|
-        format.html
-	format.json { render json: @professor }
+      format.html
+      format.json { render json: @professor }
     end
   end
+
+  def mail_students
+    @professor = Professor.find_by_user_id(params[:id])
+    @all_emails = params[:emadds]
+
+    respond_to do |format|
+      email = @all_emails.split(",").map(&:strip).reject(&:empty?)
+
+      student_mailer.sign_to_courses(@professor, email).deliver
+      format.html
+      format.json {render json: @professor}
+    end
+
+  end
+
   private
     def signed_in_user
       redirect_to signin_url, notice: "Please sign in" unless signed_in?

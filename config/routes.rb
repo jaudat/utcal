@@ -11,7 +11,12 @@ Utcal::Application.routes.draw do
 
   get "/users/mycourselist" => "users#mycourselist"
   get "/users/mystudents/:id" => "courses#mystudents"
-  get "/user/:id" => "professors#display" 
+  get "/users/:id" => "professors#show" 
+  get "/users/add/:id" => "professors#add_students"
+
+
+  post "/users/add/:id/mail_students" => "professors#mail_students"
+
 
   resources :students
 
