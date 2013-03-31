@@ -13,44 +13,52 @@ $(document).ready(function(){
 	var newDateEnd = new Date();
 	var thisDate = new Date();
 	
-	//Set semester years
-//	if (thisDate.getMonth() > 0 && thisDate.getMonth() < 8){
-//		var fallYear = thisDate.getYear()-1;
-//		var winterYear = thisDate.getYear();
-//	}else{
-//		var fallYear = thisDate.getYear();
-//		var winterYear = thisDate.getYear()+1;
-//	}
-//	//Set datse depending on semester
-//	
-//	if(/**is fall**/){
-//		startDate = new Date(fallYear, 9, 3, 0, 0, 0, 0);
-//		endDate = new Date(fallYear, 12, 6, 0, 0, 0, 0); 
-//	}else if(/**is winter**/){
-//		startDate = new Date(winterYear, 1, 6, 0,0,0,0);
-//		endDate = new Date(winterYear, 4, 10, 0,0,0,0);
-//	}else{
-//		startDate = new Date(winterYear, 5, 6, 0,0,0,0);
-//		endDate = new Date(winterYear, 8,8,0,0,0,0);
-//	}
+	// //Set semester years
+	// if (thisDate.getMonth() > 0 && thisDate.getMonth() < 8){
+	// 	var fallYear = thisDate.getYear()-1;
+	// 	var winterYear = thisDate.getYear();
+	// }else{
+	// 	var fallYear = thisDate.getYear();
+	// 	var winterYear = thisDate.getYear()+1;
+	// }
+	// //Set datse depending on semester
+	// var word = "";
+	// if(word.slice(word.length-1, word.length) == 'f'){
+	// 	startDate = new Date(fallYear, 9, 3, 0, 0, 0, 0);
+	// 	endDate = new Date(fallYear, 12, 6, 0, 0, 0, 0); 
+	// }else if(word.slice(word.length-1, word.length)){
+	// 	startDate = new Date(winterYear, 1, 6, 0,0,0,0);
+	// 	endDate = new Date(winterYear, 4, 10, 0,0,0,0);
+	// }else{
+	// 	startDate = new Date(winterYear, 5, 6, 0,0,0,0);
+	// 	endDate = new Date(winterYear, 8,8,0,0,0,0);
+	// }
 
 	endDate = new Date();
 
-	<% @courses.each do |course| %>	
-		newDateStart = new Date(<%= course.start %>);
-		newDateEnd = new Date(<%= course.end %>);
+	<% @courses.each do |course| %>
+    var start = "<%= course.start.to_formatted_s(:long_ordinal) %>";
+    var end = "<%= course.end.to_formatted_s(:long_ordinal) %>";
+    start = start.trim();
+    end = end.trim();
+    start = start.slice(0,-3);
+    end = end.slice(0,-3);
+		newDateStart = new Date(start);
+		newDateEnd = new Date(end);
+    newDateStart.setYear(2013);
+    newDateEnd.setYear(2013);
 
-		while(newDate.getTime() < endDate.getTime()){
+		while(newDateStart.getTime() < endDate.getTime()){
 			newDateStart = newDateStart.getDate() + 7;
 			newDateEnd = newDateEnd.getDate() + 7;
-			if(newDateStart > maxDays(newDateStart.getYear(), newDateStart.getMonth()){
+			if(newDateStart > maxDays(newDateStart.getYear(), newDateStart.getMonth())) {
 				newDateStart.setMonth(newDateStart.getMonth() + 1);
 				newDateStart.setDate( newDateStart.getDate() - maxDays(newDateStart.getYear(), newDateStart.getMonth()));
 				newDateEnd.setMonth(newDateStart.getMonth() + 1);
 				newDateEnd.setDate(newDateStart.getDate() - maxDays(newDateStart.getYear(), newDateStart.getMonth()));
 			} 
 		}
-		dates.push(newDateStart, newDateEnd, <%= course.code %>);
+		dates.push(new Array(newDateStart, newDateEnd, "<%= course.code %>"));
 	<% end %>
 
 	var date = new Date();
@@ -61,6 +69,7 @@ $(document).ready(function(){
 	
 	var feedArray = new Array();
 	for(var x = 0; x< dates.length; x++){
+    feedArray[x] = new Array();
 		feedArray[x]["start"] = dates[x][0];
 		feedArray[x]["end"] = dates[x][1];
 		feedArray[x]["title"] = dates[x][2];

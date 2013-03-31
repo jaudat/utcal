@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130325234544) do
+ActiveRecord::Schema.define(:version => 20130331203649) do
 
   create_table "assignments", :force => true do |t|
     t.integer  "cid"
@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(:version => 20130325234544) do
     t.string   "section"
     t.string   "restrictions"
     t.string   "days"
-    t.time     "start"
-    t.time     "end"
+    t.datetime "start"
+    t.datetime "end"
     t.string   "location"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
@@ -36,6 +36,9 @@ ActiveRecord::Schema.define(:version => 20130325234544) do
     t.integer "course_id"
     t.integer "user_id"
   end
+
+  add_index "courses_users", ["course_id"], :name => "course_id"
+  add_index "courses_users", ["user_id"], :name => "user_id"
 
   create_table "professors", :force => true do |t|
     t.string   "f_name"
