@@ -15,8 +15,8 @@ class ProfessorsController < ApplicationController
   # GET /professors/1
   # GET /professors/1.json
   def show
-   @professor = Professor.find_by_user_id(params[:id])
-
+    @professor = Professor.find_by_user_id(params[:id])
+    @courses = current_user.mycourses
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @professor }
@@ -114,5 +114,7 @@ class ProfessorsController < ApplicationController
       @user = User.find(params[:id])
       redirect_to(root_path) unless current_user?(@user)
     end
+
+
 
 end
