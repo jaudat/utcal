@@ -7,7 +7,6 @@ function maxDays(year, month){
 
 $(document).ready(function(){
 
-	int i;
 	var dates = new Array();
 	var courseData = new Array();
 	var newDateStart = new Date();
@@ -37,7 +36,7 @@ $(document).ready(function(){
 
 	endDate = new Date();
 
-	<% @course.each do |course| %>	
+	<% @courses.each do |course| %>	
 		newDateStart = new Date(<%= course.start %>);
 		newDateEnd = new Date(<%= course.end %>);
 
@@ -61,7 +60,7 @@ $(document).ready(function(){
 	
 	
 	var feedArray = new Array();
-	for(var x = 0; x< dates.length(); x++){
+	for(var x = 0; x< dates.length; x++){
 		feedArray[x]["start"] = dates[x][0];
 		feedArray[x]["end"] = dates[x][1];
 		feedArray[x]["title"] = dates[x][2];
