@@ -1,4 +1,10 @@
 class Assignments < ActiveRecord::Base
-  attr_accessible :cid, :submit_date
-    has_ana_belongs_to_many :courses; 
+
+  attr_accessible :cid, :startdate 
+  belongs_to :course
+
+ 	def get_courses
+		course 
+	end
+
 end

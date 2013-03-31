@@ -8,10 +8,13 @@ Utcal::Application.routes.draw do
   match '/help',    to: 'static_pages#help'
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
+  match '/assignments', to: 'assignments#show'
 
   get "/users/mycourselist" => "users#mycourselist"
   get "/users/mystudents/:id" => "courses#mystudents"
-  get "/user/:id" => "professors#display" 
+  get "/user/:id" => "professors#display"
+  get "/user/:id" => "courses#enrolledincourse" 
+  get "/user/:id" => "assignments#show"
 
   resources :students
 
@@ -21,7 +24,7 @@ Utcal::Application.routes.draw do
 
   resources :users
 
-  resources :assgn_controller
+  resources :assignments
 
 
   resources :sessions, only: [:new, :create, :destroy]

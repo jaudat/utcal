@@ -9,4 +9,8 @@ class Course < ActiveRecord::Base
   	users
   end
 
+  def get_assignments
+  	assignments
+  end 
+
 end

@@ -19,4 +19,8 @@ class User < ActiveRecord::Base
     courses
   end
 
+  def get_course
+      courses
+  end
+
 end

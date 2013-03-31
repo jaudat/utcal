@@ -1,0 +1,16 @@
+class AssignmentsController < ApplicationController
+	
+	def index
+             
+            @assgn = Assignments.all
+  	    @course = @user.mycourses
+            #@course = @user.mycourses
+
+				
+		    respond_to do |format|
+		    format.html # index.html.erb
+		    format.json { render json: @assgn}
+            		end
+       end 
+	
+end

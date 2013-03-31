@@ -15,15 +15,15 @@ class ProfessorsController < ApplicationController
   # GET /professors/1
   # GET /professors/1.json
   def show
-   @course = Course.new
+  
    @professor = Professor.find_by_user_id(params[:id])
-   @user = User.find(params[:id])
-   @course =@user.mycourses 
+   #@user = User.find(params[:id])
+   @course = @user.mycourses
 
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render :json => {:professor => @professor, :course => @course}}
+      format.json { render :json => {:professor => @professor, :courses => @course}}
 
   
     end

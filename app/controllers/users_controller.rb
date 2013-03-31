@@ -44,7 +44,7 @@ class UsersController < ApplicationController
     @courses = current_user.mycourses
     render 'mycourses'
   end
-
+ 
 
 
 end

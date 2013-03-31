@@ -1,0 +1,10 @@
+class CreateAssignments < ActiveRecord::Migration
+  def change
+    create_table :assignments, :id => false do |t|
+      t.cid :integer
+      t.datetime :startdate
+
+      t.timestamps
+    end
+  end
+end
