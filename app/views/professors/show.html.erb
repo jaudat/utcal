@@ -1,79 +1,71 @@
 <p id="notice"><%= notice %></p>
 
+
+
+
+<% @courses.each do |course| %>
+<%= course.to_json %>
+<%end%>
 <script type="text/javascript">
 function maxDays(year, month){
 	return new Date(year, month, 0).getDate();
 }
 
+function convertDateToJS(input){
+	var dateValues = input.split("-");
+	return new Date(Number(dateValues[0]), Number(dateValues[1])-1, Number(dateValues[2]));
+}
+
+
+
 $(document).ready(function(){
-
-	var dates = new Array();
-	var courseData = new Array();
-	var newDateStart = new Date();
-	var newDateEnd = new Date();
-	var thisDate = new Date();
-	
-	// //Set semester years
-	// if (thisDate.getMonth() > 0 && thisDate.getMonth() < 8){
-	// 	var fallYear = thisDate.getYear()-1;
-	// 	var winterYear = thisDate.getYear();
-	// }else{
-	// 	var fallYear = thisDate.getYear();
-	// 	var winterYear = thisDate.getYear()+1;
-	// }
-	// //Set datse depending on semester
-	// var word = "";
-	// if(word.slice(word.length-1, word.length) == 'f'){
-	// 	startDate = new Date(fallYear, 9, 3, 0, 0, 0, 0);
-	// 	endDate = new Date(fallYear, 12, 6, 0, 0, 0, 0); 
-	// }else if(word.slice(word.length-1, word.length)){
-	// 	startDate = new Date(winterYear, 1, 6, 0,0,0,0);
-	// 	endDate = new Date(winterYear, 4, 10, 0,0,0,0);
-	// }else{
-	// 	startDate = new Date(winterYear, 5, 6, 0,0,0,0);
-	// 	endDate = new Date(winterYear, 8,8,0,0,0,0);
-	// }
-
-	endDate = new Date();
+	var dateSet = new Array();
 
 	<% @courses.each do |course| %>
-    var start = "<%= course.start.to_formatted_s(:long_ordinal) %>";
-    var end = "<%= course.end.to_formatted_s(:long_ordinal) %>";
-    start = start.trim();
-    end = end.trim();
-    start = start.slice(0,-3);
-    end = end.slice(0,-3);
-		newDateStart = new Date(start);
-		newDateEnd = new Date(end);
-    newDateStart.setYear(2013);
-    newDateEnd.setYear(2013);
+	<% course.start.in_time_zone("Eastern Time (US & Canada)")%> 
+	<% course.start = course.start.utc.to_i %>
+	<% course.end = course.end.utc.to_i %>
+	<%end%>
 
-		while(newDateStart.getTime() < endDate.getTime()){
-			newDateStart = newDateStart.getDate() + 7;
-			newDateEnd = newDateEnd.getDate() + 7;
-			if(newDateStart > maxDays(newDateStart.getYear(), newDateStart.getMonth())) {
-				newDateStart.setMonth(newDateStart.getMonth() + 1);
-				newDateStart.setDate( newDateStart.getDate() - maxDays(newDateStart.getYear(), newDateStart.getMonth()));
-				newDateEnd.setMonth(newDateStart.getMonth() + 1);
-				newDateEnd.setDate(newDateStart.getDate() - maxDays(newDateStart.getYear(), newDateStart.getMonth()));
-			} 
+	var coursesToJSON = <%= raw @courses.to_json %> 
+	var i = 0;
+	
+	for ( i = 0; i < coursesToJSON.length; i++){	
+		var dateObject = new Array();
+
+		dateObject["start"]= new Date(coursesToJSON[i].start*1000);
+		dateObject["end"] = new Date(coursesToJSON[i].end*1000);
+		alert("class starts at"+dateObject["start"].getHours() +" and ends at " + dateObject["end"].getHours());
+		//dateObject["start"] = coursesToJSON[i];
+		//dateObject["end"] = coursesToJSON[i];
+		dateObject["title"] = coursesToJSON[i].title;
+		dateObject["start"].setDate(dateObject["start"].getDate());
+
+		alert("first date: "+ dateObject["start"]);
+		if(dateObject["start"].getMonth() == 0){
+			var endBefore = new Date(dateObject["start"].getFullYear(), 3, 8);
+		}else if(dateObject["start"].getMonth() == 3){
+			var endBefore = new Date(dateObject["start"].getFullYear(), 7, 8);
+		}else{
+			var endBefore = new Date(dateObject["start"].getFullYear(), 11, 6);
 		}
-		dates.push(new Array(newDateStart, newDateEnd, "<%= course.code %>"));
-	<% end %>
 
-	var date = new Date();
-	var d = date.getDate();
-	var m = date.getMonth();
-	var y = date.getFullYear();
-	
-	
-	var feedArray = new Array();
-	for(var x = 0; x< dates.length; x++){
-    feedArray[x] = new Array();
-		feedArray[x]["start"] = dates[x][0];
-		feedArray[x]["end"] = dates[x][1];
-		feedArray[x]["title"] = dates[x][2];
+		while(dateObject["start"].getTime() < endBefore.getTime()){
+			alert("Adding :" + dateObject["start"]);
+			var polishToAdd = new Array();
+			polishToAdd["start"] = dateObject['start'].getTime()/1000;
+			polishToAdd["end"] = dateObject["end"].getTime()/1000;
+			polishToAdd["title"] = dateObject["title"];
+			polishToAdd["allDay"] = false;
+			dateSet.push(polishToAdd);
+				
+			dateObject["start"].setMinutes(dateObject["start"].getMinutes() + 60*24*7);
+			dateObject["end"].setMinutes(dateObject["start"].getMinutes());
+		}
+		
 	}
+ 
+
 
         $("#calendar").fullCalendar({
                 header: {
@@ -81,7 +73,7 @@ $(document).ready(function(){
                         middle: 'title',
                         right: 'agendaWeek'
                 },
-		events: feedArray,
+		events: dateSet,
                 defaultView: 'agendaWeek',
                 editable: false,
                 slotMinutes: 60,
@@ -90,12 +82,6 @@ $(document).ready(function(){
         })
 });
 
-var array = new Array();
-var i = 0;
-<% @courses.each do |course| %>
-i += 1;
-array[i] = <%= raw course.to_json %>
-<% end %>
 </script>
 
 <div id='calendar'></div>
