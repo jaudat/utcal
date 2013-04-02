@@ -1,11 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-
-
-
 <% @courses.each do |course| %>
 <%= course.to_json %>
 <%end%>
+
 <script type="text/javascript">
 function maxDays(year, month){
 	return new Date(year, month, 0).getDate();
@@ -22,9 +20,8 @@ $(document).ready(function(){
 	var dateSet = new Array();
 
 	<% @courses.each do |course| %>
-	<% course.start.in_time_zone("Eastern Time (US & Canada)")%> 
-	<% course.start = course.start.utc.to_i %>
-	<% course.end = course.end.utc.to_i %>
+	<% course.start = course.start.to_time.to_i %>
+	<% course.end = Time.at(course.end.to_i).to_formatted_s(:db).to_i %>
 	<%end%>
 
 	var coursesToJSON = <%= raw @courses.to_json %> 
@@ -55,6 +52,8 @@ $(document).ready(function(){
 			var polishToAdd = new Array();
 			polishToAdd["start"] = dateObject['start'].getTime()/1000;
 			polishToAdd["end"] = dateObject["end"].getTime()/1000;
+			polishToAdd["start"] += 18000;
+			polishToAdd["end"] += 18000;
 			polishToAdd["title"] = dateObject["title"];
 			polishToAdd["allDay"] = false;
 			dateSet.push(polishToAdd);
