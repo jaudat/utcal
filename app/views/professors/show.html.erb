@@ -1,9 +1,5 @@
 <p id="notice"><%= notice %></p>
 
-<% @courses.each do |course| %>
-<%= course.to_json %>
-<%end%>
-
 <script type="text/javascript">
 function maxDays(year, month){
 	return new Date(year, month, 0).getDate();
@@ -21,7 +17,7 @@ $(document).ready(function(){
 
 	<% @courses.each do |course| %>
 	<% course.start = course.start.to_time.to_i %>
-	<% course.end = Time.at(course.end.to_i).to_formatted_s(:db).to_i %>
+	<% course.end = course.end.to_time.to_i %>
 	<%end%>
 
 	var coursesToJSON = <%= raw @courses.to_json %> 
@@ -32,13 +28,10 @@ $(document).ready(function(){
 
 		dateObject["start"]= new Date(coursesToJSON[i].start*1000);
 		dateObject["end"] = new Date(coursesToJSON[i].end*1000);
-		alert("class starts at"+dateObject["start"].getHours() +" and ends at " + dateObject["end"].getHours());
-		//dateObject["start"] = coursesToJSON[i];
-		//dateObject["end"] = coursesToJSON[i];
-		dateObject["title"] = coursesToJSON[i].title;
-		dateObject["start"].setDate(dateObject["start"].getDate());
 
-		alert("first date: "+ dateObject["start"]);
+		dateObject["title"] = coursesToJSON[i].title;
+
+
 		if(dateObject["start"].getMonth() == 0){
 			var endBefore = new Date(dateObject["start"].getFullYear(), 3, 8);
 		}else if(dateObject["start"].getMonth() == 3){
@@ -48,7 +41,7 @@ $(document).ready(function(){
 		}
 
 		while(dateObject["start"].getTime() < endBefore.getTime()){
-			alert("Adding :" + dateObject["start"]);
+
 			var polishToAdd = new Array();
 			polishToAdd["start"] = dateObject['start'].getTime()/1000;
 			polishToAdd["end"] = dateObject["end"].getTime()/1000;
@@ -59,7 +52,7 @@ $(document).ready(function(){
 			dateSet.push(polishToAdd);
 				
 			dateObject["start"].setMinutes(dateObject["start"].getMinutes() + 60*24*7);
-			dateObject["end"].setMinutes(dateObject["start"].getMinutes());
+			dateObject["end"].setMinutes(dateObject["end"].getMinutes() + 60*24*7);
 		}
 		
 	}
