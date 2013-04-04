@@ -45,4 +45,8 @@ class UsersController < ApplicationController
     render 'mycourses'
   end
   
+  def mystudents_courses 
+    @courses = current_user.studcourses
+    render 'students_courses'
+  end
 end
