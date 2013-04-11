@@ -1,3 +1,20 @@
 <% @courses.each do |course| %>
-<%= course%>
+<%= course.code%>
 <% end %>
+
+<%= javascript_include_tag "calendarBuilder.js" %>
+<script type="text/javascript">	
+	$(document).ready(function(){
+		<% @courses.each do |course| %>
+		<% course.start = course.start.to_time.to_i %>
+		<% course.end = course.end.to_time.to_i %>
+		<% end %>
+
+		var coursesToJSON = <%= raw @courses.to_json %> ;
+
+		buildCalendar(coursesToJSON);	
+	});
+</script>
+
+
+<div id="calendar" ></div>
