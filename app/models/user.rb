@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
     courses
   end
 
-  def studcourses
+  def allstudcourses
     # Get professors courses
     @courses = self.mycourses
 
@@ -51,6 +51,7 @@ class User < ActiveRecord::Base
       c = dupes.find_all {|e| e == u}.size
       dupes.push(u) unless c > 0
     end
+
    
     # puts "*****************************"
     # puts "printing students who are in profs courses w/o dups"
@@ -91,6 +92,40 @@ class User < ActiveRecord::Base
     #   puts sc1.code
     # end
     # puts "*****************************"
+    @final
+  end
+
+  def studcourses(course)
+
+    @stud_courses = []
+    @students = course.enrolledincourse
+    # puts "*************************************************"
+    # @students.each do |student|
+    #   puts student.id
+    # end
+    # puts "*************************************************"
+
+    # Get the courses that the students are taking
+    @students.each do |student|
+      @stud_courses.push(student.mycourses)
+    end
+    # Turn Nested array into an array of courses
+    @sc = []
+    @stud_courses.each do |sc1|
+      sc1.each do |sc2|
+        @sc.push(sc2)
+      end
+    end
+    #remove duplicate courses and change course code
+    @final = []
+    @sc.each do |u|
+      c = @final.find_all {|e| e == u}.size
+      lgth = @sc.find_all {|e| e == u}.size
+      x = u
+      x.code = x.code + "#" + lgth.to_s()
+      @final.push(x) unless c > 0
+    end
+
     @final
   end
 end

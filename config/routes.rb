@@ -10,7 +10,7 @@ Utcal::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
 
   get "/users/mycourselist" => "users#mycourselist"
-  get "/users/mystudents_courses" => "users#mystudents_courses"
+  get "/users/mystudents_courses/:id" => "users#mystudents_courses"
   get "/users/mystudents/:id" => "courses#mystudents"
   get "/users/:id" => "professors#show" 
   get "/users/add/:id" => "professors#add_students"
