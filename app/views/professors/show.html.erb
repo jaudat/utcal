@@ -18,6 +18,12 @@ $(document).ready(function(){
     
 </script>
 
+<p>Check course schedules for: </p><br />
+<% @courses.each do |course| %>
+	<%= link_to course.code, users_mystudents_courses_path(course.id) %><br />
+<%end%>
+
+
 <div id='calendar'></div>
 
 <p class="test">
