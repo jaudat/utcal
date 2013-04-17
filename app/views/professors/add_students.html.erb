@@ -1,0 +1,7 @@
+<p> ADD STUDENTS </p>
+
+<%=  form_tag(@professor.id.to_s+"/mail_students", :method => "post") do%>
+  <%= label_tag(:emadds, "Add student Emails")%>
+  <%= text_field_tag(:emadds) %>
+  <%= submit_tag("Send Request")%>
+<% end %>

@@ -44,7 +44,26 @@ class UsersController < ApplicationController
     @courses = current_user.mycourses
     render 'mycourses'
   end
- 
+
+  
+  def mystudents_courses
+    @c = Course.find(params[:id])
+    bool = false
+    @crses = current_user.courses
+
+    @crses.each do |course|
+      if course.id = @c.id
+        bool = true
+      end
+    end
+
+    if bool == true and session[:type] == "Professor"
+      @courses = current_user.studcourses(@c)
+      render 'students_courses'
+    end
+  end
+
+
 
 
 end

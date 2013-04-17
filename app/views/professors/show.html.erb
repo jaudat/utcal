@@ -1,25 +1,32 @@
 <p id="notice"><%= notice %></p>
 
+
+<%= javascript_include_tag "calendarBuilder.js" %>
 <script type="text/javascript">
+
 $(document).ready(function(){
-        $("#calendar").fullCalendar({
-                header: {
-                        left: 'prev, next today',
-                        middle: 'title',
-                        right: 'agendaWeek'
-                },
-                defaultView: 'agendaWeek',
-                editable: false,
-                slotMinutes: 60,
-                minTime: 9,
-                maxTime: 23
-        })
+
+	<% @courses.each do |course| %>
+	<% course.start = course.start.to_time.to_i %>
+	<% course.end = course.end.to_time.to_i %>
+	<%end%>
+
+	var coursesToJSON = <%= raw @courses.to_json %> 
+	buildCalendar(coursesToJSON);
+
 });
+    
 </script>
+
+<p>Check course schedules for: </p><br />
+<% @courses.each do |course| %>
+	<%= link_to course.code, users_mystudents_courses_path(course.id) %><br />
+<%end%>
+
 
 <div id='calendar'></div>
 
-<p>
+<p class="test">
   <b>First name:</b>
   <%= @professor.f_name %>
 </p>
@@ -37,3 +44,7 @@ $(document).ready(function(){
 
 <%= link_to 'Edit', edit_professor_path(@professor) %> |
 <%= link_to 'Back', professors_path %>
+
+<% @courses.each do |course| %>
+<%= course.to_json %>
+<% end %>

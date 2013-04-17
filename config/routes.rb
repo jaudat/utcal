@@ -11,10 +11,17 @@ Utcal::Application.routes.draw do
   match '/assignments', to: 'assignments#show'
 
   get "/users/mycourselist" => "users#mycourselist"
+  get "/users/mystudents_courses/:id", :to => "users#mystudents_courses", :as => "users_mystudents_courses"
   get "/users/mystudents/:id" => "courses#mystudents"
+
   get "/user/:id" => "professors#display"
   get "/user/:id" => "courses#enrolledincourse" 
   get "/user/:id" => "assignments#show"
+  get "/users/:id" => "professors#show" 
+  get "/users/add/:id" => "professors#add_students"
+
+
+  post "/users/add/:id/mail_students" => "professors#mail_students"
 
   resources :students
 

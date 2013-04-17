@@ -157,6 +157,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   fullcalendar-rails
   jquery-rails
+  mail
   mysql2
   rails (= 3.2.12)
   rspec

@@ -12,5 +12,17 @@ class Course < ActiveRecord::Base
   def get_assignments
   	assignments
   end 
+  def as_json(options = {})
+  	{
+  		:id => self.id,
+  		:title => self.code,
+  		:start => self.start,
+  		:end => self.end,
+  		:recurring => true,
+  		:url => "http://www.rizvi.com/",
+  		:semester => "Fall/Winter",
+  		:type => "course"
+  	}
+  end
 
 end
