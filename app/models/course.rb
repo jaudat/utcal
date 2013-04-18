@@ -8,7 +8,7 @@ class Course < ActiveRecord::Base
   	#get list of students in courses
   	users
   end
-
+  #get all the assignments of the course
   def get_assignments
   	assignments
   end 
