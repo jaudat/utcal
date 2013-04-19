@@ -1,5 +1,8 @@
 Utcal::Application.routes.draw do
 
+  resources :assignments
+
+
   root to: 'static_pages#home'
 
   match '/signup',  to: 'users#new'
