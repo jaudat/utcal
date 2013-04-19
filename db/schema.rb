@@ -11,17 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(:version => 20130331051214) do
-=======
-ActiveRecord::Schema.define(:version => 20130331203649) do
->>>>>>> edc89c20a0997662d45bf3c21b50c4d1c81d5542
+ActiveRecord::Schema.define(:version => 20130419194701) do
 
-  create_table "assignments", :id => false, :force => true do |t|
-    t.integer  "cid"
-    t.datetime "startdate"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table "assignments", :force => true do |t|
+    t.string   "title"
+    t.string   "category"
+    t.text     "description"
+    t.datetime "start"
+    t.datetime "end"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "assignments_courses", :id => false, :force => true do |t|
+    t.integer "course_id"
+    t.integer "assignment_id"
   end
 
   create_table "courses", :force => true do |t|
@@ -69,7 +73,7 @@ ActiveRecord::Schema.define(:version => 20130331203649) do
     t.string   "password_digest"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
-    t.string   "type"
+    t.string   "category"
   end
 
 end
