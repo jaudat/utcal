@@ -45,9 +45,6 @@ ActiveRecord::Schema.define(:version => 20130419194701) do
     t.integer "user_id"
   end
 
-  add_index "courses_users", ["course_id"], :name => "course_id"
-  add_index "courses_users", ["user_id"], :name => "user_id"
-
   create_table "professors", :force => true do |t|
     t.string   "f_name"
     t.string   "l_name"

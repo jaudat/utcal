@@ -8,6 +8,8 @@ Utcal::Application.routes.draw do
   match '/help',    to: 'static_pages#help'
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
+  match '/assignments/studinfo', to: 'assignments#studinfo'
+
 
   get "/users/mycourselist" => "users#mycourselist"
   get "/users/mystudents_courses/:id", :to => "users#mystudents_courses", :as => "users_mystudents_courses"
@@ -18,8 +20,10 @@ Utcal::Application.routes.draw do
   get "/user/:id" => "assignments#show"
   get "/users/:id" => "professors#show" 
   get "/users/add/:id" => "professors#add_students"
+  get "/assignments/courseasgns/:id" => "assignments#courseasgns" 
 
 
+  
   post "/users/add/:id/mail_students" => "professors#mail_students"
 
   resources :students
