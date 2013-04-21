@@ -85,7 +85,7 @@ class AssignmentsController < ApplicationController
   def studinfo 
     ActiveRecord::Base.include_root_in_json = true
     @getcrs =[]
-    @course_stats = Hash.new
+    # @course_stats = Hash.new
     @std_stats = Hash.new
     @user = current_user
     @course = @user.mycourses #Professor courses
@@ -198,6 +198,10 @@ class AssignmentsController < ApplicationController
 
   end
 
-
+  def profassgns
+    @assignment = Assignment.new
+    @user_assgns = current_user
+    @get_assgn = @assignment.profassgns2(@user_assgns)
+  end
 
 end

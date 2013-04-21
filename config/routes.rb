@@ -17,7 +17,8 @@ Utcal::Application.routes.draw do
 
   get "/user/:id" => "professors#display"
   get "/user/:id" => "courses#enrolledincourse" 
-  get "/user/:id" => "assignments#show"
+   # get "/professors/:id" => "assignments#profassgns"
+  get "/user/mystudents_courses/:id" => "assignments#courseasgns"
   get "/users/:id" => "professors#show" 
   get "/users/add/:id" => "professors#add_students"
   get "/assignments/courseasgns/:id" => "assignments#courseasgns" 

@@ -110,8 +110,23 @@ class ProfessorsController < ApplicationController
       student_mailer.sign_to_courses(@professor, email).deliver
       format.html
       format.json {render json: @professor}
+   end 
+
+  end
+
+  def profassgns
+
+    @user_assgns = current_user
+    @assgn_courses = @user_assgns.mycourses
+    @assgn_courses.each do |a|
+      @get_assgns = a.get_assignments
+
     end
 
+    respond_to do |format|
+      format.html
+      format.json { render json: @get_assgns}
+    end
   end
 
   private

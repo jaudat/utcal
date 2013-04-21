@@ -48,3 +48,19 @@ $(document).ready(function(){
 <% @courses.each do |course| %>
 <%= course.to_json %>
 <% end %>
+
+
+<h4>Professor Assignments And Students</h4>
+<p><% @courses.each do |c| %>
+<br/>
+		<h6><%= c.code %></h6><br />
+<p><b>Professor Students</b></p>
+
+		<%= c.std_crs %><br/>
+<p><b>Professor Assignments</b></p>
+		<%= c.out_assgn %><br/>
+
+	
+<%end%> 
+
+</p>

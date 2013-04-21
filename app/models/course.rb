@@ -25,4 +25,24 @@ class Course < ActiveRecord::Base
   	}
   end
 
+  def std_crs
+    @std = []
+    @users_temp = self.enrolledincourse
+    @users_temp.each do |s|
+      @get_std = s.student
+      @std.push (@get_std)
+    end 
+    @std
+  end
+
+  def out_assgn
+    @assgn = []
+    @assgn_temp = self.get_assignments
+    # @assgn_temp.each do |a|
+    #   @get_std = s.student
+    #   @std.push (@assgn)
+    # end 
+    @assgn_temp
+  end
+
 end
