@@ -45,12 +45,60 @@ class UsersController < ApplicationController
     render 'mycourses'
   end
 
+  def makeArray(arr)
+      @temp_arr =[]
+      arr.each do |arr1|
+        arr1.each do |arr2|
+          @temp_arr.push(arr2)
+        end  
+      end
+      @temp_arr
+  end
+
+  def removeDupes(arr)
+      #removing duplicate assignments
+    @final = []
+    @arr.each do |u|
+        c = @final.find_all {|e| e == u}.size
+        lgth = @arr.find_all {|e| e == u}.size
+        x = u
+        temp_id = x.id
+        temp_id_str = temp_id.to_s
+        temp_id_str = temp_id.to_s + "#" + lgth.to_s()
+        temp_id = temp_id_str.to_i
+        x.id = temp_id
+         x.id = x.id + "#" + lgth.to_s()
+        @final.push(x) unless c > 0
+    end 
+
+    @final
+
+
+  end
+
   
   def mystudents_courses
     @courses = Course.find(params[:id])
-    @std = @courses.std_crs
-    @std.each do |c|
-      
+    @crs_arr  = []
+    @asgn_arr = []
+    @std_arr = []
+
+    @temp_students = @courses.std_crs
+    @std_arr.push(@temp_students)
+    @temp_students.each do |s|
+      @user = s.get_user
+      @temp_crs = @user.mycourses
+      @crs_arr.push(@temp_crs)
+      @temp_crs.each do |c|
+        @asgn_arr.push(c.get_assignments)
+      end
+
+
+      @courses = makeArray(@crs_arr).uniq
+
+      @assignments = makeArray(@asgn_arr).uniq
+
+      @students =makeArray(@std_arr)
     end
 
     render 'students_courses'

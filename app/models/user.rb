@@ -46,7 +46,7 @@ class User < ActiveRecord::Base
     # puts "*****************************"
     # puts "printing students who are in profs courses w dups"
     # @students.each do |sc1|
-    #   puts sc1.id
+    #   puts sc1.idC75","start":1364707183,"end":1364707183,"recurring":true,"url":"http://www.rizvi.com/","semester":"Fall/Winter","type":"course"} {"id":10,"title":"CSC63","start":1364707183,"end":1364707183,"recurring":true,"url":"http://www.rizvi.com/","semester":"Fall/Winter","type":"course"} {"id":13,"title":"CSCD94","start":1364068800,"end":1364072400,"recurring":true,"url":"http://www.rizvi.com/","semester":"Fall/Winter","type":"course"} 
     # end
     # puts "*****************************"
 

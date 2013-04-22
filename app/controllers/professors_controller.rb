@@ -30,7 +30,6 @@ class ProfessorsController < ApplicationController
    # @professor = Professor.find_by_user_id(params[:id])
    # #@user = User.find(params[:id])
    # @course = @user.mycourses
-
     @professor = Professor.find_by_user_id(params[:id])
     @courses = current_user.mycourses
     @temp_students = []

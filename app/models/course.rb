@@ -25,12 +25,16 @@ class Course < ActiveRecord::Base
   	}
   end
 
+  #get students of the course
+  #this doesnt get users
   def std_crs
     @std = []
     @users_temp = self.enrolledincourse
     @users_temp.each do |s|
       @get_std = s.student
-      @std.push (@get_std)
+      if @get_std != nil
+        @std.push (@get_std)
+      end
     end 
     @std
   end

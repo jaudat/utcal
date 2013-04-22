@@ -14,5 +14,11 @@ class Student < ActiveRecord::Base
 	user_id
   end
 
+  def get_user
+    self.user
+  end
+
+
+
  
 end
