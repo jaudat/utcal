@@ -133,4 +133,13 @@ class User < ActiveRecord::Base
 
     @final
   end
+
+  # def courseasgns
+  #   # @asgns  = []
+  #   @course = Course.find(params[:id])
+  #   @asgns = @course.get_assignment
+
+  # end
+  
+
 end

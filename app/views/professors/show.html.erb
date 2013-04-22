@@ -51,16 +51,9 @@ $(document).ready(function(){
 
 
 <h4>Professor Assignments And Students</h4>
-<p><% @courses.each do |c| %>
+<h1>Assignments of the courses</h1></br>
+<p><%= @assignments %></p>
 <br/>
-		<h6><%= c.code %></h6><br />
-<p><b>Professor Students</b></p>
+<h6>Students</h6><br />
+<p><%=  @students %></p> <br/>
 
-		<%= c.std_crs %><br/>
-<p><b>Professor Assignments</b></p>
-		<%= c.out_assgn %><br/>
-
-	
-<%end%> 
-
-</p>

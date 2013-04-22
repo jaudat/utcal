@@ -13,4 +13,6 @@ class Student < ActiveRecord::Base
   def to_param
 	user_id
   end
+
+ 
 end

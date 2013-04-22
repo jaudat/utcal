@@ -14,20 +14,37 @@ class ProfessorsController < ApplicationController
 
   # GET /professors/1
   # GET /professors/1.json
+
+  def removeDupes(arr)
+      @temp_arr =[]
+      arr.each do |arr1|
+        arr1.each do |arr2|
+          @temp_arr.push(arr2)
+        end  
+      end
+      @temp_arr
+  end
+
   def show
   
-   @professor = Professor.find_by_user_id(params[:id])
-   #@user = User.find(params[:id])
-   @course = @user.mycourses
-
+   # @professor = Professor.find_by_user_id(params[:id])
+   # #@user = User.find(params[:id])
+   # @course = @user.mycourses
 
     @professor = Professor.find_by_user_id(params[:id])
     @courses = current_user.mycourses
+    @temp_students = []
+    @temp_assignments = []
+    @courses.each do |c|
+      @temp_students.push(c.std_crs)
+      @temp_assignments.push(c.get_assignments)
+    end
+    @students = removeDupes(@temp_students)
+    @assignments = removeDupes(@temp_assignments)
+
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render :json => {:professor => @professor, :courses => @course}}
-
-  
+      format.json { render :json => {:professor => @professor, :courses => @courses}}
     end
   end
 
@@ -114,20 +131,20 @@ class ProfessorsController < ApplicationController
 
   end
 
-  def profassgns
+  # def profassgns
 
-    @user_assgns = current_user
-    @assgn_courses = @user_assgns.mycourses
-    @assgn_courses.each do |a|
-      @get_assgns = a.get_assignments
+  #   @user_assgns = current_user
+  #   @assgn_courses = @user_assgns.mycourses
+  #   @assgn_courses.each do |a|
+  #     @get_assgns = a.get_assignments
 
-    end
+  #   end
 
-    respond_to do |format|
-      format.html
-      format.json { render json: @get_assgns}
-    end
-  end
+  #   respond_to do |format|
+  #     format.html
+  #     format.json { render json: @get_assgns}
+  #   end
+  # end
 
   private
     def signed_in_user

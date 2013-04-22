@@ -47,20 +47,34 @@ class UsersController < ApplicationController
 
   
   def mystudents_courses
-    @c = Course.find(params[:id])
-    bool = false
-    @crses = current_user.courses
-
-    @crses.each do |course|
-      if course.id = @c.id
-        bool = true
-      end
+    @courses = Course.find(params[:id])
+    @std = @courses.std_crs
+    @std.each do |c|
+      
     end
 
-    if bool == true and session[:type] == "Professor"
-      @courses = current_user.studcourses(@c)
-      render 'students_courses'
-    end
+    render 'students_courses'
+    # bool = false
+    # @crses = current_user.courses
+
+    # @crses.each do |course|
+    #   if course.id = @c.id
+    #     bool = true
+    #   end
+    # end
+
+    # if bool == true and session[:type] == "Professor"
+    #   @courses = current_user.studcourses(@c)
+    #   render 'students_courses'
+    # end
+  end
+
+  def courseasgns
+    # @asgns  = []
+    @course = Course.find(params[:id])
+    @asgns = @course.get_assignments
+     render 'students_courses'
+
   end
 
 

@@ -88,4 +88,6 @@ class CoursesController < ApplicationController
     render 'mystudents'
   end
 
+  
+
 end

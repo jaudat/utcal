@@ -1,0 +1,29 @@
+<% @courses.each do |course| %>
+<h5><%= course.code %></h5><br />
+<h5>Students</h5>
+<%= course.std_crs %> <br />
+<h5>Assignments</h5><br/>
+<%= course.out_assgn %><br />
+<% end %> 
+
+<%= javascript_include_tag "calendarBuilder.js" %>
+<script type="text/javascript">	
+	$(document).ready(function(){
+		<% @courses.each do |course| %>
+		<% course.start = course.start.to_time.to_i %>
+		<% course.end = course.end.to_time.to_i %>
+		<% end %>
+
+		var coursesToJSON = <%= raw @courses.to_json %> ;
+
+		buildCalendar(coursesToJSON);	
+	});
+</script>
+
+<h1>Assignment Details </h1>
+
+	<h6>All assignments</h6>
+	<p><%=  @std_crs %></p>
+
+
+<div id="calendar" ></div>

@@ -13,12 +13,13 @@ Utcal::Application.routes.draw do
 
   get "/users/mycourselist" => "users#mycourselist"
   get "/users/mystudents_courses/:id", :to => "users#mystudents_courses", :as => "users_mystudents_courses"
+  # get "/users/mystudents_courses/:id", :to => "users#courseasgns", :as => "users_courseasgns"
+
   get "/users/mystudents/:id" => "courses#mystudents"
 
   get "/user/:id" => "professors#display"
   get "/user/:id" => "courses#enrolledincourse" 
-   # get "/professors/:id" => "assignments#profassgns"
-  get "/user/mystudents_courses/:id" => "assignments#courseasgns"
+  # get "/user/mystudents_courses/:id" => "user#courseasgns"
   get "/users/:id" => "professors#show" 
   get "/users/add/:id" => "professors#add_students"
   get "/assignments/courseasgns/:id" => "assignments#courseasgns" 
