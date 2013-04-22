@@ -10,9 +10,13 @@ $(document).ready(function(){
 	<% course.start = course.start.to_time.to_i %>
 	<% course.end = course.end.to_time.to_i %>
 	<%end%>
-
+	<% @assignments.each do |ass| %>
+	<% ass.start = ass.start.to_time.to_i %>
+	<% ass.end = ass.end.to_time.to_i %>
+	<%end%>
 	var coursesToJSON = <%= raw @courses.to_json %> 
-	buildCalendar(coursesToJSON);
+	var assignmentsToJSON = <%= raw @assignments.to_json %>
+	buildCalendar(coursesToJSON, assignmentsToJSON);
 
 });
     
@@ -22,7 +26,6 @@ $(document).ready(function(){
 <% @courses.each do |course| %>
 	<%= link_to course.code, users_mystudents_courses_path(course.id) %><br />
 <%end%>
-
 
 <div id='calendar'></div>
 
