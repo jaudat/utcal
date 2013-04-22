@@ -1,3 +1,4 @@
+<% icourses = current_user.mycourses %>
 <%= form_for(@assignment) do |f| %>
   <% if @assignment.errors.any? %>
     <div id="error_explanation">
@@ -30,6 +31,12 @@
   <div class="field">
     <%= f.label :end %><br />
     <%= f.datetime_select :end %>
+  </div>
+  <div class="field">
+   <label>Courses Code, Section</label>
+   <% icourses.each do |crs| %>
+    <label><%= radio_button_tag "course_id", crs.id, @assignment.get_courses.include?(crs) %> <%= crs.code %>, <%= crs.section %></label>
+   <% end %> 
   </div>
   <div class="actions">
     <%= f.submit %>

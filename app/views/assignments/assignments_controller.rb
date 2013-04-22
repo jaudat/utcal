@@ -40,11 +40,12 @@ class AssignmentsController < ApplicationController
   # POST /assignments
   # POST /assignments.json
   def create
+    #@assignment = Assignment.new(params[:assignment])
     c = Course.find(params[:course_id])
-    @assignment = Assignment.new(params[:assignment])
+    @assignment = Assignment.new(title: params[:assignment][:title], category: params[:assignment][:category], description: params[:assignment][:description], start: DateTime.new(params[:assignment]["start(1i)"].to_f, params[:assignment]["start(2i)"].to_f, params[:assignment]["start(3i)"].to_f, params[:assignment]["start(4i)"].to_f, params[:assignment]["start(5i)"].to_f,0), end: DateTime.new(params[:assignment]["end(1i)"].to_f, params[:assignment]["end(2i)"].to_f, params[:assignment]["end(3i)"].to_f, params[:assignment]["end(4i)"].to_f, params[:assignment]["end(5i)"].to_f, 0))
 
     respond_to do |format|
-      if c.assignments.create(params[:assignment])
+      if c.assignments.create(title: params[:assignment][:title], category: params[:assignment][:category], description: params[:assignment][:description], start: DateTime.new(params[:assignment]["start(1i)"].to_f, params[:assignment]["start(2i)"].to_f, params[:assignment]["start(3i)"].to_f, params[:assignment]["start(4i)"].to_f, params[:assignment]["start(5i)"].to_f,0), end: DateTime.new(params[:assignment]["end(1i)"].to_f, params[:assignment]["end(2i)"].to_f, params[:assignment]["end(3i)"].to_f, params[:assignment]["end(4i)"].to_f, params[:assignment]["end(5i)"].to_f, 0))
         format.html { redirect_to @assignment, notice: 'Assignment was successfully created.' }
         format.json { render json: @assignment, status: :created, location: @assignment }
       else
