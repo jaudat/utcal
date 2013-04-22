@@ -22,11 +22,12 @@ $(document).ready(function(){
     
 </script>
 
-<p>Check course schedules for: </p><br />
+<p >Check schedule for: </p>
 <% @courses.each do |course| %>
-	<%= link_to course.code, users_mystudents_courses_path(course.id) %><br />
+	<div style="margin-right:6px; float:left;text-decoration:none;"><%= link_to course.code, users_mystudents_courses_path(course.id) %></div>
 <%end%>
-
+<br />
+<br />
 <div id='calendar'></div>
 
 <p class="test">

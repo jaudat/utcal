@@ -1,4 +1,4 @@
-
+<%= javascript_include_tag "calendarBuilder.js"  %>
 <h1>Assignment Details </h1>
 <h6>All students</h6>
 <p><%= @students %></p>
@@ -7,4 +7,25 @@
 <h6>All assignments of the students</h6>
 <p><%=  @assignments %></p>
 
+<script type="text/javascript" >
+	$(document).ready(function(){
+	<% @courses.each do |course| %>
+	<% course.start = course.start.to_time.to_i %>
+	<% course.end = course.end.to_time.to_i %>
+	<%end%>
+	<% @assignments.each do |ass| %>
+	<% ass.start = ass.start.to_time.to_i %>
+	<% ass.end = ass.end.to_time.to_i %>
+	<%end%>
+
+	var coursesToJSON = <%= raw @courses.to_json %>
+	var assignmentsToJSON = <%= raw @assignments.to_json %>
+
+	buildCalendar(coursesToJSON, assignmentsToJSON);
+	});
+</script>
+
+<% @assignments each do |ass| %>
+<%= link_to  ass.title, delete_assignment_path %><br/>
+<%end%>
 <div id="calendar" ></div>
