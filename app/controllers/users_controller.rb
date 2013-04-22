@@ -56,27 +56,20 @@ class UsersController < ApplicationController
   end
 
   def removeDupes(arr)
-      #removing duplicate assignments
+    #removing duplicate assignments
     @final = []
-    @arr.each do |u|
+    arr.each do |u|
         c = @final.find_all {|e| e == u}.size
-        lgth = @arr.find_all {|e| e == u}.size
+        lgth = arr.find_all {|e| e == u}.size
         x = u
-        temp_id = x.id
-        temp_id_str = temp_id.to_s
-        temp_id_str = temp_id.to_s + "#" + lgth.to_s()
-        temp_id = temp_id_str.to_i
-        x.id = temp_id
-         x.id = x.id + "#" + lgth.to_s()
+        x.code = x.code + "#" + lgth.to_s()
         @final.push(x) unless c > 0
     end 
-
     @final
-
-
   end
 
-  
+  #get the students of a particular course
+  #and their courses and then there assignments
   def mystudents_courses
     @courses = Course.find(params[:id])
     @crs_arr  = []
@@ -93,28 +86,15 @@ class UsersController < ApplicationController
         @asgn_arr.push(c.get_assignments)
       end
 
-
-      @courses = makeArray(@crs_arr).uniq
-
-      @assignments = makeArray(@asgn_arr).uniq
-
-      @students =makeArray(@std_arr)
     end
+    @courses_t = makeArray(@crs_arr)
+    @assignments= makeArray(@asgn_arr).uniq
 
+    @courses = removeDupes(@courses_t).uniq
+   
+    @students =makeArray(@std_arr)
     render 'students_courses'
-    # bool = false
-    # @crses = current_user.courses
 
-    # @crses.each do |course|
-    #   if course.id = @c.id
-    #     bool = true
-    #   end
-    # end
-
-    # if bool == true and session[:type] == "Professor"
-    #   @courses = current_user.studcourses(@c)
-    #   render 'students_courses'
-    # end
   end
 
   def courseasgns
