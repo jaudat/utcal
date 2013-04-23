@@ -9,7 +9,7 @@ Utcal::Application.routes.draw do
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
   match '/assignments/studinfo', to: 'assignments#studinfo'
-
+  match '/courses/builddb', to: 'courses#builddb'
 
   get "/users/mycourselist" => "users#mycourselist"
   get "/users/mystudents_courses/:id", :to => "users#mystudents_courses", :as => "users_mystudents_courses"
@@ -18,6 +18,8 @@ Utcal::Application.routes.draw do
   get "/users/mystudents/:id" => "courses#mystudents"
 
   get "/user/:id" => "professors#display"
+
+  get "/user/:id" => "professors#buildDB"  #THIS IS FOR POPULATING COURSE TABLE
   get "/user/:id" => "courses#enrolledincourse" 
   # get "/user/mystudents_courses/:id" => "user#courseasgns"
   get "/users/:id" => "professors#show" 

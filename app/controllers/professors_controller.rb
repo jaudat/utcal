@@ -3,6 +3,7 @@ class ProfessorsController < ApplicationController
   before_filter :correct_user
   # GET /professors
   # GET /professors.json
+
   def index
     @professors = Professor.all
 
@@ -27,9 +28,6 @@ class ProfessorsController < ApplicationController
 
   def show
   
-   # @professor = Professor.find_by_user_id(params[:id])
-   # #@user = User.find(params[:id])
-   # @course = @user.mycourses
     @professor = Professor.find_by_user_id(params[:id])
     @courses = current_user.mycourses
     @temp_students = []
@@ -40,11 +38,13 @@ class ProfessorsController < ApplicationController
     end
     @students = removeDupes(@temp_students)
     @assignments = removeDupes(@temp_assignments)
-
+    # @course_xml = buildDB
     respond_to do |format|
       format.html # show.html.erb
       format.json { render :json => {:professor => @professor, :courses => @courses}}
+    
     end
+
   end
 
   # GET /professors/new
@@ -56,6 +56,8 @@ class ProfessorsController < ApplicationController
       format.html # new.html.erb
       format.json { render json: @professor }
     end
+
+
   end
 
   # GET /professors/1/edit
@@ -130,20 +132,8 @@ class ProfessorsController < ApplicationController
 
   end
 
-  # def profassgns
 
-  #   @user_assgns = current_user
-  #   @assgn_courses = @user_assgns.mycourses
-  #   @assgn_courses.each do |a|
-  #     @get_assgns = a.get_assignments
 
-  #   end
-
-  #   respond_to do |format|
-  #     format.html
-  #     format.json { render json: @get_assgns}
-  #   end
-  # end
 
   private
     def signed_in_user

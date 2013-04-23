@@ -45,6 +45,7 @@ class UsersController < ApplicationController
     render 'mycourses'
   end
 
+  #Makes single array
   def makeArray(arr)
       @temp_arr =[]
       arr.each do |arr1|
@@ -55,6 +56,7 @@ class UsersController < ApplicationController
       @temp_arr
   end
 
+  #Counts duplicates of a in course array
   def removeDupes(arr)
     #removing duplicate assignments
     @final = []
@@ -105,7 +107,7 @@ class UsersController < ApplicationController
 
   end
 
-
+  
 
 
 end

@@ -1,0 +1,5349 @@
+<Document>
+<!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
+<Row>
+  <Course_and_Section_Code>ACMD91H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Study</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>SW 319</Location>
+  <Instructor>J.Parga</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 329</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>MW 329</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>18:00</End>
+  <Location>MW 329</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTC03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTC04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTC23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>MW 120</Location>
+  <Instructor>J.Parga</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTC61H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTD31H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Adv. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ANTD32H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Adv. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ASTD01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>G.Lorincz</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ASTD02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>G.Lorincz</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>16:00</Start>
+  <End>19:00</End>
+  <Location>MW 170</Location>
+  <Instructor>K.Williams</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 240</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 240</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 240</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 240</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>19:00</End>
+  <Location>SW 309</Location>
+  <Instructor>C.Soros-Pottroff</Instructor>
+  <Changes>Time changed 04/08/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 237</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 237</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 237</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 237</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>SW 237</Location>
+  <Instructor/>
+  <Changes>Added 04/12/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB10Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>AC 223</Location>
+  <Instructor>A.Ashok</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB10Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>AC 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB10Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>AC 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB11H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>AC 223</Location>
+  <Instructor>A.Ashok</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB11H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>AC 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB11H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>AC 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>10:00</End>
+  <Location>SW 128</Location>
+  <Instructor>D.Bawa</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 133</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 133</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 135</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 135</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 133</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 133</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 135</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 135</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>SW 309</Location>
+  <Instructor>C.Soros-Pottroff</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>SW 321</Location>
+  <Instructor/>
+  <Changes>Labs begin the week of May 6th</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>SW 323</Location>
+  <Instructor/>
+  <Changes>Labs begin the week of May 6th</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 321</Location>
+  <Instructor/>
+  <Changes>Labs begin the week of May 6th</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 323</Location>
+  <Instructor/>
+  <Changes>Labs begin the week of May 6th</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>SW 321</Location>
+  <Instructor/>
+  <Changes>Labs begin the week of May 6th</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>SW 323</Location>
+  <Instructor/>
+  <Changes>Labs begin the week of May 6th</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0007</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>SW 321</Location>
+  <Instructor/>
+  <Changes>Labs begin the week of May 6th</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB34H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>SY 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB34H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>21:00</Start>
+  <End>22:00</End>
+  <Location>SY 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB98H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Sup. Ind. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOB99H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Sup. Ind. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>SW 309</Location>
+  <Instructor>S.Brunt</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC13H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>18:00</Start>
+  <End>21:00</End>
+  <Location>SW 128</Location>
+  <Instructor>D.Bawa</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC15H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>MW 120</Location>
+  <Instructor>C.Hasenkampf/P.Stronghill</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC15H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>9:00</Start>
+  <End>10:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC15H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 242</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC15H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 242</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC17H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>SW 309</Location>
+  <Instructor>S.Brunt</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC17H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>SW 248</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC17H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>SW 250</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC17H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 248</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC17H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 250</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>8:00</Start>
+  <End>10:00</End>
+  <Location>MW 110</Location>
+  <Instructor>S.Brunt</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>14:00</End>
+  <Location>SW 133</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>14:00</End>
+  <Location>SW 135</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC67H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Field Course</Location>
+  <Instructor>I.Stehlik</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOC99H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>IC 320</Location>
+  <Instructor>M.Fitzpatrick</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOD21H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>SW 248</Location>
+  <Instructor>S.Brunt</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOD21H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>15:00</End>
+  <Location>SW 248</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOD21H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 248</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOD95H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Study</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOD98Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>BIOD99Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>SW 319</Location>
+  <Instructor>N.Thavarajah/S.Ballantyne</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>SW 319</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 153</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 153</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 153</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0007</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL IN TUT ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL IN TUT ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL IN TUT ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL IN TUT ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL IN TUT ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL IN TUT ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMA11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0007</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL IN TUT ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>SW 309</Location>
+  <Instructor>N.Thavarajah</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>12:30</Start>
+  <End>14:00</End>
+  <Location>SW 309</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>16:00</End>
+  <Location>SW 153</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>16:00</End>
+  <Location>SW 153</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>16:00</End>
+  <Location>SW 153</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>16:00</End>
+  <Location>SW 153</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes>DO NOT ENROL ON ROSI</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB62H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>FR</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>BV 355</Location>
+  <Instructor>J.Glover</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMB62H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMD90Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Research</Location>
+  <Instructor>K.Kerman</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMD91H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Research</Location>
+  <Instructor>K.Kerman</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMD92H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor>H.Kraatz/X.Zhang</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CHMD92H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>16:00</End>
+  <Location>SW 159</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CITB03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes>Cancelled. 04/03/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CITC08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>Off Campus</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CLAA05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>SW 319</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>COPD07Y3 S</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>IC 302</Location>
+  <Instructor>K.McDowell</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCA20H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>IC 220</Location>
+  <Instructor>A.Tafliovich</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCA20H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 212</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCA20H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 212</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCA20H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 230</Location>
+  <Instructor/>
+  <Changes>Added 04/18/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>IC 220</Location>
+  <Instructor>N.Cheng</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>IC 220</Location>
+  <Instructor>F.Estrada</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>IC 402</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>12:00</Start>
+  <End>15:00</End>
+  <Location>IC 402</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>20:00</End>
+  <Location>IC 402</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>11:00</End>
+  <Location>IC 212</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCB58H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC43H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 208</Location>
+  <Instructor>N.Koudas</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC43H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 208</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC43H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes>Added 04/19/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC63H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>IC 230</Location>
+  <Instructor>N.Cheng</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC63H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes>Cancelled. 04/11/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes>Cancelled. 04/11/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>IC 208</Location>
+  <Instructor/>
+  <Changes>Added 04/11/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes>Cancelled 04/19/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT30001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 212</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCC69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT30002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 212</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCD94H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Computer Sci Project</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CSCD95H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Computer Sci Project</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CTLA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC99</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Fully Online</Location>
+  <Instructor>S.Khoo</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>CTLB03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>EESA09H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>18:00</Start>
+  <End>21:00</End>
+  <Location>SY 110</Location>
+  <Instructor>T.Mohsin</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>EESA10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>AC 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>EESC24H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Adv. Reading</Location>
+  <Instructor>M.Meriano</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>EESD09H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Research Proj.</Location>
+  <Instructor>G.Archontitsis</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>EESD10Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Research Proj.</Location>
+  <Instructor>G.Archontitsis</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGB03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGB04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGB33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>MW 170</Location>
+  <Instructor>M.Rubright</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGB38H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SW 309</Location>
+  <Instructor>D.Tysdal</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGC10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>20:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGC26H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGC76H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>20:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGD08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>14:00</End>
+  <Location>IC 120</Location>
+  <Instructor>C.Hoffmann</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGD26Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGD27Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGD28Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGD91H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ENGD91H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FREA96H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>18:00</Start>
+  <End>20:00</End>
+  <Location>AA 205</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FREA96H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>18:00</Start>
+  <End>20:00</End>
+  <Location>AA 205</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FREA97H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>18:00</Start>
+  <End>20:00</End>
+  <Location>AA 205</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FREA97H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>18:00</Start>
+  <End>20:00</End>
+  <Location>AA 205</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FREB17H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>11:30</End>
+  <Location>BV 355</Location>
+  <Instructor>M.Tsimenis</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FREB17H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>9:00</Start>
+  <End>11:30</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FREB18H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>15:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FRED02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FRED03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FRED04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FRED05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>FRED07H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>SW 143</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB13H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>SW 128</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB13H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB13H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB13H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB28H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB28H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB28H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB28H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRB28H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRC45H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>GGRD01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Research Project</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISA04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>SY 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISA04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISA04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISA04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISA04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>SW 128</Location>
+  <Instructor/>
+  <Changes>Added 04/22/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISA04H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>SW 128</Location>
+  <Instructor/>
+  <Changes>Added 04/22/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISD01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HISD02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HLTB15H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HLTC05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HLTC23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HLTC43H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>HLTD01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IDSD14H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IDSD15H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Dir. Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IMCB06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IMCB06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IMCB07H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IMCB07H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IMCB08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IMCB08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>IMCC01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>ISTD01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Readings in IST</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>18:00</Start>
+  <End>20:00</End>
+  <Location>AC 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>18:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>18:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3007</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LINA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3008</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LIND01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>LIND02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>SW 143</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>11:00</End>
+  <Location>SW 143</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA35H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>SW 319</Location>
+  <Instructor>N.Cheredeko</Instructor>
+  <Changes>Day and Time TBA</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA35H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>11:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA35H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>11:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>11:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA37H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA37H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA37H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA37H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATA37H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATD94H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Readings</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MATD95H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Readings</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MDSA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>SY 110</Location>
+  <Instructor>G.Graffam</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB01H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 200</Location>
+  <Instructor>D.Kong</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB01H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 200</Location>
+  <Instructor>D.Kong</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB01H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB02H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 200</Location>
+  <Instructor>D.Kong</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB02H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 200</Location>
+  <Instructor>D.Kong</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB02H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 200</Location>
+  <Instructor>G.Quan Fun</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 204</Location>
+  <Instructor>G.Quan Fun</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC03</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 200</Location>
+  <Instructor>G.Quan Fun</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAB03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC03</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 204</Location>
+  <Instructor>S.Daga</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>IC 200</Location>
+  <Instructor>S.Daga</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC02H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 200</Location>
+  <Instructor>S.Daga</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC02H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC02H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 212</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 200</Location>
+  <Instructor>G.Quan Fun</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC03H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC50H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAC60H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 208</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD20H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD20H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD30H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD30H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD50H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 212</Location>
+  <Instructor>G.Quan Fun</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD50H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 208</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD70H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 300</Location>
+  <Instructor>S.Daga</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGAD70H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 300</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEA06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>FR</Days>
+  <Start>12:00</Start>
+  <End>15:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>IC 230</Location>
+  <Instructor>A.Mazaheri</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 230</Location>
+  <Instructor>A.Mazaheri</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>IC 230</Location>
+  <Instructor>J.Parkinson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>IC 230</Location>
+  <Instructor>J.Parkinson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>IC 230</Location>
+  <Instructor>V.Quan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>FR</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>IC 230</Location>
+  <Instructor>V.Quan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>15:00</End>
+  <Location>IC 230</Location>
+  <Instructor>A.Mazaheri</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>FR</Days>
+  <Start>12:00</Start>
+  <End>15:00</End>
+  <Location>IC 230</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 300</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC31H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>19:00</Start>
+  <End>22:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC40H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 208</Location>
+  <Instructor>J.Parkinson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC40H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 208</Location>
+  <Instructor>J.Parkinson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC41H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC61H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>IC 204</Location>
+  <Instructor>I.Au</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC61H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 204</Location>
+  <Instructor>I.Au</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC71H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 208</Location>
+  <Instructor>J.Parkinson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC71H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>IC 208</Location>
+  <Instructor>J.Parkinson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC72H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 200</Location>
+  <Instructor>A.Mazaheri</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGEC93H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 204</Location>
+  <Instructor>I.Au</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGED90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGED91H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGFB10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 208</Location>
+  <Instructor>K.Chau</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGFB10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 208</Location>
+  <Instructor>K.Chau</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGFC10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 204</Location>
+  <Instructor>S.Ahmed</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGFC10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 204</Location>
+  <Instructor>S.Ahmed</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGFC10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC03</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 212</Location>
+  <Instructor>S.Ahmed</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGFC20H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 208</Location>
+  <Instructor>S.Ahmed</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGHB12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 300</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGHC02H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 302</Location>
+  <Instructor>P.Radhakrishnan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGHC02H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 302</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGHC02H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 302</Location>
+  <Instructor>P.Radhakrishnan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGHC02H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 302</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGIA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 300</Location>
+  <Instructor>X.Liu</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMA01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 200</Location>
+  <Instructor>T.Dewan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMA01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 200</Location>
+  <Instructor>T.Dewan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMA01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 200</Location>
+  <Instructor>T.Dewan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMA01H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 200</Location>
+  <Instructor>T.Dewan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMB01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 300</Location>
+  <Instructor>T.Dewan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMC02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 300</Location>
+  <Instructor>B.McConkey</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMC12H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 300</Location>
+  <Instructor>P.Aggarwal</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGMC12H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGOC10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>FR</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 200</Location>
+  <Instructor>V.Quan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGOC10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 212</Location>
+  <Instructor>V.Quan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGOC10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>IC 208</Location>
+  <Instructor>V.Quan</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGSC14H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>IC 200</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGSC30H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGSC30H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes>Cancelled 04/19/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGSC44H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>IC 200</Location>
+  <Instructor>T.Richardson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGSC46H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 212</Location>
+  <Instructor>T.Richardson</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 130</Location>
+  <Instructor>W.McConkey</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 130</Location>
+  <Instructor>B.McConkey</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTA36H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>IC 204</Location>
+  <Instructor/>
+  <Changes>Addeed 04/18/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB23H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 212</Location>
+  <Instructor>X.Liu</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB27Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 208</Location>
+  <Instructor>X.Liu</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB27Y3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>IC 208</Location>
+  <Instructor>X.Liu</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB29H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 208</Location>
+  <Instructor>X.Liu</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>9:00</Start>
+  <End>11:00</End>
+  <Location>IC 300</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 300</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>IC 302</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA3004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>IC 300</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>MGTD80H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>NROB60H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>J.Leboutillier</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>NROB60H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA6001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>SW 321</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>NROB60H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA6002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>SW 321</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>NROB60H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA6003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>SW 321</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLB06H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>18:00</Start>
+  <End>21:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD91H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD92H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD93H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD94H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD95H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD96H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD97H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD98H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHLD99H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYA22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,,I</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>SW 128</Location>
+  <Instructor>G.Lorincz</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYA22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>SW 128</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYA22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>MO</Days>
+  <Start>9:00</Start>
+  <End>12:00</End>
+  <Location>SW 505  D</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYA22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 505  D</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYA22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>SW 505  F</Location>
+  <Instructor/>
+  <Changes>Added 04/15/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYD01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Research Proj.</Location>
+  <Instructor>G.Lorincz</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYD11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Project</Location>
+  <Instructor>G.Lorincz</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PHYD72H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Supervised Reading</Location>
+  <Instructor>G.Lorincz</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PLID01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PLID02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PLID03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB70H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB70H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB70H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB80H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB80H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB80H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB80H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT3003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes>Added. 04/23/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>SW 143</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLB90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLC88H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLD50H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLD52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>POLD98H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSCD10H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>G.Lorincz</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYA01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC99</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYA02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC99</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYA90H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>SW 316</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYB01H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>16:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYB30H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYB32H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYB45H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYB51H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYB57H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYB64H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC02H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>SY 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>11:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>MW 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC08H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC11H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>17:00</End>
+  <Location>SW 316</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC12H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC60</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C,I</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC18H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>SY 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC26H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>19:00</Start>
+  <End>21:00</End>
+  <Location>MW 120</Location>
+  <Instructor>M.Schmuckler</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYC85H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>SW 128</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYD15H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>MW 223</Location>
+  <Instructor>S.Tran</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYD20H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>BV 355</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYD22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>13:00</Start>
+  <End>15:00</End>
+  <Location>MW 223</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYD32H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>BV 355</Location>
+  <Instructor>M.Bagby</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>PSYD33H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>BV 355</Location>
+  <Instructor>M.Bagby</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>12:00</Start>
+  <End>14:00</End>
+  <Location>SW 309</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCB05H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCB50H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>MW 170</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCC52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCD40H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Sup. Ind. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>SOCD41H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Sup. Ind. Research</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>IC 130</Location>
+  <Instructor>O.Chilina</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>IC 130</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>IC 230</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>SW 128</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>11:00</End>
+  <Location>IC 326</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>IC 212</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0005</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0007</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0008</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0009</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 208</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0010</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>IC 120</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB22H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0011</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>15:00</End>
+  <Location>IC 208</Location>
+  <Instructor/>
+  <Changes>Added 04/16/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,I</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>12:00</End>
+  <Location>IC 220</Location>
+  <Instructor>M.Moras</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>12:00</End>
+  <Location>IC 220</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>12:00</Start>
+  <End>13:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>13:00</Start>
+  <End>14:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>IC 320</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAB52H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0004</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TH</Days>
+  <Start>16:00</Start>
+  <End>17:00</End>
+  <Location>IC 230</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STAD94H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Project</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STEB07H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>STEB07H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>PRA0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location/>
+  <Instructor>Centennial</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPAD14H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days/>
+  <Start/>
+  <End/>
+  <Location>Ind. Studies</Location>
+  <Instructor>Faculty</Instructor>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPHC42H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>AA 204</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPMA69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>AA 303</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPMA93H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>MO</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>SW 309</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPMA93H3 F</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>SW 309</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPMB69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>AA 303</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPMB78H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>AA 303</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPMB78H3 S</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>WE</Days>
+  <Start>11:00</Start>
+  <End>13:00</End>
+  <Location>AA 303</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPMC69H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>17:00</Start>
+  <End>19:00</End>
+  <Location>AA 303</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPSA61H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>AA 304</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPSA62H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>AA 304</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPSA73H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>WE</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>BV 494</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPSA74H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>14:00</Start>
+  <End>17:00</End>
+  <Location>BV 494</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPSA74H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC02</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>10:00</Start>
+  <End>13:00</End>
+  <Location>BV 494</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>VPSB67H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>14:00</Start>
+  <End>16:00</End>
+  <Location>AA 304</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>WSTA03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC01</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TU</Days>
+  <Start>16:00</Start>
+  <End>18:00</End>
+  <Location>SY 110</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>WSTA03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0001</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>18:00</Start>
+  <End>19:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>WSTA03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0002</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>19:00</Start>
+  <End>20:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>WSTA03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0003</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>20:00</Start>
+  <End>21:00</End>
+  <Location>MW 140</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+<Row>
+  <Course_and_Section_Code>WSTA03H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>TUT0006</Meeting_and_Section>
+  <Restrictions_and_Instructions/>
+  <Days>TU</Days>
+  <Start>15:00</Start>
+  <End>16:00</End>
+  <Location>MW 160</Location>
+  <Instructor/>
+  <Changes>Added 04/11/13</Changes>
+</Row>
+<Row>
+  <Course_and_Section_Code>WSTC13H3 Y</Course_and_Section_Code>
+  <Meeting_and_Section>LEC30</Meeting_and_Section>
+  <Restrictions_and_Instructions>W</Restrictions_and_Instructions>
+  <Days>TH</Days>
+  <Start>17:00</Start>
+  <End>20:00</End>
+  <Location>SW 128</Location>
+  <Instructor/>
+  <Changes/>
+</Row>
+</Document> 

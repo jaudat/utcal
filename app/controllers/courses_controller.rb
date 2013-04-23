@@ -1,6 +1,8 @@
 class CoursesController < ApplicationController
   # GET /courses
   # GET /courses.json
+  XMLDIR = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
+
   def index
     @courses = Course.all
 
@@ -87,6 +89,79 @@ class CoursesController < ApplicationController
     @list = course.enrolledincourse
     render 'mystudents'
   end
+
+  #<Row>
+#   <Course_and_Section_Code>ACMD91H3 Y</Course_and_Section_Code>
+#   <Meeting_and_Section>LEC01</Meeting_and_Section>
+#   <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
+#   <Days/>
+#   <Start/>
+#   <End/>
+#   <Location>Supervised Study</Location>
+#   <Instructor>Faculty</Instructor>
+#   <Changes/>
+# </Row>
+
+  #BUILD DB OF COURSES
+  def builddb
+    require 'nokogiri'
+    require 'date'
+
+    f= File.open(XMLDIR)
+    doc = Nokogiri::XML(f)
+    root = doc.root
+    @course_xml = root.xpath("Row")
+    @c=[]
+
+    n = 10 # THIS IS FOR TESTING. SET TO GET COUNT TO GET n number of courses from xml
+    count =0 
+    @course_xml.each do |data|
+
+      @code = data.xpath("Course_and_Section_Code")
+      ##
+      @section_t = @code.text
+      @section = @section_t[-1,1]
+      ##
+      @restrictions = data.xpath("Restrictions_and_Instructions").text
+      @days = data.xpath("Days").text
+
+      date_t1= data.xpath("Start").to_s
+      date_t2= DateTime.parse("17:00")
+      # @start = date_t2.strftime("%Y %m %d %H: %M: %S %z")
+      @start = Time.now
+
+      date_t1= data.xpath("End").to_s
+      date_t2= DateTime.parse("17:00")
+      @end =Time.now
+
+
+      @location = data.xpath("Location").text
+      @instruction = data.xpath("Instructor").text
+      @changes = data.xpath("Changes").text
+
+  # Course(id: integer, code: string, section: string, 
+  #restrictions: string, days: string, start: datetime, 
+  #end: datetime, location: string, created_at: datetime, 
+  #updated_at: datetime) 
+      @course_object = Course.create(:code => @section_t , :section => @section,
+                      :restrictions => @restrictions, :days => @days, :start => @start, 
+                       :end => @end, :location => @location)
+      count = count +1
+
+      @c.push(data)
+      if count == n
+        break
+      end 
+    end
+    @c
+     respond_to do |format|
+      format.html # show.html.erb
+      format.json { render :json => {:xml => @c.to_xml, }}
+    
+    end
+
+  end
+
 
   
 
