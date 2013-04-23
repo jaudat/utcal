@@ -66,7 +66,7 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
         $("#calendar").fullCalendar({
                 header: {
                         left: 'prev, next today',
-                        middle: 'title',
+                        middle: dateObject["start"].getFullYear().toString() ,
                         right: 'agendaWeek'
                 },
                 events: dateSet,

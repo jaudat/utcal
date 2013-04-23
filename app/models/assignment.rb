@@ -1,6 +1,6 @@
 class Assignment < ActiveRecord::Base
   attr_accessible :description, :end, :start, :title, :category, :type
-  has_one :courses
+   has_and_belongs_to_many :courses
 
 
 	def get_courses
