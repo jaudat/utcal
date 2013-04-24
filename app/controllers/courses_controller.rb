@@ -113,7 +113,7 @@ class CoursesController < ApplicationController
     @course_xml = root.xpath("Row")
     @c=[]
 
-    n = 10 # THIS IS FOR TESTING. SET TO GET COUNT TO GET n number of courses from xml
+    n = 10 # THIS IS FOR TESTING. SET TO GET n number of courses from xml
     count =0 
     @course_xml.each do |data|
 
@@ -125,15 +125,16 @@ class CoursesController < ApplicationController
       @restrictions = data.xpath("Restrictions_and_Instructions").text
       @days = data.xpath("Days").text
 
-      date_t1= data.xpath("Start").to_s
-      date_t2= DateTime.parse("17:00")
-      # @start = date_t2.strftime("%Y %m %d %H: %M: %S %z")
-      @start = Time.now
+      date_now = Date.today
+      date_tostring = date_now.to_s
 
-      date_t1= data.xpath("End").to_s
-      date_t2= DateTime.parse("17:00")
-      @end =Time.now
+      date_st1= data.xpath("Start").to_s
+      date_st2= date_tostring + date_st1
+      @start = date_st2.to_datetime  
 
+      date_et1= data.xpath("End").to_s
+      date_et2= date_tostring + date_et1
+      @end =date_et2.to_datetime
 
       @location = data.xpath("Location").text
       @instruction = data.xpath("Instructor").text
@@ -143,7 +144,7 @@ class CoursesController < ApplicationController
   #restrictions: string, days: string, start: datetime, 
   #end: datetime, location: string, created_at: datetime, 
   #updated_at: datetime) 
-      @course_object = Course.create(:code => @section_t , :section => @section,
+      @course_object = Course.create(:code => @code.text , :section => @section,
                       :restrictions => @restrictions, :days => @days, :start => @start, 
                        :end => @end, :location => @location)
       count = count +1
