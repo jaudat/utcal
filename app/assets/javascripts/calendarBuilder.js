@@ -72,7 +72,7 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
                 events: dateSet,
                 defaultView: 'agendaWeek',
                 editable: false,
-                slotMinutes: 60,
+                slotMinutes: 30,
                 minTime: 9,
                 maxTime: 23
         });	
