@@ -17,9 +17,9 @@
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation %>
 
-      <%= f.label :type %>
-      <%= f.radio_button :type, 'Student' %><b>Student</b> <br/>
-  	  <%= f.radio_button :type, 'Professor' %><b>Professor</b> <br/>
+      <%= f.label :category %>
+      <%= f.radio_button :category, 'Student' %><b>Student</b> <br/>
+  	  <%= f.radio_button :category, 'Professor' %><b>Professor</b> <br/>
 
       <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
     <% end %>

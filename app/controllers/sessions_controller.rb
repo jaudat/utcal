@@ -8,12 +8,21 @@ class SessionsController < ApplicationController
 	      sign_in user
 	      student = Student.find_by_user_id(user.id)
 	      professor = Professor.find_by_user_id(user.id) 
+
+	      # if user.utorid == "admin"
+	      # 	redirect_to :controller => 'admin'
+	      # end
+
 	      if !student.nil?
 	      		redirect_to student
 
 	      elsif !professor.nil?
-	      		redirect_to professor
+	    		redirect_to professor
+
+	   	  elsif user.utorid == "admin"
+	      	    redirect_to :controller => 'admin'
 	      else
+
 	      	flash.now[:error] = 'Incorrect data record'
 	      	render 'new'
 	      end
