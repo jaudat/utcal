@@ -5,6 +5,13 @@
 <script type="text/javascript">
 
 $(document).ready(function(){
+/*
+Possible solution to the course display problem:
+	for every course start and end time 
+		remove the date from the course.start and coure.end
+		concatenate the current date to the time
+		then pass it to the buildCalendar
+*/
 
 	<% @courses.each do |course| %>
 	<% course.start = course.start.to_time.to_i %>
