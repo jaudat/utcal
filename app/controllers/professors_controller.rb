@@ -27,24 +27,25 @@ class ProfessorsController < ApplicationController
   end
 
   def show
+
+
   
     @professor = Professor.find_by_user_id(params[:id])
-    @courses = current_user.mycourses
-    @temp_students = []
-    @temp_assignments = []
-    @courses.each do |c|
-      @temp_students.push(c.std_crs)
-      @temp_assignments.push(c.get_assignments)
-    end
-    @students = removeDupes(@temp_students)
-    @assignments = removeDupes(@temp_assignments)
-    # @course_xml = buildDB
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render :json => {:professor => @professor, :courses => @courses}}
-    
-    end
-
+      @courses = current_user.mycourses
+      @temp_students = []
+      @temp_assignments = []
+      @courses.each do |c|
+        @temp_students.push(c.std_crs)
+        @temp_assignments.push(c.get_assignments)
+      end
+      @students = removeDupes(@temp_students)
+      @assignments = removeDupes(@temp_assignments)
+      respond_to do |format|
+        format.html # show.html.erb
+        format.json { render :json => {:professor => @professor, :courses => @courses}}
+      
+      end
+   
   end
 
   # GET /professors/new
