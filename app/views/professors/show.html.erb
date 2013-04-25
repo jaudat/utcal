@@ -56,17 +56,3 @@ Possible solution to the course display problem:
 <%= link_to 'Edit', edit_professor_path(@professor) %> |
 <%= link_to 'Back', professors_path %>
 
-<% @courses.each do |course| %>
-<%= course.to_json %>
-<% end %>
-
-
-<h4>Professor Assignments And Students</h4>
-<h1>Assignments of the courses</h1></br>
-<p><%= @assignments %></p>
-<br/>
-<h6>Students</h6><br />
-<p><%=  @students %></p> <br/>
-
-<h1>XML COURSE OUTPUT</h1>
-<p><%= @course_xml %></p>
