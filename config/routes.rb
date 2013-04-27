@@ -10,7 +10,8 @@ Utcal::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
   match '/assignments/studinfo', to: 'assignments#studinfo'
   match '/courses/builddb', to: 'courses#builddb'
-  match '/admin', to: 'admin#index'
+  match '/admin/buildstudents', to: 'admin#buildstudents'
+  # get '/students/:id/buildstudents', to: 'students#buildstudents'
 
   get "/users/mycourselist" => "users#mycourselist"
   get "/users/mystudents_courses/:id", :to => "users#mystudents_courses", :as => "users_mystudents_courses"

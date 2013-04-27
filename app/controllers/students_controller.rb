@@ -3,6 +3,7 @@ class StudentsController < ApplicationController
   before_filter :correct_user
   # GET /students
   # GET /students.json
+ 
   def index
     @students = Student.all
 
@@ -96,4 +97,9 @@ class StudentsController < ApplicationController
     def mycourselist
       current_user.courses
     end
+
+  
+
+
+
 end

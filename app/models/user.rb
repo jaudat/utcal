@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  attr_accessible :utorid, :password, :password_confirmation, :type
+  attr_accessible :utorid, :password, :password_confirmation, :category
   has_secure_password
   
   before_save { |user| user.utorid = utorid.downcase }
