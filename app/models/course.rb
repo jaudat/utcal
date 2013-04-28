@@ -1,5 +1,5 @@
 class Course < ActiveRecord::Base
-  attr_accessible :code, :days, :end, :location, :restrictions, :section, :start
+  attr_accessible :code, :days, :end, :location, :restrictions, :section, :start, :meeting
   has_and_belongs_to_many :users
   has_and_belongs_to_many :assignments
 
@@ -42,11 +42,17 @@ class Course < ActiveRecord::Base
   def out_assgn
     @assgn = []
     @assgn_temp = self.get_assignments
-    # @assgn_temp.each do |a|
-    #   @get_std = s.student
-    #   @std.push (@assgn)
-    # end 
     @assgn_temp
+  end
+
+  #get all the practicals and tutorials of
+  #a course
+  def getTutorials
+    @tut = "TUT"
+    @prac = "PRAC"
+    @course = self
+    @tuts =Course.where("code = ? AND meeting LIKE ? OR meeting LIKE  ?",@course.code, "TUT%","PRAC%")
+    @tuts
   end
 
 end

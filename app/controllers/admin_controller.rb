@@ -13,9 +13,9 @@ XMLDIR_s = "/home/ather/Desktop/Project/utcal/utcal/StudentsCSV.xml"
 	    doc = Nokogiri::XML(f)
 	    root = doc.root
 	    @student_xml = root.xpath("Row")
-	    @s = []
-	    n=5
-	    count=0
+	    @s = []# for testing
+	    n=5# for testing
+	    count=0# for testing
 	    @student_xml.each do |data|
 	    	# Student(id: integer, stud_no: integer, 
 	    	# f_name: string, l_name: string, address: 
@@ -50,13 +50,14 @@ XMLDIR_s = "/home/ather/Desktop/Project/utcal/utcal/StudentsCSV.xml"
 	    	end
 
 
-	    	@s.push(@student_courses)
+	    	@s.push(@student_courses)# for testing
+	    	# for testing
 	    	 if count == n
         		break
       		end 
 
 	    end
-	    @s
+	    @s # for testing
 	    
 	 end
 

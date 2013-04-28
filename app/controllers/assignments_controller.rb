@@ -144,6 +144,7 @@ class AssignmentsController < ApplicationController
 
     ActiveRecord::Base.include_root_in_json = true
     @getcrs =[]
+    @tuts = []
     @course_stats = Hash.new
     @std_stats = Hash.new
     @user = current_user
@@ -195,7 +196,13 @@ class AssignmentsController < ApplicationController
       @final.push(x) unless c > 0
   end 
 
+  
+  #Getting tutorials and practicals of the courses
+
+
+
   @final
+  @tut
 
   end
 
