@@ -1,7 +1,7 @@
 class CoursesController < ApplicationController
   # GET /courses
   # GET /courses.json
-  XMLDIR = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
+  XMLDIR = "/home/zieny/rubyProject/utcal/CourseTimetable.xml"
 
   def index
     @courses = Course.all
@@ -107,33 +107,37 @@ class CoursesController < ApplicationController
       require 'nokogiri'
       require 'date'
 
+      @start_date = "2013-08-01".to_datetime
+      @start_day = @start_date.strftime("%a")
+
       f= File.open(XMLDIR)
       doc = Nokogiri::XML(f)
       root = doc.root
       @course_xml = root.xpath("Row")
       @c=[]
 
-      n = 50 # THIS IS FOR TESTING. SET TO GET n number of courses from xml
+      n = 50 # THIS IS FOR TESTING. SET TO GET n-k number of courses from xml
       count =0 
       k = 30
       @course_xml.each do |data|
 
-        @code = data.xpath("Course_and_Section_Code")
+        @code_t = data.xpath("Course_and_Section_Code")
         ##
-        @section_t = @code.text
-        @section = @section_t[-1,1]
+        @section_t = @code_t.text
+        @code = @code_t.text[0,@code_t.text.length-1]
+        @section = @section_t[-1,1] 
         ##
         @restrictions = data.xpath("Restrictions_and_Instructions").text
-        @days = data.xpath("Days").text
-
         @meeting = data.xpath("Meeting_and_Section").text
 
-        date_now = Date.today
-        date_tostring = date_now.to_s
+        @days = data.xpath("Days").text
+        @set_date = getDay(@start_date, @days)
+        date_tostring = @set_date.to_s
 
-        date_st1= data.xpath("Start").to_s
-        date_st2= date_tostring + date_st1
-        @start = date_st2.to_datetime  
+        time1= data.xpath("Start").to_s
+
+        @start_t = date_tostring + time1
+        @start = @start_t.to_datetime
 
         date_et1= data.xpath("End").to_s
         date_et2= date_tostring + date_et1
@@ -148,7 +152,7 @@ class CoursesController < ApplicationController
     #end: datetime, location: string, created_at: datetime, 
     #updated_at: datetime) 
       if k <= count
-        @course_object = Course.create(:code => @code.text , :section => @section,
+        @course_object = Course.create(:code => @code, :section => @section,
                         :restrictions => @restrictions, :days => @days, :start => @start, 
                          :end => @end, :location => @location, :meeting => @meeting)
         @c.push(data)
@@ -166,6 +170,26 @@ class CoursesController < ApplicationController
     
     end
 
+  end
+
+  def getDay(start_date, day)
+    date = Date.new
+      if day == "SU"
+        date=start_date.next_week(start_day = :sunday) -7
+      elsif day == "MO"
+         date=start_date.next_week(start_day = :monday) -7    
+      elsif day =="TU"
+         date=start_date.next_week(start_day = :tuesday) -7   
+      elsif day == "WE"
+         date=start_date.next_week(start_day = :wednesday) -7   
+      elsif day =="TH"    
+        date=start_date.next_week(start_day = :thursday) -7   
+      elsif day =="FR"
+        date=start_date.next_week(start_day = :friday) -7   
+      elsif day == "SA"
+         date=start_date.next_week(start_day = :saturday) -7   
+     end
+     date.to_date
   end
 
 

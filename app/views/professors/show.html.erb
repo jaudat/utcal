@@ -1,32 +1,43 @@
 <p id="notice"><%= notice %></p>
-
-
+Tuts
+<%= @tutorials %>
+Courses
+<%= @courses%>
 <%= javascript_include_tag "calendarBuilder.js" %>
 <script type="text/javascript">
-
-$(document).ready(function(){
-/*
-Possible solution to the course display problem:
-	for every course start and end time 
-		remove the date from the course.start and coure.end
-		concatenate the current date to the time
-		then pass it to the buildCalendar
-*/
-
-	<% @courses.each do |course| %>
-	<% course.start = course.start.to_time.to_i %>
-	<% course.end = course.end.to_time.to_i %>
+	var set = 0;
+        <% @courses.each do |course| %>
+        <% course.start = course.start.to_time.to_i %>
+        <% course.end = course.end.to_time.to_i %>
+        <%end%>
+        <% @assignments.each do |ass| %>
+        <% ass.start = ass.start.to_time.to_i %>
+        <% ass.end = ass.end.to_time.to_i %>
 	<%end%>
-	<% @assignments.each do |ass| %>
-	<% ass.start = ass.start.to_time.to_i %>
-	<% ass.end = ass.end.to_time.to_i %>
-	<%end%>
-	var coursesToJSON = <%= raw @courses.to_json %> 
-	var assignmentsToJSON = <%= raw @assignments.to_json %>
-	buildCalendar(coursesToJSON, assignmentsToJSON);
+        var coursesToJSON = <%= raw @courses.to_json %>
+        var assignmentsToJSON = <%= raw @assignments.to_json %>
 
-});
-    
+
+        $(document).ready(function(){
+
+        buildCalendar(coursesToJSON, assignmentsToJSON);
+        setHover(assignmentsToJSON, coursesToJSON);
+        });
+
+       document.addEventListener("DOMSubtreeModified", function(e){
+                if($(e.target).attr("class")=="fc-event"){
+                        setHover(assignmentsToJSON, coursesToJSON);
+                }
+        });
+  
+        document.addEventListener("DOMSubtreeModified", function(e){
+                if($(".fc-event")[0] && set == 0){
+                        setHover(assignmentsToJSON, coursesToJSON);
+                        set = 1;
+                }if(!$(".fc-event")[0]){
+                        set = 0;
+                }
+        });
 </script>
 
 <p >Check schedule for: </p>

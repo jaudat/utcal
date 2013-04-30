@@ -64,8 +64,9 @@ class UsersController < ApplicationController
         c = @final.find_all {|e| e == u}.size
         lgth = arr.find_all {|e| e == u}.size
         x = u
-        x.code = x.code + "#" + lgth.to_s()
-        @final.push(x) unless c > 0
+        x.code = x.code + "#" +lgth.to_s()
+       
+	@final.push(x) unless c > 0
     end 
     @final
   end

@@ -1,0 +1,61 @@
+<p id="notice"><%= notice %></p>
+Tuts
+<%= @tutorials %>
+Courses
+<%= @courses%>
+<%= javascript_include_tag "calendarBuilder.js" %>
+<script type="text/javascript">
+
+         
+	urses.each do |course| %>
+        <% course.start = course.start.to_time.to_i %>
+        <% course.end = course.end.to_time.to_i %>
+        <%end%>
+        <% @assignments.each do |ass| %>
+        <% ass.start = ass.start.to_time.to_i %>
+        <% ass.end = ass.end.to_time.to_i %>
+        <%end%>
+
+        var coursesToJSON = <%= raw @courses.to_json %>
+        var assignmentsToJSON = <%= raw @assignments.to_json %>
+
+
+        $(document).ready(function(){
+
+        buildCalendar(coursesToJSON, assignmentsToJSON);
+        setHover(assignmentsToJSON, coursesToJSON);
+        });
+
+        document.addEventListener("DOMSubtreeModified", function(e){
+                setHover(assignmentsToJSON, coursesToJSON);
+        });     
+
+</script>
+
+<p >Check schedule for: </p>
+<% @courses.each do |course| %>
+	<div style="margin-right:6px; float:left;text-decoration:none;"><%= link_to course.code, users_mystudents_courses_path(course.id) %></div>
+<%end%>
+<br />
+<br />
+<div id='calendar'></div>
+
+<p class="test">
+  <b>First name:</b>
+  <%= @professor.f_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @professor.l_name %>	
+</p>
+
+<p>
+<b> List of courses </b>
+ <%= @course %>  
+
+</p>
+
+<%= link_to 'Edit', edit_professor_path(@professor) %> |
+<%= link_to 'Back', professors_path %>
+

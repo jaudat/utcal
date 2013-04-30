@@ -21,7 +21,8 @@ class Course < ActiveRecord::Base
   		:recurring => true,
   		:url => "http://www.rizvi.com/",
   		:semester => "Fall/Winter",
-  		:type => "course"
+  		:type => "course",
+		:meeting => self.meeting
   	}
   end
 

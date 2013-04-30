@@ -1,68 +1,36 @@
 <%= javascript_include_tag "calendarBuilder.js"  %>
-<h1>Assignment Details </h1>
-<h6>All students</h6>
-<p><%= @students %></p>
-<h6>All Courses of the students</h6>
-<p><%=  @courses %></p>
-<h6>All assignments of the students</h6>
-<p><%=  @assignments %></p>
-
-<h6>Get tutorials and practicals</h6>
-<p><%= @tutorials %></p>
 
 <script type="text/javascript" >
+	var set = 0;
+        <% @courses.each do |course| %>
+        <% course.start = course.start.to_time.to_i %>
+        <% course.end = course.end.to_time.to_i %>
+        <%end%>
+        <% @assignments.each do |ass| %>
+        <% ass.start = ass.start.to_time.to_i %>
+        <% ass.end = ass.end.to_time.to_i %>
+        <%end%>
+
+        var coursesToJSON = <%= raw @courses.to_json %>
+        var assignmentsToJSON = <%= raw @assignments.to_json %>
+
+
 	$(document).ready(function(){
-	<% @courses.each do |course| %>
-	<% course.start = course.start.to_time.to_i %>
-	<% course.end = course.end.to_time.to_i %>
-	<%end%>
-	<% @assignments.each do |ass| %>
-	<% ass.start = ass.start.to_time.to_i %>
-	<% ass.end = ass.end.to_time.to_i %>
-	<%end%>
-
-	var coursesToJSON = <%= raw @courses.to_json %>
-	var assignmentsToJSON = <%= raw @assignments.to_json %>
-
+	
 	buildCalendar(coursesToJSON, assignmentsToJSON);
-	
-	var mouseY;
-	var mouseX;
-
-	$(this).mousemove(function(e){
-		mouseX = e.pageX;
-		mouseY = e.pageY;
+	setHover(assignmentsToJSON, coursesToJSON);
 	});
-	
-	$(".assignment").hover(function(){
-		var i;
-		for(i = 0; i < assignmentsToJSON.length; i++){
-			if(assignmentsToJSON[i].title == $(this).attr("id")){
-				var currAssign = assignmentsToJSON[i];
-			}
+
+
+        document.addEventListener("DOMSubtreeModified", function(e){
+                if($(".fc-event")[0] && set == 0){
+                        setHover(assignmentsToJSON, coursesToJSON);
+                	set = 1;
+		}if(!$(".fc-event")[0]){
+			set = 0;
 		}
-
+        });
 	
-		$("body").prepend("<div class='testClass'> </div>");
-		$(".testClass").css("position","absolute");
-		$(".testClass").css("margin-left", mouseX);
-		$(".testClass").css("margin-top", mouseY-40);
-		$(".testClass").css("width", "100px");
-		$(".testClass").css("height", "170px");
-		$(".testClass").css("background-color", "white");
-		$(".testClass").css("border-radius", "5px");
-		$(".testClass").css("box-shadow", "2px 2px 3px 4px #ccc");
-		$(".testClass").css("-mox-box-shadow", "2px 2px 3px 4px #ccc");
-		$(".testClass").css("-webkit-box-shadow", "2px 2px 3px 4px #ccc");
-		$(".testClass").css("z-index", 9999);
-
-		$(".testClass").prepend("<p> Name: "+ currAssign["title"] + "</p>");
-	},
-	function(){
-		$(".testClass").remove();
-	});
-	
-	});
 </script>
 
 <p>Click Event to delete:</p>
@@ -70,9 +38,10 @@
 <div style="float:left;margin-right:6px;text-decoration:none;" id="<%= assignment.title %>" class="assignment"><%= link_to assignment.title , assignment, method: :delete, data: { confirm: 'Are you sure?' } %></div> 
 <%end%>
 <br /><br />
-<p>Mouse over to view student courses:</p>
+<p>Students in my courses:</p>
+<% @students=@students.uniq %>
 <% @students.each do |student| %>
-<div style="margin-right:6px;float:left;text-decoration:none;"><%=student.f_name%></div>
+<div style="margin-right:6px;float:left;text-decoration:none;"><%=student.f_name + " " + student.l_name + ", " %></div>
 <%end%>
 <br /><br />
 <div style="float:right"><%= link_to 'Add Event', new_assignment_path %></div><br />

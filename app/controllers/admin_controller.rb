@@ -1,5 +1,5 @@
 class AdminController < ApplicationController
-XMLDIR_s = "/home/ather/Desktop/Project/utcal/utcal/StudentsCSV.xml"
+XMLDIR_s = "/home/zieny/rubyProject/utcal/StudentsCSV.xml"
 
 	def index
 		@user = current_user.utorid
