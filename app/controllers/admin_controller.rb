@@ -1,6 +1,10 @@
 class AdminController < ApplicationController
+<<<<<<< HEAD
+XMLDIR_s = "/home/zieny/rubyProject/utcal/StudentsCSV.xml"
+=======
 XMLDIR_s = "/home/ather/Desktop/Project/utcal/utcal/StudentsCSV.xml"
 XMLDIR_c = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
+>>>>>>> c4c7c3f4307a57aa762bce69af0aa61fb11825f9
 
 	def index
 		@user = current_user.utorid
