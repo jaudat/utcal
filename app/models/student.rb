@@ -13,7 +13,7 @@ class Student < ActiveRecord::Base
   def to_param
 	user_id
   end
-
+  #get the user model for this student
   def get_user
     self.user
   end

@@ -19,21 +19,11 @@ class User < ActiveRecord::Base
     courses
   end
 
-
-  def get_course
-      courses
-  end
-
+  #for the users get all
+  #the student courses
   def allstudcourses
     # Get professors courses
     @courses = self.mycourses
-
-    # puts "*****************************"
-    # puts "printing list of courses of prof"
-    # @courses.each do |sc1|
-    #   puts sc1.code
-    # end
-    # puts "*****************************"
 
     @students = []
     @stud_courses = []
@@ -43,12 +33,6 @@ class User < ActiveRecord::Base
       @students = @c.enrolledincourse
     end
     
-    # puts "*****************************"
-    # puts "printing students who are in profs courses w dups"
-    # @students.each do |sc1|
-    #   puts sc1.idC75","start":1364707183,"end":1364707183,"recurring":true,"url":"http://www.rizvi.com/","semester":"Fall/Winter","type":"course"} {"id":10,"title":"CSC63","start":1364707183,"end":1364707183,"recurring":true,"url":"http://www.rizvi.com/","semester":"Fall/Winter","type":"course"} {"id":13,"title":"CSCD94","start":1364068800,"end":1364072400,"recurring":true,"url":"http://www.rizvi.com/","semester":"Fall/Winter","type":"course"} 
-    # end
-    # puts "*****************************"
 
     #remove duplicate students from list
     dupes = []
@@ -57,15 +41,6 @@ class User < ActiveRecord::Base
       dupes.push(u) unless c > 0
     end
 
-   
-    # puts "*****************************"
-    # puts "printing students who are in profs courses w/o dups"
-    # dupes.each do |sc1|
-    #   puts sc1.id
-    # end
-    # puts "*****************************"
-
-    # Get the courses that the students are taking
     dupes.each do |student|
       # remove myself and my courses from list
       if student.id != self.id
@@ -89,14 +64,6 @@ class User < ActiveRecord::Base
       @final.push(x) unless c > 0
     end
 
-    #loop throught the course 
-    # puts "*****************************"
-    # puts "printing final courses"
-    # @final.each do |sc1|
-    #   print sc1.id
-    #   puts sc1.code
-    # end
-    # puts "*****************************"
     @final
   end
 
@@ -104,11 +71,6 @@ class User < ActiveRecord::Base
 
     @stud_courses = []
     @students = course.enrolledincourse
-    # puts "*************************************************"
-    # @students.each do |student|
-    #   puts student.id
-    # end
-    # puts "*************************************************"
 
     # Get the courses that the students are taking
     @students.each do |student|

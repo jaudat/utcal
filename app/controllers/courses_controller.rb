@@ -119,6 +119,9 @@ class CoursesController < ApplicationController
       n = 50 # THIS IS FOR TESTING. SET TO GET n-k number of courses from xml
       count =0 
       k = 30
+      #For each element of the xml file
+      #add the value to the corresponding field in
+      #the database
       @course_xml.each do |data|
 
         @code_t = data.xpath("Course_and_Section_Code")
@@ -172,7 +175,14 @@ class CoursesController < ApplicationController
 
   end
 
+  #This function gets the day the course
+  #is scheduled from the xml file and relative
+  #to the start gets the date the course will start.
+
   def getDay(start_date, day)
+     #if the day read from the xml file is SU (Sunday) then
+     #get the date of the next Sunday and subtract 7 to get the 
+     #new date relative to the start date
     date = Date.new
       if day == "SU"
         date=start_date.next_week(start_day = :sunday) -7
