@@ -1,7 +1,7 @@
 class CoursesController < ApplicationController
   # GET /courses
   # GET /courses.json
-  XMLDIR = "/home/zieny/rubyProject/utcal/CourseTimetable.xml"
+  XMLDIR = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
 
   def index
     @courses = Course.all
@@ -104,55 +104,60 @@ class CoursesController < ApplicationController
 
   #BUILD DB OF COURSES
   def builddb
-    require 'nokogiri'
-    require 'date'
+      require 'nokogiri'
+      require 'date'
 
-    f= File.open(XMLDIR)
-    doc = Nokogiri::XML(f)
-    root = doc.root
-    @course_xml = root.xpath("Row")
-    @c=[]
+      f= File.open(XMLDIR)
+      doc = Nokogiri::XML(f)
+      root = doc.root
+      @course_xml = root.xpath("Row")
+      @c=[]
 
-    n = 10 # THIS IS FOR TESTING. SET TO GET n number of courses from xml
-    count =0 
-    @course_xml.each do |data|
+      n = 50 # THIS IS FOR TESTING. SET TO GET n number of courses from xml
+      count =0 
+      k = 30
+      @course_xml.each do |data|
 
-      @code = data.xpath("Course_and_Section_Code")
-      ##
-      @section_t = @code.text
-      @section = @section_t[-1,1]
-      ##
-      @restrictions = data.xpath("Restrictions_and_Instructions").text
-      @days = data.xpath("Days").text
+        @code = data.xpath("Course_and_Section_Code")
+        ##
+        @section_t = @code.text
+        @section = @section_t[-1,1]
+        ##
+        @restrictions = data.xpath("Restrictions_and_Instructions").text
+        @days = data.xpath("Days").text
 
-      date_now = Date.today
-      date_tostring = date_now.to_s
+        @meeting = data.xpath("Meeting_and_Section").text
 
-      date_st1= data.xpath("Start").to_s
-      date_st2= date_tostring + date_st1
-      @start = date_st2.to_datetime  
+        date_now = Date.today
+        date_tostring = date_now.to_s
 
-      date_et1= data.xpath("End").to_s
-      date_et2= date_tostring + date_et1
-      @end =date_et2.to_datetime
+        date_st1= data.xpath("Start").to_s
+        date_st2= date_tostring + date_st1
+        @start = date_st2.to_datetime  
 
-      @location = data.xpath("Location").text
-      @instruction = data.xpath("Instructor").text
-      @changes = data.xpath("Changes").text
+        date_et1= data.xpath("End").to_s
+        date_et2= date_tostring + date_et1
+        @end =date_et2.to_datetime
 
-  # Course(id: integer, code: string, section: string, 
-  #restrictions: string, days: string, start: datetime, 
-  #end: datetime, location: string, created_at: datetime, 
-  #updated_at: datetime) 
-      @course_object = Course.create(:code => @code.text , :section => @section,
-                      :restrictions => @restrictions, :days => @days, :start => @start, 
-                       :end => @end, :location => @location)
+        @location = data.xpath("Location").text
+        @instruction = data.xpath("Instructor").text
+        @changes = data.xpath("Changes").text
+
+    # Course(id: integer, code: string, section: string, 
+    #restrictions: string, days: string, start: datetime, 
+    #end: datetime, location: string, created_at: datetime, 
+    #updated_at: datetime) 
+      if k <= count
+        @course_object = Course.create(:code => @code.text , :section => @section,
+                        :restrictions => @restrictions, :days => @days, :start => @start, 
+                         :end => @end, :location => @location, :meeting => @meeting)
+        @c.push(data)
+      end
       count = count +1
-
-      @c.push(data)
       if count == n
         break
       end 
+
     end
     @c
      respond_to do |format|

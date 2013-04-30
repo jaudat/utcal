@@ -32,17 +32,25 @@ class ProfessorsController < ApplicationController
   
     @professor = Professor.find_by_user_id(params[:id])
       @courses = current_user.mycourses
+      @temp_tutorials = []
       @temp_students = []
       @temp_assignments = []
       @courses.each do |c|
         @temp_students.push(c.std_crs)
+        @temp_tutorials.push(c.getTutorials)
         @temp_assignments.push(c.get_assignments)
       end
       @students = removeDupes(@temp_students)
       @assignments = removeDupes(@temp_assignments)
+      @tutorials = removeDupes(@temp_tutorials)
+
+      #get all tutorials and practicals
+      
+
       respond_to do |format|
         format.html # show.html.erb
-        format.json { render :json => {:professor => @professor, :courses => @courses}}
+        format.json { render :json => {:professor => @professor, :courses => @courses,
+                                       :tutorials => @tutorials}}
       
       end
    

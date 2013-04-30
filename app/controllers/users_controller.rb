@@ -77,6 +77,7 @@ class UsersController < ApplicationController
     @crs_arr  = []
     @asgn_arr = []
     @std_arr = []
+    @temp_tutorials = []
 
     @temp_students = @courses.std_crs
     @std_arr.push(@temp_students)
@@ -86,21 +87,23 @@ class UsersController < ApplicationController
       @crs_arr.push(@temp_crs)
       @temp_crs.each do |c|
         @asgn_arr.push(c.get_assignments)
+        @temp_tutorials.push(c.getTutorials)
       end
 
     end
     @courses_t = makeArray(@crs_arr)
     @assignments= makeArray(@asgn_arr).uniq
+    @tutorials_t = makeArray(@temp_tutorials).uniq
+
 
     @courses = removeDupes(@courses_t).uniq
-   
+    @tutorials = removeDupes(@tutorials_t).uniq   
     @students =makeArray(@std_arr)
     render 'students_courses'
 
   end
 
   def courseasgns
-    # @asgns  = []
     @course = Course.find(params[:id])
     @asgns = @course.get_assignments
      render 'students_courses'
