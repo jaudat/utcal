@@ -40,6 +40,7 @@ class Course < ActiveRecord::Base
     @std
   end
 
+  #get all the assignments of this course
   def out_assgn
     @assgn = []
     @assgn_temp = self.get_assignments
@@ -49,8 +50,6 @@ class Course < ActiveRecord::Base
   #get all the practicals and tutorials of
   #a course
   def getTutorials
-    @tut = "TUT"
-    @prac = "PRAC"
     @course = self
     @tuts =Course.where("code = ? AND meeting LIKE ? OR meeting LIKE  ?",@course.code, "TUT%","PRAC%")
     @tuts

@@ -80,8 +80,11 @@ class UsersController < ApplicationController
     @std_arr = []
     @temp_tutorials = []
 
+    #get the students of the course
     @temp_students = @courses.std_crs
     @std_arr.push(@temp_students)
+    #for each of the students get their assignments
+    #and the their tutorials
     @temp_students.each do |s|
       @user = s.get_user
       @temp_crs = @user.mycourses
@@ -92,6 +95,9 @@ class UsersController < ApplicationController
       end
 
     end
+    #the return arrays made have duplicate entries
+    #remove the duplicates and add tag to get
+    #number of duplicate etnries
     @courses_t = makeArray(@crs_arr)
     @assignments= makeArray(@asgn_arr).uniq
     @tutorials_t = makeArray(@temp_tutorials).uniq
