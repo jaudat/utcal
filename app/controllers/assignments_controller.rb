@@ -85,12 +85,13 @@ class AssignmentsController < ApplicationController
   # DELETE /assignments/1.json
   def destroy
     @assignment = Assignment.find(params[:id])
+    c = @assignment.courses[0]
     @assignment.destroy
-
-    respond_to do |format|
-      format.html { redirect_to assignments_url }
-      format.json { head :no_content }
-    end
+    redirect_to users_mystudents_courses_path(c.id)
+    #respond_to do |format|
+    #  format.html { redirect_to assignments_url }
+    #  format.json { head :no_content }
+    ##end
   end
 
 #GETS ALL ASSIGNMENTS OF PROFESSORS STUDENTS

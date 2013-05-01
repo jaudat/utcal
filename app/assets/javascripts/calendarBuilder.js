@@ -121,8 +121,10 @@ function setHover(assignmentsToJSON, coursesToJSON){
                 $(".testClass").css("z-index", 9999);
 
 		if(currAssign!==undefined){
-                	$(".testClass").prepend("<p> Name: "+ currAssign["title"] + "</p>");
-        	}else{
+        	        $(".testClass").prepend("<p> Meeting:" + currAssign["meeting"] + "</p>");	
+			$(".testClass").prepend("<p> Name: "+ currAssign["title"] + "</p>");
+        		
+		}else{
 			$(".testClass").prepend("<p> Name: "+ currCourse["title"] + "</p>");
 		}
 	},

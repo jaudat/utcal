@@ -11,34 +11,43 @@
       </ul>
     </div>
   <% end %>
-
+  <div style="width:700px;margin: 0 auto;">
   <div class="formField">
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <div class="itemLabel"><%= f.label :title %></div>
+    <div class="itemField"><%= f.text_field :title %></div>
   </div>
   <div class="formField">
-    <%= f.label :category %><br />
-    <%= f.text_field :category %>
+     <div class="itemLabel"> <%= f.label :category %></div>
+    <div class="itemField"><%= f.text_field :category %></div>
   </div>
-  <div class="formField">
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
+  <div class="formFieldDescrip">
+    <div class="itemLabel"><%= f.label :description %></div>
+    <div class="itemField"><%= f.text_area :description, :rows => 10 %></div>
   </div>
-  <div class="formField">
-    <%= f.label :start %><br />
-    <%= f.datetime_select :start %>
   </div>
-  <div class="formField">
-    <%= f.label :end %><br />
-    <%= f.datetime_select :end %>
+<div style="width:500px;margin-left:190px;margin-top:30px; margin-bottom:30px;">
+  <fieldset style="width:300px;">
+  <legend>Entering Dates</legend>
+  <p> To enter a deadline for an assignment please create a timeframe atleast an hour wide to allow course information to be visible on calendar</p>
+  </fieldset>
+</div>
+  <div style="clear:both;">
+  <div class="formFieldTimeLeft">
+    <div class="itemLabel"><%= f.label :start %></div>
+    <div class="itemField"><%= f.datetime_select :start %></div>
   </div>
-  <div class="formField">
+  <div class="formFieldTimeRight">
+    <div class="itemLabel"><%= f.label :end %></div>
+    <div class="itemField"><%= f.datetime_select :end %></div>
+  </div>
+  </div>
+  <div style="margin-left:190px;"class="field">
    <label>Courses Code, Section</label>
    <% icourses.each do |crs| %>
     <label><%= radio_button_tag "course_id", crs.id, @assignment.get_courses.include?(crs) %> <%= crs.code %>, <%= crs.section %></label>
    <% end %> 
   </div>
-  <div class="formField">
+  <div style="margin-left:190px;margin-top:15px;"class="field">
     <%= f.submit %>
   </div>
 <% end %>
