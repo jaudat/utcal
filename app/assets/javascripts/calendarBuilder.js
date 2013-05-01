@@ -1,3 +1,11 @@
+var mouseX, mouseY;
+$(document).ready(function(){
+	$(this).mousemove(function(e){
+		mouseX = e.pageX;
+		mouseY = e.pageY;
+	});	
+});
+
 function maxDays(year, month){
         return new Date(year, month, 0).getDate();
 }
@@ -5,6 +13,10 @@ function maxDays(year, month){
 function convertDateToJS(input){
         var dateValues = input.split("-");
         return new Date(Number(dateValues[0]), Number(dateValues[1])-1, Number(dateValues[2]));
+}
+
+function trim(text) {
+    return text.replace(/^\s+|\s+$/g, "");
 }
 
 function buildCalendar(coursesToJSON, assignmentsToJSON){
@@ -57,7 +69,7 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
 			toAdd["end"] = dateObject['end'].getTime()/1000;
 			toAdd["start"] += 18000;
 			toAdd["end"] += 18000;
-			toAdd["title"] = dateObject["title"];
+			toAdd["title"] = dateObject["title"].split("#")[0];
 			toAdd["allDay"] = false;
 			dateSet.push(toAdd);
 		}
@@ -66,7 +78,7 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
         $("#calendar").fullCalendar({
                 header: {
                         left: 'prev, next today',
-                        middle: dateObject["start"].getFullYear().toString() ,
+                        center: "title" ,
                         right: 'agendaWeek'
                 },
                 events: dateSet,
@@ -76,4 +88,45 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
                 minTime: 9,
                 maxTime: 23
         });	
+
+}
+
+function setHover(assignmentsToJSON, coursesToJSON){
+        $(".fc-event-title").hover(function(e){
+		var i;
+                for(i = 0; i < assignmentsToJSON.length; i++){
+                        if(assignmentsToJSON[i].title == trim($(e.target).text())){
+                                var currAssign = assignmentsToJSON[i];
+                        }
+                }
+		if(currAssign===undefined){
+			for(i = 0; i < coursesToJSON.length; i++){
+				if(coursesToJSON[i].title = trim($(e.target).text())){
+					var currCourse = coursesToJSON[i];
+				}
+			}
+		}
+
+                $("body").prepend("<div class='testClass'></div>");
+                $(".testClass").css("position","absolute");
+                $(".testClass").css("margin-left", mouseX);
+                $(".testClass").css("margin-top", mouseY-40);
+                $(".testClass").css("width", "150px");
+                $(".testClass").css("min-height", "170px");
+                $(".testClass").css("background-color", "white");
+                $(".testClass").css("border-radius", "5px");
+                $(".testClass").css("box-shadow", "2px 2px 3px 4px #ccc");
+                $(".testClass").css("-mox-box-shadow", "2px 2px 3px 4px #ccc");
+                $(".testClass").css("-webkit-box-shadow", "2px 2px 3px 4px #ccc");
+                $(".testClass").css("z-index", 9999);
+
+		if(currAssign!==undefined){
+                	$(".testClass").prepend("<p> Name: "+ currAssign["title"] + "</p>");
+        	}else{
+			$(".testClass").prepend("<p> Name: "+ currCourse["title"] + "</p>");
+		}
+	},
+        function(){
+                $(".testClass").remove();
+        });
 }

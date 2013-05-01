@@ -1,7 +1,11 @@
 class CoursesController < ApplicationController
   # GET /courses
   # GET /courses.json
+<<<<<<< HEAD
   # XMLDIR = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
+=======
+  XMLDIR = "/home/zieny/rubyProject/utcal/CourseTimetable.xml"
+>>>>>>> 0da92dfb6be7449b29ddc7be7fb17ffb0b790ab2
 
   def index
     @courses = Course.all

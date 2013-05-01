@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20130428193256) do
     t.datetime "end"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.string   "day"
   end
 
   create_table "assignments_courses", :id => false, :force => true do |t|
@@ -46,6 +47,9 @@ ActiveRecord::Schema.define(:version => 20130428193256) do
     t.integer "user_id"
   end
 
+  add_index "courses_users", ["course_id"], :name => "course_id"
+  add_index "courses_users", ["user_id"], :name => "user_id"
+
   create_table "professors", :force => true do |t|
     t.string   "f_name"
     t.string   "l_name"
@@ -61,8 +65,8 @@ ActiveRecord::Schema.define(:version => 20130428193256) do
     t.string   "l_name"
     t.text     "address"
     t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.integer  "user_id"
   end
 

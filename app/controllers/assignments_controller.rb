@@ -40,17 +40,28 @@ class AssignmentsController < ApplicationController
   # POST /assignments
   # POST /assignments.json
   def create
-    c = Course.find(params[:course_id])
-    @assignment = Assignment.new(params[:assignment])
+    if session[:type] == "Professor"
+      c = Course.find(params[:course_id])
+      @assignment = Assignment.new(params[:assignment])
 
-    respond_to do |format|
+      # respond_to do |format|
+      #   if c.assignments.create(params[:assignment])
+      #     format.html { redirect_to @assignment, notice: 'Assignment was successfully created.' }
+      #     format.json { render json: @assignment, status: :created, location: @assignment }
+      #   else
+      #     format.html { render action: "new" }
+      #     format.json { render json: @assignment.errors, status: :unprocessable_entity }
+      #   end
+      # end
       if c.assignments.create(params[:assignment])
-        format.html { redirect_to @assignment, notice: 'Assignment was successfully created.' }
-        format.json { render json: @assignment, status: :created, location: @assignment }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @assignment.errors, status: :unprocessable_entity }
+        redirect_to users_mystudents_courses_path(c.id)
       end
+    elsif session[:type] == "Student"
+      student = Student.find_by_user_id(session[:remember_token])
+      redirect_to student
+    #elsif session[:type] == "Professor"
+    #  professor = Professor.find_by_user_id(session[:remember_token])
+    #  redirect_to professor
     end
   end
 
