@@ -10,6 +10,7 @@
   <Location>Supervised Study</Location>
   <Instructor>Faculty</Instructor>
   <Changes/>
+  <Session>Fall</Session>
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
@@ -21,6 +22,8 @@
   <Location>SW 319</Location>
   <Instructor>J.Parga</Instructor>
   <Changes/>
+    <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
@@ -32,6 +35,8 @@
   <Location>MW 329</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
@@ -43,6 +48,8 @@
   <Location>MW 329</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA01H3 Y</Course_and_Section_Code>
@@ -54,6 +61,8 @@
   <Location>MW 329</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
@@ -65,6 +74,8 @@
   <Location>MW 170</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
@@ -76,6 +87,8 @@
   <Location>MW 140</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
@@ -87,6 +100,8 @@
   <Location>MW 140</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTA02H3 Y</Course_and_Section_Code>
@@ -98,6 +113,8 @@
   <Location>MW 140</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTC03H3 Y</Course_and_Section_Code>
@@ -109,6 +126,8 @@
   <Location>Dir. Reading</Location>
   <Instructor>Faculty</Instructor>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTC04H3 Y</Course_and_Section_Code>
@@ -120,6 +139,8 @@
   <Location>Dir. Reading</Location>
   <Instructor>Faculty</Instructor>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTC23H3 Y</Course_and_Section_Code>
@@ -131,6 +152,8 @@
   <Location>MW 120</Location>
   <Instructor>J.Parga</Instructor>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTC61H3 Y</Course_and_Section_Code>
@@ -142,6 +165,7 @@
   <Location>MW 160</Location>
   <Instructor/>
   <Changes/>
+  <Session>Winter</Session>
 </Row>
 <Row>
   <Course_and_Section_Code>ANTD31H3 Y</Course_and_Section_Code>
@@ -153,6 +177,8 @@
   <Location>Adv. Research</Location>
   <Instructor>Faculty</Instructor>
   <Changes/>
+  <Session>Winter</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ANTD32H3 Y</Course_and_Section_Code>
@@ -164,6 +190,8 @@
   <Location>Adv. Research</Location>
   <Instructor>Faculty</Instructor>
   <Changes/>
+  <Session>Winter</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ASTD01H3 Y</Course_and_Section_Code>
@@ -175,6 +203,8 @@
   <Location/>
   <Instructor>G.Lorincz</Instructor>
   <Changes/>
+  <Session>Winter</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>ASTD02H3 Y</Course_and_Section_Code>
@@ -186,6 +216,8 @@
   <Location/>
   <Instructor>G.Lorincz</Instructor>
   <Changes/>
+  <Session>Winter</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
@@ -197,6 +229,8 @@
   <Location>MW 170</Location>
   <Instructor>K.Williams</Instructor>
   <Changes/>
+  <Session>Winter</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
@@ -208,6 +242,8 @@
   <Location>SW 240</Location>
   <Instructor/>
   <Changes/>
+    <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
@@ -219,6 +255,8 @@
   <Location>SW 240</Location>
   <Instructor/>
   <Changes/>
+      <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
@@ -230,6 +268,8 @@
   <Location>SW 240</Location>
   <Instructor/>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA01H3 Y</Course_and_Section_Code>
@@ -241,6 +281,8 @@
   <Location>SW 240</Location>
   <Instructor/>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
@@ -252,6 +294,8 @@
   <Location>SW 309</Location>
   <Instructor>C.Soros-Pottroff</Instructor>
   <Changes>Time changed 04/08/13</Changes>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
@@ -263,6 +307,8 @@
   <Location>SW 237</Location>
   <Instructor/>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
@@ -274,6 +320,8 @@
   <Location>SW 237</Location>
   <Instructor/>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
@@ -285,6 +333,8 @@
   <Location>SW 237</Location>
   <Instructor/>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
@@ -296,6 +346,8 @@
   <Location>SW 237</Location>
   <Instructor/>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOA02H3 Y</Course_and_Section_Code>
@@ -307,6 +359,9 @@
   <Location>SW 237</Location>
   <Instructor/>
   <Changes>Added 04/12/13</Changes>
+  <Session>Summer</Session>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB10Y3 Y</Course_and_Section_Code>
@@ -318,6 +373,8 @@
   <Location>AC 223</Location>
   <Instructor>A.Ashok</Instructor>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB10Y3 Y</Course_and_Section_Code>
@@ -340,6 +397,8 @@
   <Location>AC 223</Location>
   <Instructor/>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB11H3 S</Course_and_Section_Code>
@@ -351,7 +410,10 @@
   <Location>AC 223</Location>
   <Instructor>A.Ashok</Instructor>
   <Changes/>
+  <Session>Summer</Session>
+
 </Row>
+
 <Row>
   <Course_and_Section_Code>BIOB11H3 S</Course_and_Section_Code>
   <Meeting_and_Section>LEC01</Meeting_and_Section>
@@ -373,6 +435,8 @@
   <Location>AC 223</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -384,6 +448,8 @@
   <Location>SW 128</Location>
   <Instructor>D.Bawa</Instructor>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -395,6 +461,8 @@
   <Location>SW 133</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -406,6 +474,8 @@
   <Location>SW 133</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -417,6 +487,8 @@
   <Location>SW 135</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -428,6 +500,8 @@
   <Location>SW 135</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -439,6 +513,8 @@
   <Location>SW 133</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -450,6 +526,8 @@
   <Location>SW 133</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -472,6 +550,8 @@
   <Location>SW 135</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -483,6 +563,8 @@
   <Location>SW 309</Location>
   <Instructor>C.Soros-Pottroff</Instructor>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -494,6 +576,8 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -505,6 +589,8 @@
   <Location>SW 323</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -516,6 +602,8 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -527,6 +615,8 @@
   <Location>SW 323</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -538,6 +628,8 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -549,6 +641,8 @@
   <Location>SW 323</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -560,6 +654,8 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB34H3 Y</Course_and_Section_Code>
@@ -571,7 +667,10 @@
   <Location>SY 110</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
+
 <Row>
   <Course_and_Section_Code>BIOB34H3 Y</Course_and_Section_Code>
   <Meeting_and_Section>TUT3001</Meeting_and_Section>
@@ -582,7 +681,10 @@
   <Location>SY 110</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
+
 <Row>
   <Course_and_Section_Code>BIOB98H3 Y</Course_and_Section_Code>
   <Meeting_and_Section>LEC01</Meeting_and_Section>
@@ -593,6 +695,8 @@
   <Location>Sup. Ind. Research</Location>
   <Instructor>Faculty</Instructor>
   <Changes/>
+  <Session>Fall</Session>
+
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB99H3 Y</Course_and_Section_Code>

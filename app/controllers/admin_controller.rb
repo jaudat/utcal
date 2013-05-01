@@ -1,18 +1,18 @@
 class AdminController < ApplicationController
-<<<<<<< HEAD
-#Directory for the students xml
-XMLDIR_s = "/home/ather/Desktop/Project/utcal/utcal/StudentsCSV.xml"
-#Directory for the course xml
-XMLDIR_c = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
-=======
 
+#Directory for the students xml
 XMLDIR_s = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/StudentsCSV.xml"
+#Directory for the course xml
 XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetable.xml"
 
->>>>>>> 0da92dfb6be7449b29ddc7be7fb17ffb0b790ab2
+
 
 	def index
 		@user = current_user.utorid
+	end
+
+	def dashboard
+		render 'dashboard'
 	end
 
 	#the following function builds the students database 
@@ -118,11 +118,20 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
   def buildcourses
       require 'nokogiri'
       require 'date'
+######################################
+	    @f = params[:f]
+	    @w = params[:w]
+	    @s = params[:s]
+	    @fall = DateTime.new(params[:f]["date(1i)"].to_i, params[:f]["date(2i)"].to_i, params[:f]["date(3i)"].to_i, 00,00,00)
+	    @winter= DateTime.new(params[:w]["date(1i)"].to_i, params[:w]["date(2i)"].to_i, params[:w]["date(3i)"].to_i, 00,00,00)
+   	    @summer= DateTime.new(params[:s]["date(1i)"].to_i, params[:s]["date(2i)"].to_i, params[:s]["date(3i)"].to_i, 00,00,00)
+
+#####################################
 
       @LogArrayCourses = []
       courseLog = File.open('CoursesLog.txt','w')
-      @start_date = "2013-08-01".to_datetime
-      @start_day = @start_date.strftime("%a")
+       # @start_date = "2013-08-01".to_datetime
+      # @start_day = @start_date.strftime("%a")
 
       f= File.open(XMLDIR_c)
       doc = Nokogiri::XML(f)
@@ -152,7 +161,14 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
         ##
         @restrictions = data.xpath("Restrictions_and_Instructions").text
         @meeting = data.xpath("Meeting_and_Section").text
-
+        @session = data.xpath("Session").text
+        if @session == "Fall"
+        	@start_date = @fall
+        elsif @session == "Winter"
+        	@start_date = @winter
+        elsif @session == "Summer"
+        	@start_date = @summer
+   		end
 
         @set_date = getDay(@start_date, @days)
         date_tostring = @set_date.to_s

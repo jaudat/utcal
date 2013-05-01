@@ -1,0 +1,12 @@
+<h1> Dashboard </h1>
+
+<%= form_tag "/admin/buildcourses" do %>
+<%= label_tag(:f, "Fall Semester Start Date:") %>
+<%= date_select(:f, "date") %>
+<%= label_tag(:w, "Winter Semester Start Date:") %>
+<%= date_select(:w, "date") %>
+<%= label_tag(:s, "Summer Semester Start Date:") %>
+<%= date_select(:s, "date") %>
+<%= submit_tag("Submit") %>	
+<% end %>
+
