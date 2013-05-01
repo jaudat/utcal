@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     @user2 = User.new(utorid: params[:user][:utorid], password: params[:user][:password], password_confirmation: params[:user][:password_confirmation])
     if @user2.save
       #TODO get user type then redirect to appropriate page
-      if @user.type == "Student"
+      if @user.category == "Student"
         @student = Student.new(user_id: @user2.id, f_name: @user2.utorid ,email: "my_email@utoronto.com")
         #url_for(:only_path => true, :controller => 'professor', :action => show, :id => @user.id)
         if @student.save
@@ -19,7 +19,7 @@ class UsersController < ApplicationController
         else
           render 'new'
         end
-      elsif @user.type == "Professor"
+      elsif @user.category == "Professor"
         @professor = Professor.new(user_id: @user2.id, f_name: @user2.utorid, email: "my_email@utoronto.com")
         #url_for(:only_path => true, :controller => 'professor', :action => show, :id => @user.id)
         if @professor.save
