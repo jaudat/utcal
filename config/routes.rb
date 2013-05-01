@@ -12,6 +12,7 @@ Utcal::Application.routes.draw do
   match '/courses/builddb', to: 'courses#builddb'
   match '/admin/buildstudents', to: 'admin#buildstudents'
   match '/admin/buildcourses', to: 'admin#buildcourses'
+  match '/admin/dashboard', to: 'admin#dashboard'
 
   get "/users/mycourselist" => "users#mycourselist"
   get "/users/mystudents_courses/:id", :to => "users#mystudents_courses", :as => "users_mystudents_courses"

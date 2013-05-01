@@ -1,11 +1,18 @@
 class AdminController < ApplicationController
 
+#Directory for the students xml
 XMLDIR_s = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/StudentsCSV.xml"
+#Directory for the course xml
 XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetable.xml"
+
 
 
 	def index
 		@user = current_user.utorid
+	end
+
+	def dashboard
+		render 'dashboard'
 	end
 
 	#the following function builds the students database 
@@ -13,8 +20,7 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
 	def buildstudents
 	    require 'nokogiri'
 	    require 'date'
-
-	    
+	    @LogArrayStudent = []
 	    studentLog = File.open('StudentsLog.txt','w')
 	    f= File.open(XMLDIR_s)
 	    doc = Nokogiri::XML(f)
@@ -23,15 +29,18 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
 	    @s = []# for testing
 	    n=5# for testing
 	    count=0# for testing
-		    @student_xml.each do |data|
-		
-		    	#STUDENTS MODEL ATTRIBUTES 
-		    	# Student(id: integer, stud_no: integer, 
-		    	# f_name: string, l_name: string, address: 
-		    	# text, email: string, created_at: datetime, updated_at: datetime, user_id: integer) 
-		    	# User attr_accessible :utorid, :password, :password_confirmation, :typ
-		    	@student_courses = []
-		    	@student_id = data.xpath("Student_ID").text	
+
+	    @student_xml.each do |data|
+	
+	    	#STUDENTS MODEL ATTRIBUTES 
+	    	# Student(id: integer, stud_no: integer, 
+	    	# f_name: string, l_name: string, address: 
+	    	# text, email: string, created_at: datetime, updated_at: datetime, user_id: integer) 
+	    	# User attr_accessible :utorid, :password, :password_confirmation, :typ
+	    	@student_courses = [] #Array to store all student courses
+	    	@student_id = data.xpath("Student_ID").text	
+	    	@check_student = Student.find_by_stud_no(@student_id)
+	    	if @check_student == nil
 		    	@f_name = data.xpath("fname").text
 		    	@l_name = data.xpath("lname").text
 		    	@address = data.xpath("address").text
@@ -52,23 +61,38 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
 		    				    :f_name => @f_name, 
 		    					:l_name => @l_name,:address => @address, 
 		    					:email => @email,:user_id => @user_id)
+		    	log = @student_object.stud_no.to_s + " Successfully created"
+		    	studentLog.write(log)
+		    	@LogArrayStudent.push(log)
 
 		    	@student_courses.each do |sc|
 		    		@course = Course.where("code = ?",sc)
-		    		@user_object.courses << @course
+		    		if @course != nil
+		    			 @user_object.courses << @course
+		    		else
+		    			 log = @course.code + "for " + @student_object.stud_no +  " Doesnt exist in the 
+		    			 Courses database. Check Courses Databases or check course code."
+		    			 @LogArrayStudent.push(log)
+		    			 studentLog.puts(log)
+		    		end
 		    	end
-
-
+		    		
 		    	@s.push(@student_courses)# for testing
 		    	# for testing
 		    	 if count == n
 	        		break
-	      		end 
+	      		 end 
 
-		    end
+			else
+				log = "Student with studen_no " + @check_student.stud_no.to_s + " already exists"
+				@LogArrayStudent.push(log)
+				studentLog.puts(log)
+			end
+		end
 	    @s # for testing
 	    
-	 end
+	end
+
 
 
 #XML sample for reference
@@ -94,11 +118,20 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
   def buildcourses
       require 'nokogiri'
       require 'date'
+######################################
+	    @f = params[:f]
+	    @w = params[:w]
+	    @s = params[:s]
+	    @fall = DateTime.new(params[:f]["date(1i)"].to_i, params[:f]["date(2i)"].to_i, params[:f]["date(3i)"].to_i, 00,00,00)
+	    @winter= DateTime.new(params[:w]["date(1i)"].to_i, params[:w]["date(2i)"].to_i, params[:w]["date(3i)"].to_i, 00,00,00)
+   	    @summer= DateTime.new(params[:s]["date(1i)"].to_i, params[:s]["date(2i)"].to_i, params[:s]["date(3i)"].to_i, 00,00,00)
+
+#####################################
 
       @LogArrayCourses = []
       courseLog = File.open('CoursesLog.txt','w')
-      @start_date = "2013-08-01".to_datetime
-      @start_day = @start_date.strftime("%a")
+       # @start_date = "2013-08-01".to_datetime
+      # @start_day = @start_date.strftime("%a")
 
       f= File.open(XMLDIR_c)
       doc = Nokogiri::XML(f)
@@ -122,34 +155,38 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
         @days = data.xpath("Days").text
         date_et1= data.xpath("End").to_s
         time1= data.xpath("Start").to_s
-        #@check = Course.find_by_code(@code)
-        # @check = Course.where("code LIKE AND meeting = ?",@code,@meeting)
-#Check if course already exists
-        
-	        @section_t = @code_t.text
-	        @section = @section_t[-1,1] 
-	        ##
-	        @restrictions = data.xpath("Restrictions_and_Instructions").text
-	        @meeting = data.xpath("Meeting_and_Section").text
+    
+        @section_t = @code_t.text
+        @section = @section_t[-1,1] 
+        ##
+        @restrictions = data.xpath("Restrictions_and_Instructions").text
+        @meeting = data.xpath("Meeting_and_Section").text
+        @session = data.xpath("Session").text
+        if @session == "Fall"
+        	@start_date = @fall
+        elsif @session == "Winter"
+        	@start_date = @winter
+        elsif @session == "Summer"
+        	@start_date = @summer
+   		end
 
-	
-	        @set_date = getDay(@start_date, @days)
-	        date_tostring = @set_date.to_s
+        @set_date = getDay(@start_date, @days)
+        date_tostring = @set_date.to_s
 
-	        time1= data.xpath("Start").to_s
+        time1= data.xpath("Start").to_s
 
-	        @start_t = date_tostring + time1
-	        @start = @start_t.to_datetime
+        @start_t = date_tostring + time1
+        @start = @start_t.to_datetime
 
-	        date_et1= data.xpath("End").to_s
-	        date_et2= date_tostring + date_et1
-	        @end =date_et2.to_datetime
+        date_et1= data.xpath("End").to_s
+        date_et2= date_tostring + date_et1
+        @end =date_et2.to_datetime
 
-	        @location = data.xpath("Location").text
-	        @instruction = data.xpath("Instructor").text
-	        @changes = data.xpath("Changes").text
+        @location = data.xpath("Location").text
+        @instruction = data.xpath("Instructor").text
+        @changes = data.xpath("Changes").text
 
-	      @check = Course.find(:all, :conditions => ["code LIKE ? AND meeting LIKE ? AND days LIKE ? AND start = ? AND end = ?",@code,@meeting,@days,@start,@end])
+	    @check = Course.find(:all, :conditions => ["code LIKE ? AND meeting LIKE ? AND days LIKE ? AND start = ? AND end = ?",@code,@meeting,@days,@start,@end])
         if @check.empty? or @check.nil?
 	      if k <= count #CONDITION FOR TESTING
 
@@ -174,16 +211,10 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
 	    	courseLog.puts(log)
 	    	@LogArrayCourses.push(log)
 	    	@check
-
 	    end
  
     end
     @c
-    #  respond_to do |format|
-    #   format.html # show.html.erb
-    #   format.json { render :json => {:xml => @c.to_xml, }}
-       
-    # end
     render 'buildcourses'
   end
 
