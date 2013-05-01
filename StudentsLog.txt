@@ -1,0 +1,17 @@
+Student with studen_no 997250291 already exists
+Student with studen_no 997250293 already exists
+Student with studen_no 997250295 already exists
+Student with studen_no 997250297 already exists
+Student with studen_no 997250299 already exists
+Student with studen_no 997250301 already exists
+Student with studen_no 997250303 already exists
+Student with studen_no 997250305 already exists
+Student with studen_no 997250307 already exists
+Student with studen_no 997250309 already exists
+Student with studen_no 997250311 already exists
+Student with studen_no 997250313 already exists
+Student with studen_no 997250315 already exists
+Student with studen_no 997250317 already exists
+Student with studen_no 997250319 already exists
+Student with studen_no 997250321 already exists
+Student with studen_no 997250323 already exists
