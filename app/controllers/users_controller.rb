@@ -70,6 +70,18 @@ class UsersController < ApplicationController
     end 
     @final
   end
+	
+  def removeAsgn(arr)
+   @final = []
+   arr.each do |u|
+ 	c = @final.find_all {|e| e == u}.size
+   	lgth = arr.find_all {|e| e == u}.size
+   	x = u
+   	x.title = x.title + "(" +lgth.to_s()+")"
+        @final.push(x) unless c > 0
+    end
+    @final	
+  end
 
   #get the students of a particular course
   #and their courses and then there assignments
@@ -99,11 +111,13 @@ class UsersController < ApplicationController
     #remove the duplicates and add tag to get
     #number of duplicate etnries
     @courses_t = makeArray(@crs_arr)
-    @assignments= makeArray(@asgn_arr).uniq
-    @tutorials_t = makeArray(@temp_tutorials).uniq
-
-
+   
+    @assignments_t= makeArray(@asgn_arr)
+    @tutorials_t = makeArray(@temp_tutorials).uniq 
+    #@assignments=makeArray(@asgn_arr).uniq
+    
     @courses = removeDupes(@courses_t).uniq
+    @assignments = removeAsgn(@assignments_t).uniq
     @tutorials = removeDupes(@tutorials_t).uniq   
     @students =makeArray(@std_arr)
     render 'students_courses'

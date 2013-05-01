@@ -1,4 +1,3 @@
-
 <Document>
 <!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
 <Row>
@@ -9,11 +8,11 @@
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
 <Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course2/>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250293</Student_ID>
@@ -23,11 +22,11 @@
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
 <Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course2/>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250295</Student_ID>
@@ -37,11 +36,11 @@
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
 <Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course2/>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250297</Student_ID>
@@ -50,12 +49,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course1>BIOB11H3 </Course1>
+<Course2>BIOB33H3</Course2>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250299</Student_ID>
@@ -64,12 +63,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course1>BIOB11H3 </Course1>
+<Course2>BIOB33H3</Course2>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250301</Student_ID>
@@ -78,12 +77,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course1>BIOB11H3 </Course1>
+<Course2>BIOB33H3</Course2>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250303</Student_ID>
@@ -92,12 +91,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course1>BIOB12H3 </Course1>
+<Course2>BIOB34H3</Course2>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250305</Student_ID>
@@ -106,12 +105,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
+<Course1>BIOB12H3 </Course1>
+<Course2>BIOB34H3</Course2>
+<Course3/>
+<Course4/>
 <Course5/>
-<Course6>ANTA02H3 Y</Course6>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250307</Student_ID>
@@ -120,12 +119,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
+<Course1>BIOB12H3 </Course1>
+<Course2>BIOB34H3</Course2>
+<Course3/>
+<Course4/>
 <Course5/>
-<Course6>ANTA02H3 Y</Course6>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250309</Student_ID>
@@ -134,12 +133,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
+<Course1>BIOB34H3</Course1>
+<Course2/>
+<Course3/>
+<Course4/>
 <Course5/>
-<Course6>ANTA02H3 Y</Course6>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250311</Student_ID>
@@ -148,12 +147,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
+<Course1/>
+<Course2/>
+<Course3/>
+<Course4/>
 <Course5/>
-<Course6>ANTA02H3 Y</Course6>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250313</Student_ID>
@@ -162,12 +161,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
+<Course1/>
+<Course2/>
+<Course3/>
+<Course4/>
 <Course5/>
-<Course6>ANTA02H3 Y</Course6>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250315</Student_ID>
@@ -176,12 +175,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
+<Course1/>
+<Course2/>
+<Course3/>
+<Course4/>
 <Course5/>
-<Course6>ANTA02H3 Y</Course6>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250317</Student_ID>
@@ -190,12 +189,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4> </Course4>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course1/>
+<Course2/>
+<Course3/>
+<Course4/>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250319</Student_ID>
@@ -204,12 +203,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
-<Course5>ANTA02H3 Y</Course5>
-<Course6>ANTA02H3 Y</Course6>
+<Course1/>
+<Course2/>
+<Course3/>
+<Course4/>
+<Course5/>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250321</Student_ID>
@@ -218,12 +217,12 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
-<Course4>ANTA02H3 Y</Course4>
+<Course1/>
+<Course2/>
+<Course3/>
+<Course4/>
 <Course5/>
-<Course6>ANTA02H3 Y</Course6>
+<Course6/>
 </Row>
 <Row>
 <Student_ID>997250323</Student_ID>
@@ -232,11 +231,11 @@
 <email>a@gmail.com</email>
 <address>M1C1K9</address>
 <password>a@gmail.com</password>
-<Course1>BIOB10Y3 </Course1>
-<Course2>BIOB11H3</Course2>
-<Course3>BIOB33H3 </Course3>
+<Course1/>
+<Course2/>
+<Course3/>
 <Course4/>
-<Course5>ANTA02H3 Y</Course5>
+<Course5/>
 <Course6/>
 </Row>
 </Document>
