@@ -1,7 +1,7 @@
 class CoursesController < ApplicationController
   # GET /courses
   # GET /courses.json
-  XMLDIR = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
+  # XMLDIR = "/home/ather/Desktop/Project/utcal/utcal/CourseTimetable.xml"
 
   def index
     @courses = Course.all
@@ -103,104 +103,104 @@ class CoursesController < ApplicationController
 # </Row>
 
   #BUILD DB OF COURSES
-  def builddb
-      require 'nokogiri'
-      require 'date'
+  # def builddb
+  #     require 'nokogiri'
+  #     require 'date'
 
-      @start_date = "2013-08-01".to_datetime
-      @start_day = @start_date.strftime("%a")
+  #     @start_date = "2013-08-01".to_datetime
+  #     @start_day = @start_date.strftime("%a")
 
-      f= File.open(XMLDIR)
-      doc = Nokogiri::XML(f)
-      root = doc.root
-      @course_xml = root.xpath("Row")
-      @c=[]
+  #     f= File.open(XMLDIR)
+  #     doc = Nokogiri::XML(f)
+  #     root = doc.root
+  #     @course_xml = root.xpath("Row")
+  #     @c=[]
 
-      n = 50 # THIS IS FOR TESTING. SET TO GET n-k number of courses from xml
-      count =0 
-      k = 30
-      #For each element of the xml file
-      #add the value to the corresponding field in
-      #the database
-      @course_xml.each do |data|
+  #     n = 50 # THIS IS FOR TESTING. SET TO GET n-k number of courses from xml
+  #     count =0 
+  #     k = 30
+  #     #For each element of the xml file
+  #     #add the value to the corresponding field in
+  #     #the database
+  #     @course_xml.each do |data|
 
-        @code_t = data.xpath("Course_and_Section_Code")
-        ##
-        @section_t = @code_t.text
-        @code = @code_t.text[0,@code_t.text.length-1]
-        @section = @section_t[-1,1] 
-        ##
-        @restrictions = data.xpath("Restrictions_and_Instructions").text
-        @meeting = data.xpath("Meeting_and_Section").text
+  #       @code_t = data.xpath("Course_and_Section_Code")
+  #       ##
+  #       @section_t = @code_t.text
+  #       @code = @code_t.text[0,@code_t.text.length-1]
+  #       @section = @section_t[-1,1] 
+  #       ##
+  #       @restrictions = data.xpath("Restrictions_and_Instructions").text
+  #       @meeting = data.xpath("Meeting_and_Section").text
 
-        @days = data.xpath("Days").text
-        @set_date = getDay(@start_date, @days)
-        date_tostring = @set_date.to_s
+  #       @days = data.xpath("Days").text
+  #       @set_date = getDay(@start_date, @days)
+  #       date_tostring = @set_date.to_s
 
-        time1= data.xpath("Start").to_s
+  #       time1= data.xpath("Start").to_s
 
-        @start_t = date_tostring + time1
-        @start = @start_t.to_datetime
+  #       @start_t = date_tostring + time1
+  #       @start = @start_t.to_datetime
 
-        date_et1= data.xpath("End").to_s
-        date_et2= date_tostring + date_et1
-        @end =date_et2.to_datetime
+  #       date_et1= data.xpath("End").to_s
+  #       date_et2= date_tostring + date_et1
+  #       @end =date_et2.to_datetime
 
-        @location = data.xpath("Location").text
-        @instruction = data.xpath("Instructor").text
-        @changes = data.xpath("Changes").text
+  #       @location = data.xpath("Location").text
+  #       @instruction = data.xpath("Instructor").text
+  #       @changes = data.xpath("Changes").text
 
-    # Course(id: integer, code: string, section: string, 
-    #restrictions: string, days: string, start: datetime, 
-    #end: datetime, location: string, created_at: datetime, 
-    #updated_at: datetime) 
-      if k <= count
-        @course_object = Course.create(:code => @code, :section => @section,
-                        :restrictions => @restrictions, :days => @days, :start => @start, 
-                         :end => @end, :location => @location, :meeting => @meeting)
-        @c.push(data)
-      end
-      count = count +1
-      if count == n
-        break
-      end 
+  #   # Course(id: integer, code: string, section: string, 
+  #   #restrictions: string, days: string, start: datetime, 
+  #   #end: datetime, location: string, created_at: datetime, 
+  #   #updated_at: datetime) 
+  #     if k <= count
+  #       @course_object = Course.create(:code => @code, :section => @section,
+  #                       :restrictions => @restrictions, :days => @days, :start => @start, 
+  #                        :end => @end, :location => @location, :meeting => @meeting)
+  #       @c.push(data)
+  #     end
+  #     count = count +1
+  #     if count == n
+  #       break
+  #     end 
 
-    end
-    @c
-     respond_to do |format|
-      format.html # show.html.erb
-      format.json { render :json => {:xml => @c.to_xml, }}
+  #   end
+  #   @c
+  #    respond_to do |format|
+  #     format.html # show.html.erb
+  #     format.json { render :json => {:xml => @c.to_xml, }}
     
-    end
+  #   end
 
-  end
+  # end
 
-  #This function gets the day the course
-  #is scheduled from the xml file and relative
-  #to the start gets the date the course will start.
+  # #This function gets the day the course
+  # #is scheduled from the xml file and relative
+  # #to the start gets the date the course will start.
 
-  def getDay(start_date, day)
-     #if the day read from the xml file is SU (Sunday) then
-     #get the date of the next Sunday and subtract 7 to get the 
-     #new date relative to the start date
-    date = Date.new
-      if day == "SU"
-        date=start_date.next_week(start_day = :sunday) -7
-      elsif day == "MO"
-         date=start_date.next_week(start_day = :monday) -7    
-      elsif day =="TU"
-         date=start_date.next_week(start_day = :tuesday) -7   
-      elsif day == "WE"
-         date=start_date.next_week(start_day = :wednesday) -7   
-      elsif day =="TH"    
-        date=start_date.next_week(start_day = :thursday) -7   
-      elsif day =="FR"
-        date=start_date.next_week(start_day = :friday) -7   
-      elsif day == "SA"
-         date=start_date.next_week(start_day = :saturday) -7   
-     end
-     date.to_date
-  end
+  # def getDay(start_date, day)
+  #    #if the day read from the xml file is SU (Sunday) then
+  #    #get the date of the next Sunday and subtract 7 to get the 
+  #    #new date relative to the start date
+  #   date = Date.new
+  #     if day == "SU"
+  #       date=start_date.next_week(start_day = :sunday) -7
+  #     elsif day == "MO"
+  #        date=start_date.next_week(start_day = :monday) -7    
+  #     elsif day =="TU"
+  #        date=start_date.next_week(start_day = :tuesday) -7   
+  #     elsif day == "WE"
+  #        date=start_date.next_week(start_day = :wednesday) -7   
+  #     elsif day =="TH"    
+  #       date=start_date.next_week(start_day = :thursday) -7   
+  #     elsif day =="FR"
+  #       date=start_date.next_week(start_day = :friday) -7   
+  #     elsif day == "SA"
+  #        date=start_date.next_week(start_day = :saturday) -7   
+  #    end
+  #    date.to_date
+  # end
 
 
   
