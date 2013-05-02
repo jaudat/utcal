@@ -43,8 +43,8 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
 
                 if(dateObject["start"].getMonth() == 0){
                         var endBefore = new Date(dateObject["start"].getFullYear(), 3, 8);
-                }else if(dateObject["start"].getMonth() == 3){
-                        var endBefore = new Date(dateObject["start"].getFullYear(), 7, 8);
+                }else if(dateObject["start"].getMonth() == 4){
+                        var endBefore = new Date(dateObject["start"].getFullYear(), 6, 30);
                 }else{
                         var endBefore = new Date(dateObject["start"].getFullYear(), 11, 6);
                 }
@@ -54,9 +54,9 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
                         	var polishToAdd = new Array();
                         	polishToAdd["start"] = dateObject['start'].getTime()/1000;
                        		polishToAdd["end"] = dateObject["end"].getTime()/1000;
-                        	polishToAdd["start"] += 18000;
-                        	polishToAdd["end"] += 18000;
-                       	 	polishToAdd["title"] = dateObject["title"];
+                        	polishToAdd["start"] += 14400;
+                        	polishToAdd["end"] += 14400;
+                       	 	polishToAdd["title"] = dateObject["title"].split("#")[0];
                         	polishToAdd["allDay"] = false;
                         	dateSet.push(polishToAdd);
 
@@ -67,9 +67,9 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
 			var toAdd = new Array();
 			toAdd["start"] = dateObject['start'].getTime()/1000;
 			toAdd["end"] = dateObject['end'].getTime()/1000;
-			toAdd["start"] += 18000;
-			toAdd["end"] += 18000;
-			toAdd["title"] = dateObject["title"].split("#")[0];
+			toAdd["start"] += 14400;
+			toAdd["end"] += 14400;
+			toAdd["title"] = dateObject["title"].split("(")[0];
 			toAdd["allDay"] = false;
 			dateSet.push(toAdd);
 		}
@@ -95,13 +95,13 @@ function setHover(assignmentsToJSON, coursesToJSON){
         $(".fc-event-title").hover(function(e){
 		var i;
                 for(i = 0; i < assignmentsToJSON.length; i++){
-                        if(assignmentsToJSON[i].title == trim($(e.target).text())){
+                        if(assignmentsToJSON[i].title.split("(")[0] == $(e.target).text()){
                                 var currAssign = assignmentsToJSON[i];
                         }
                 }
 		if(currAssign===undefined){
 			for(i = 0; i < coursesToJSON.length; i++){
-				if(coursesToJSON[i].title = trim($(e.target).text())){
+				if(coursesToJSON[i].title.split("#")[0] = $(e.target).text()){
 					var currCourse = coursesToJSON[i];
 				}
 			}
@@ -121,9 +121,13 @@ function setHover(assignmentsToJSON, coursesToJSON){
                 $(".testClass").css("z-index", 9999);
 
 		if(currAssign!==undefined){
-                	$(".testClass").prepend("<p> Name: "+ currAssign["title"] + "</p>");
-        	}else{
-			$(".testClass").prepend("<p> Name: "+ currCourse["title"] + "</p>");
+			$(".testClass").prepend("<p> Number of Students:"+ currAssign["title"].split("(")[1].split(")")[0]+"</p>");
+        	        $(".testClass").prepend("<p> Meeting:" + currAssign["meeting"] + "</p>");	
+			$(".testClass").prepend("<p> Code: "+ currAssign["title"].split("(")[0]+ "</p>");        		
+		}else{
+                        $(".testClass").prepend("<p> Number of Students:"+ currCourse["title"].split("#")[1]+"</p>");
+			$(".testClass").prepend("<p> Meeting:"+ currCourse["meeting"]+"</p>");
+			$(".testClass").prepend("<p> Code: "+ currCourse["title"].split("#")[0] + "</p>");
 		}
 	},
         function(){

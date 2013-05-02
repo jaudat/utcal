@@ -1,5 +1,60 @@
 @import "bootstrap";
 
+.formField{
+	width:600px;
+	height:60px;
+	clear:both;
+}
+
+.formFieldDescrip{
+	min-height:200px;
+	width:600px;
+}
+
+.formFieldTimeLeft{
+	float:left;
+	width:500px;
+}
+.formFieldTimeRight{
+	float:right;
+	width:500px;
+	clear:right;
+}
+
+.formFieldTimeLeft select{
+	height:40px;
+}
+.formFieldTimeRight select{
+	height:40px;
+}
+
+.itemLabel{
+	height:inherit;
+	float:left;
+	margin-left:40px;
+}
+
+.itemField{
+	height:inherit;
+	width:60%;
+	float:right;
+	color:white;
+}
+
+#assignment_start_4i, #assignment_end_4i{
+	width:43%;
+	float:left;
+	clear:left;
+
+}
+
+#assignment_start_5i, #assignment_end_5i{
+	width:43%;
+	float:right;
+	clear:right;
+
+}
+
 /* bootstrap overwrite */
 
 .pageWidth{

@@ -360,7 +360,6 @@
   <Instructor/>
   <Changes>Added 04/12/13</Changes>
   <Session>Summer</Session>
-  <Session>Summer</Session>
 
 </Row>
 <Row>
@@ -373,7 +372,7 @@
   <Location>AC 223</Location>
   <Instructor>A.Ashok</Instructor>
   <Changes/>
-  <Session>Summer</Session>
+  <Session>Fall</Session>
 
 </Row>
 <Row>
@@ -386,6 +385,7 @@
   <Location>AC 223</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB10Y3 Y</Course_and_Section_Code>
@@ -397,7 +397,7 @@
   <Location>AC 223</Location>
   <Instructor/>
   <Changes/>
-  <Session>Summer</Session>
+  <Session>Fall</Session>
 
 </Row>
 <Row>
@@ -410,7 +410,7 @@
   <Location>AC 223</Location>
   <Instructor>A.Ashok</Instructor>
   <Changes/>
-  <Session>Summer</Session>
+  <Session>Fall</Session>
 
 </Row>
 
@@ -424,6 +424,7 @@
   <Location>AC 223</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB11H3 S</Course_and_Section_Code>
@@ -539,6 +540,7 @@
   <Location>SW 135</Location>
   <Instructor/>
   <Changes/>
+  <Session>Fall</Session>
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB12H3 Y</Course_and_Section_Code>
@@ -551,7 +553,6 @@
   <Instructor/>
   <Changes/>
   <Session>Fall</Session>
-
 </Row>
 <Row>
   <Course_and_Section_Code>BIOB33H3 Y</Course_and_Section_Code>
@@ -563,7 +564,7 @@
   <Location>SW 309</Location>
   <Instructor>C.Soros-Pottroff</Instructor>
   <Changes/>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -576,7 +577,7 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -589,7 +590,7 @@
   <Location>SW 323</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -602,7 +603,7 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -615,7 +616,7 @@
   <Location>SW 323</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -628,7 +629,7 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -641,7 +642,7 @@
   <Location>SW 323</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -654,7 +655,7 @@
   <Location>SW 321</Location>
   <Instructor/>
   <Changes>Labs begin the week of May 6th</Changes>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 <Row>
@@ -667,7 +668,7 @@
   <Location>SY 110</Location>
   <Instructor/>
   <Changes/>
-  <Session>Fall</Session>
+  <Session>Winter</Session>
 
 </Row>
 
@@ -708,6 +709,7 @@
   <Location>Sup. Ind. Research</Location>
   <Instructor>Faculty</Instructor>
   <Changes/>
+  <Session>Fall</Session>
 </Row>
 <Row>
   <Course_and_Section_Code>BIOC12H3 Y</Course_and_Section_Code>

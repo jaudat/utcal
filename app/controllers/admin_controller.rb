@@ -1,9 +1,9 @@
 class AdminController < ApplicationController
 
 #Directory for the students xml
-XMLDIR_s = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/StudentsCSV.xml"
+XMLDIR_s = "/home/zieny/rubyProject/utcal/StudentsCSV.xml"
 #Directory for the course xml
-XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetable.xml"
+XMLDIR_c = "/home/zieny/rubyProject/utcal/CourseTimetable.xml"
 
 
 
@@ -139,7 +139,7 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
       @course_xml = root.xpath("Row")
       @c=[]
 
-      n = 50 # THIS IS FOR TESTING. SET TO GET n-k number of courses from xml
+      n = 55 # THIS IS FOR TESTING. SET TO GET n-k number of courses from xml
       count =0 
       k = 30
       #For each element of the xml file
