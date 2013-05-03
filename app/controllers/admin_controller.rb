@@ -1,9 +1,9 @@
 class AdminController < ApplicationController
 
 #Directory for the students xml
-XMLDIR_s = "/home/zieny/rubyProject/utcal/StudentsCSV.xml"
+XMLDIR_s = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/StudentsCSV.xml"
 #Directory for the course xml
-XMLDIR_c = "/home/zieny/rubyProject/utcal/CourseTimetable.xml"
+XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetable.xml"
 
 
 
@@ -32,27 +32,24 @@ XMLDIR_c = "/home/zieny/rubyProject/utcal/CourseTimetable.xml"
 
 	    @student_xml.each do |data|
 	
-	    	#STUDENTS MODEL ATTRIBUTES 
-	    	# Student(id: integer, stud_no: integer, 
-	    	# f_name: string, l_name: string, address: 
-	    	# text, email: string, created_at: datetime, updated_at: datetime, user_id: integer) 
-	    	# User attr_accessible :utorid, :password, :password_confirmation, :typ
 	    	@student_courses = [] #Array to store all student courses
 	    	@student_id = data.xpath("Student_ID").text	
 	    	@check_student = Student.find_by_stud_no(@student_id)
-	    	if @check_student == nil
-		    	@f_name = data.xpath("fname").text
-		    	@l_name = data.xpath("lname").text
-		    	@address = data.xpath("address").text
-		    	@email = data.xpath("email").text
-		    	@password = data.xpath("password").text
-		    	@student_courses.push(data.xpath("Course1").text)
-		    	@student_courses.push(data.xpath("Course2").text)
-	 		    @student_courses.push(data.xpath("Course3").text)
-	   	    	@student_courses.push(data.xpath("Course4").text)
-	   	    	@student_courses.push(data.xpath("Course5").text)
-	   	    	@student_courses.push(data.xpath("Course6").text)
+	    	# if @check_student == nil
+	    	@f_name = data.xpath("fname").text
+	    	@l_name = data.xpath("lname").text
+	    	@address = data.xpath("address").text
+	    	@email = data.xpath("email").text
+	    	@password = data.xpath("password").text
+	    	@student_courses.push(data.xpath("Course1").text.split(";"))
+	    	@student_courses.push(data.xpath("Course2").text.split(";"))
+ 		    @student_courses.push(data.xpath("Course3").text.split(";"))
+   	    	@student_courses.push(data.xpath("Course4").text.split(";"))
+   	    	@student_courses.push(data.xpath("Course5").text.split(";"))
+   	    	@student_courses.push(data.xpath("Course6").text.split(";"))
 
+   	    	#If student already exists then create new user and student
+   	    	if @check_student == nil
 		    	@user_object = 	User.create(:utorid => @student_id, :password => @student_id,
 		    					 :password_confirmation => @student_id, :category => "Student")
 
@@ -61,72 +58,69 @@ XMLDIR_c = "/home/zieny/rubyProject/utcal/CourseTimetable.xml"
 		    				    :f_name => @f_name, 
 		    					:l_name => @l_name,:address => @address, 
 		    					:email => @email,:user_id => @user_id)
+		    	log = ""
 		    	log = @student_object.stud_no.to_s + " Successfully created"
 		    	studentLog.write(log)
 		    	@LogArrayStudent.push(log)
+		    else
+		    #If student already exists
+		    @student_object = Student.find_by_stud_no(@student_id)
+		    @user_object = @student_object.get_user
+			log = "Student with student_no " + @check_student.stud_no.to_s + " already exists.
+					The system will continue associating the courses"
+			@LogArrayStudent.push(log)
+			studentLog.puts(log)
 
-		    	@student_courses.each do |sc|
-		    		@course = Course.where("code = ?",sc)
-		    		if @course != nil
-		    			 @user_object.courses << @course
-		    		else
-		    			 log = @course.code + "for " + @student_object.stud_no +  " Doesnt exist in the 
-		    			 Courses database. Check Courses Databases or check course code."
-		    			 @LogArrayStudent.push(log)
-		    			 studentLog.puts(log)
+		    end
+			    	
+	    	@student_courses.each do |sc|
+	    		if sc.length == 1
+	    			log = "Missing ; for "+ sc[0]  +". Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode"  
+	    			studentLog.puts(log)
+	    			@LogArrayStudent.push(log)
+		    	else	
+		    		course_code = sc.shift
+		    		sc.each do |c|
+		    			  @course = Course.find(:all, :conditions => ["code = ? AND meeting LIKE ?",course_code,c])
+		    			  if @course != nil
+		    			 	@user_object.courses << @course
+		    			 	log = course_code +" User course assciation completed. For " + course_code + " and Student " + @student_id
+			    			@LogArrayStudent.push(log)
+		    			  else
+		    			  	log = ""
+		    				log = course_code +" for this meeting doesn't exist."
+			    			@LogArrayStudent.push(log)
+			    			log = log + ". Check syntax of CSV and the XML file. Course input
+			    							should be in the following format: 
+			    							Course_Code;Lecture_Code;Tutorial_code;Practical_code."
+			    			studentLog.puts(log)
+			    		  end
 		    		end
-		    	end
-		    		
-		    	@s.push(@student_courses)# for testing
-		    	# for testing
-		    	 if count == n
-	        		break
-	      		 end 
-
-			else
-				log = "Student with studen_no " + @check_student.stud_no.to_s + " already exists"
-				@LogArrayStudent.push(log)
-				studentLog.puts(log)
-			end
+	    		end 
+	    	end
+	    		
+	    	@s.push(@student_courses)# for testing
+	    	# for testing
+	    	 if count == n
+        		break
+      		 end 
 		end
-	    @s # for testing
+	    @student_courses # for testing
 	    
 	end
 
 
 
-#XML sample for reference
-#<Row>
-#   <Course_and_Section_Code>ACMD91H3 Y</Course_and_Section_Code>
-#   <Meeting_and_Section>LEC01</Meeting_and_Section>
-#   <Restrictions_and_Instructions>W,C</Restrictions_and_Instructions>
-#   <Days/>
-#   <Start/>
-#   <End/>
-#   <Location>Supervised Study</Location>
-#   <Instructor>Faculty</Instructor>
-#   <Changes/>
-# </Row>
-
-#Course Model for reference
-# Course(id: integer, code: string, section: string, 
-    #restrictions: string, days: string, start: datetime, 
-    #end: datetime, location: string, created_at: datetime, 
-    #updated_at: datetime
-
-  #BUILD DB OF COURSES
   def buildcourses
       require 'nokogiri'
       require 'date'
-######################################
+
 	    @f = params[:f]
 	    @w = params[:w]
 	    @s = params[:s]
 	    @fall = DateTime.new(params[:f]["date(1i)"].to_i, params[:f]["date(2i)"].to_i, params[:f]["date(3i)"].to_i, 00,00,00)
 	    @winter= DateTime.new(params[:w]["date(1i)"].to_i, params[:w]["date(2i)"].to_i, params[:w]["date(3i)"].to_i, 00,00,00)
    	    @summer= DateTime.new(params[:s]["date(1i)"].to_i, params[:s]["date(2i)"].to_i, params[:s]["date(3i)"].to_i, 00,00,00)
-
-#####################################
 
       @LogArrayCourses = []
       courseLog = File.open('CoursesLog.txt','w')

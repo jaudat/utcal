@@ -1,1 +1,69 @@
-997250291 Successfully created997250293 Successfully created997250295 Successfully created997250297 Successfully created997250299 Successfully created997250301 Successfully created997250303 Successfully created997250305 Successfully created997250307 Successfully created997250309 Successfully created997250311 Successfully created997250313 Successfully created997250315 Successfully created997250317 Successfully created997250319 Successfully created997250321 Successfully created997250323 Successfully created
+Student with student_no 997250291 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250293 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250295 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250297 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250299 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250301 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250303 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250305 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250307 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250309 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250311 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250313 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250315 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250317 already exists.
+					The system will continue associating the courses
+Missing ; for  . Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250319 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250321 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode
+Student with student_no 997250323 already exists.
+					The system will continue associating the courses
+Missing ; for ANTA02H3 Y. Enter data in the correct format. For example CourseCode;LectureCode;TutorialCode;PracticalCode

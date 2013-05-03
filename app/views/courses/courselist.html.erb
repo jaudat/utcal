@@ -1,0 +1,5 @@
+<!-- <%= @allcourses %> -->
+<% @allcourses.each do |crs| %>
+    <label><%= radio_button_tag "course_id", crs.id, @allcourses.include?(crs) %> <%= crs.code %>, <%= crs.meeting %></label>
+<% end %> 
+<%= submit_tag("Submit", :onclick => "/admin/joy") %>
