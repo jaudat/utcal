@@ -55,6 +55,8 @@ class AssignmentsController < ApplicationController
       # end
       if c.assignments.create(params[:assignment])
         redirect_to users_mystudents_courses_path(c.id)
+      else
+        redirect_to errors_path
       end
     elsif session[:type] == "Student"
       student = Student.find_by_user_id(session[:remember_token])
