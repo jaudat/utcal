@@ -44,7 +44,7 @@
   <div style="margin-left:190px;"class="field">
    <label>Courses Code, Section</label>
    <% icourses.each do |crs| %>
-    <label><%= radio_button_tag "course_id", crs.id, @assignment.get_courses.include?(crs) %> <%= crs.code %>, <%= crs.section %></label>
+    <label><%= radio_button_tag "course_id", crs.id, @assignment.get_courses.include?(crs) %> <%= crs.code %>, <%= crs.meeting %></label>
    <% end %> 
   </div>
   <div style="margin-left:190px;margin-top:15px;"class="field">

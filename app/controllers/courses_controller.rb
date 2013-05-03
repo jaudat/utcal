@@ -91,6 +91,11 @@ class CoursesController < ApplicationController
     render 'mystudents'
   end
 
+  def courselist
+    @courses = Course.find(:all)
+    render 'courselist'
+
+
   #<Row>
 #   <Course_and_Section_Code>ACMD91H3 Y</Course_and_Section_Code>
 #   <Meeting_and_Section>LEC01</Meeting_and_Section>
