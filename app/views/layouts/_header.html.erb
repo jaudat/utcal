@@ -13,17 +13,13 @@
                     Account <b class="caret"></b>
                   </a>
                   <ul class="dropdown-menu">
-<<<<<<< HEAD
-                   <!-- <li><%= link_to "Profile", current_user %></lin>
-                    <li><%= link_to "Settings", '#' %></li>-->
-=======
+
                     <% if signed_student? %>
                       <li><%= link_to signed_type, Professor.find_by_user_id(session[:remember_token])%></li>
                     <% else %>
                       <li><%= link_to signed_type, Student.find_by_user_id(session[:remember_token]) %></li>
                     <% end %>
                     <!-- <li><%= link_to "Settings", '#' %></li> -->
->>>>>>> 965e35a99a50eec22c59ede92b98448c30a94361
                     <li class="divider"></li>
                     <li>
                       <%= link_to "Sign out", signout_path, method: "delete" %>
