@@ -35,7 +35,13 @@
 
 <p>Click Event to delete:</p>
 <% @assignments.each do |assignment| %>
-<div style="float:left;margin-right:6px;text-decoration:none;" id="<%= assignment.title %>" class="assignment"><%= link_to assignment.title , assignment, method: :delete, data: { confirm: 'Are you sure?' } %></div> 
+  <% cid = assignment.courses.id %>
+  <% course = Course.find(cid) %>
+  <% uid = course.users.id %>
+  <% user = User.find(uid) %>
+  <% if user == current_user %>
+    <div style="float:left;margin-right:6px;text-decoration:none;" id="<%= assignment.title %>" class="assignment"><%= link_to assignment.title , assignment, method: :delete, data: { confirm: 'Are you sure?' } %></div> 
+  <% end %>
 <%end%>
 <br /><br />
 <p>Students in my courses:</p>
