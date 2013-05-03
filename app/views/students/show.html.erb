@@ -1,5 +1,46 @@
 <p id="notice"><%= notice %></p>
 
+
+<%= javascript_include_tag "calendarBuilder.js" %>
+<script type="text/javascript">
+	var set = 0;
+        <% @courses.each do |course| %>
+        <% course.start = course.start.to_time.to_i %>
+        <% course.end = course.end.to_time.to_i %>
+        <%end%>
+        <% @assignments.each do |ass| %>
+        <% ass.start = ass.start.to_time.to_i %>
+        <% ass.end = ass.end.to_time.to_i %>
+	<%end%>
+        var coursesToJSON = <%= raw @courses.to_json %>
+        var assignmentsToJSON = <%= raw @assignments.to_json %>
+
+
+        $(document).ready(function(){
+
+        buildCalendar(coursesToJSON, assignmentsToJSON);
+
+        });
+
+       document.addEventListener("DOMSubtreeModified", function(e){
+                if($(e.target).attr("class")=="fc-event"){
+                        setHover(assignmentsToJSON, coursesToJSON);
+                }
+        });
+  
+        document.addEventListener("DOMSubtreeModified", function(e){
+                if($(".fc-event")[0] && set == 0){
+                        setHover(assignmentsToJSON, coursesToJSON);
+                        set = 1;
+                }if(!$(".fc-event")[0]){
+                        set = 0;
+                }
+        });
+</script>
+
+
+<div id='calendar'></div>
+
 <p>
   <b>Stud number:</b>
   <%= @student.stud_no %>

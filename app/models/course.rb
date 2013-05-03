@@ -12,6 +12,9 @@ class Course < ActiveRecord::Base
   def get_assignments
   	assignments
   end 
+
+
+
   def as_json(options = {})
   	{
   		:id => self.id,

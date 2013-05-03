@@ -38,8 +38,12 @@
 </script>
 
 <p >Check schedule for: </p>
+<% courseList = [] %>
 <% @courses.each do |course| %>
+<% if(courseList.index(course.code) == nil)%>
+	<% courseList.push(course.code) %>
 	<div style="margin-right:6px; float:left;text-decoration:none;"><%= link_to course.code, users_mystudents_courses_path(course.id) %></div>
+<%end%>
 <%end%>
 <br />
 <br />
