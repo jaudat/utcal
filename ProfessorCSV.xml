@@ -1,0 +1,111 @@
+<Document>
+<!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
+<Row>
+  <utorid>alan</utorid>
+  <fname>Alan</fname>
+  <lname>Rosselete</lname>
+  <email>a@gmail.com</email>
+  <Course1>BIOB10Y3;LEC01;TUT0001;</Course1>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>paco</utorid>
+  <fname>Paco</fname>
+  <lname>Estrada</lname>
+  <email>p@gmail.com</email>
+  <Course1>BIOB33H3;LEC01;PRA0001;</Course1>
+  <Course2>BIOB11H3;LEC01;TUT0001;</Course2>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>jaudat</utorid>
+  <fname>Jaudat</fname>
+  <lname>Syed</lname>
+  <email>j@gmail.com</email>
+  <Course1/>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>mohammad</utorid>
+  <fname>Mohammad</fname>
+  <lname>Bashir</lname>
+  <email>m@gmail.com</email>
+  <Course1/>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>waqas</utorid>
+  <fname>Waqas</fname>
+  <lname>Nawaz</lname>
+  <email>w@gmail.com</email>
+  <Course1/>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>neil</utorid>
+  <fname>Neil</fname>
+  <lname>Mendonca</lname>
+  <email>n@gmail.com</email>
+  <Course1/>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>azmi</utorid>
+  <fname>Mohammad</fname>
+  <lname>Azmi</lname>
+  <email>ma@gmail.com</email>
+  <Course1/>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>theirry</utorid>
+  <fname>Thierry</fname>
+  <lname>Henry</lname>
+  <email>t@gmail.com</email>
+  <Course1/>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+<Row>
+  <utorid>lionel</utorid>
+  <fname>Lionel</fname>
+  <lname>Messi</lname>
+  <email>ml@gmail.com</email>
+  <Course1/>
+  <Course2/>
+  <Course3/>
+  <Course4/>
+  <Course5/>
+  <Course6/>
+</Row>
+</Document>

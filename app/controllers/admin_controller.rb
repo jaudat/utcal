@@ -4,7 +4,8 @@ class AdminController < ApplicationController
 XMLDIR_s = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/StudentsCSV.xml"
 #Directory for the course xml
 XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetable.xml"
-
+#Directory for prof xml
+XMLDIR_p = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/ProfessorCSV.xml"
 
 
 	def index
@@ -13,6 +14,88 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
 
 	def dashboard
 		render 'dashboard'
+	end
+
+	def buildprof
+		require 'nokogiri'
+		require 'date'
+		@LogProf = []
+		profLog = File.open('ProfLog.txt','w')
+		f=File.open(XMLDIR_p)
+		doc = Nokogiri::XML(f)
+		root = doc.root
+		@prof_xml = root.xpath('Row')
+		@p=[] #for testing
+
+		@prof_xml.each do |data|
+			@prof_courses = []
+			
+			@utorid = data.xpath("utorid").text
+			@fname = data.xpath("fname").text
+			@lname = data.xpath("lname").text
+			@email = data.xpath("email").text
+			@prof_courses.push(data.xpath("Course1").text.split(";"))
+		    @prof_courses.push(data.xpath("Course2").text.split(";"))
+			@prof_courses.push(data.xpath("Course3").text.split(";"))
+			@prof_courses.push(data.xpath("Course4").text.split(";"))
+			@prof_courses.push(data.xpath("Course5").text.split(";"))
+			@prof_courses.push(data.xpath("Course").text.split(";"))
+			# @p.push(@prof_courses)
+			# @user_object = 	User.create(:utorid => @student_id, :password => @student_id,
+		    					 # :password_confirmation => @student_id, :category => "Student")
+			@user_prof =User.find_by_utorid(@utorid)
+			if @user_prof==nil
+				log=""
+				log = "Professor with utorid "+@utorid +" not found. Ask the professor to create login."
+				profLog.puts(log)
+				@LogProf.push(log)
+			else 
+					log = ""
+					log = @utorid+ ": Found user!" 
+					profLog.puts(log)
+					@LogProf.push(log)
+			
+				@prof_courses.each do |pc|
+					if pc.length ==1
+						log = ""
+						log = @utorid+ ": Syntax error" + pc + " is not in the correct format." 
+						profLog.puts(log)
+						@LogProf.push(log)
+					else	
+					
+						@course_code = pc.shift					
+						pc.each do |c|
+							@course_object = Course.find(:all, :conditions => ["code = ? AND meeting LIKE ?",
+											@course_code,c])
+							if @course_object.empty? 
+								log =""
+								log = @utorid + ": Course " + @course_code+ 
+									" with meeting " + c + " not found! No associations made."
+								@LogProf.push(log)
+								profLog.puts(log)
+							else
+								@user_prof.courses << @course_object
+								log =""
+								log = @utorid + ": Course " + @course_code+ 
+									" with meeting " + c + "found!Associations complete"
+								@LogProf.push(log)
+								profLog.puts(log)
+
+
+							end
+						end
+
+					end	
+				end
+			end
+
+
+
+			
+
+		end
+
+		render 'buildprof'
 	end
 
 	#the following function builds the students database 
@@ -27,8 +110,8 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
 	    root = doc.root
 	    @student_xml = root.xpath("Row")
 	    @s = []# for testing
-	    n=5# for testing
-	    count=0# for testing
+	    # n=5# for testing
+	    # count=0# for testing
 
 	    @student_xml.each do |data|
 	
@@ -100,10 +183,10 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
 	    	end
 	    		
 	    	@s.push(@student_courses)# for testing
-	    	# for testing
-	    	 if count == n
-        		break
-      		 end 
+	    	# # for testing
+	    	#  if count == n
+      #   		break
+      # 		 end 
 		end
 	    @student_courses # for testing
 	    
@@ -211,6 +294,7 @@ XMLDIR_c = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/CourseTimetab
     @c
     render 'buildcourses'
   end
+
 
   #This function gets the day the course
   #is scheduled from the xml file and relative
