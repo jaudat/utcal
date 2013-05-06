@@ -1,4 +1,6 @@
 var mouseX, mouseY;
+
+//set mouse location values for tab location
 $(document).ready(function(){
 	$(this).mousemove(function(e){
 		mouseX = e.pageX;
@@ -6,19 +8,34 @@ $(document).ready(function(){
 	});	
 });
 
+//Unused
+//get last day of the month
 function maxDays(year, month){
         return new Date(year, month, 0).getDate();
 }
-
+//Unused
+//Convert provided date to Javascript date values
 function convertDateToJS(input){
         var dateValues = input.split("-");
         return new Date(Number(dateValues[0]), Number(dateValues[1])-1, Number(dateValues[2]));
 }
-
+//Unused
+//Function to trim white space from edge of text
 function trim(text) {
     return text.replace(/^\s+|\s+$/g, "");
 }
 
+
+/**
+Parameters: coursesToJSON - JSON course list
+	    assignmentsToJSON - JSON assignment list
+
+
+	Adjusts and sets all values for full calendar events. Dates for courses
+	need to be set to first day of course nad assignments can be set to whichever
+	time they are to be due.
+
+**/
 function buildCalendar(coursesToJSON, assignmentsToJSON){
         
 	var dateSet = new Array();
@@ -39,7 +56,7 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
 		}
 
 		dateObject["title"] = jointArray[i].title;
-
+		dateObject["id"] = jointArray[i].id;
 
                 if(dateObject["start"].getMonth() == 0){
                         var endBefore = new Date(dateObject["start"].getFullYear(), 3, 8);
@@ -56,7 +73,7 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
                        		polishToAdd["end"] = dateObject["end"].getTime()/1000;
                         	polishToAdd["start"] += 14400;
                         	polishToAdd["end"] += 14400;
-                       	 	polishToAdd["title"] = dateObject["title"].split("#")[0];
+                       	 	polishToAdd["title"] = dateObject["title"].split("#")[0] +"#"+ dateObject["id"];
                         	polishToAdd["allDay"] = false;
                         	dateSet.push(polishToAdd);
 
@@ -69,7 +86,7 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
 			toAdd["end"] = dateObject['end'].getTime()/1000;
 			toAdd["start"] += 14400;
 			toAdd["end"] += 14400;
-			toAdd["title"] = dateObject["title"].split("(")[0];
+			toAdd["title"] = dateObject["title"].split("(")[0] +"#"+dateObject["id"];
 			toAdd["allDay"] = false;
 			dateSet.push(toAdd);
 		}
@@ -90,18 +107,28 @@ function buildCalendar(coursesToJSON, assignmentsToJSON){
         });	
 
 }
+/**
+* Parameters: assignmentsToJSON - list of JSON assignment objects
+              coursesToJSON - list of JSON course objects
 
-function setHover(assignmentsToJSON, coursesToJSON){
-        $(".fc-event-title").hover(function(e){
+	Creates listener attachment for current context full calendar event
+	divs to display pop-up information tab. System requires accurate
+	list of assignments and courses equivalent to those used to create
+	the calendar.
+
+**/
+function setHover(assignmentsToJSON, coursesToJSON, atoc){
+	
+	$(".fc-event-title").hover(function(e){
 		var i;
                 for(i = 0; i < assignmentsToJSON.length; i++){
-                        if(assignmentsToJSON[i].title.split("(")[0] == $(e.target).text()){
+                        if(assignmentsToJSON[i].id + assignmentsToJSON[i].title.split("(")[0] == $(e.target).text()){
                                 var currAssign = assignmentsToJSON[i];
                         }
                 }
 		if(currAssign===undefined){
 			for(i = 0; i < coursesToJSON.length; i++){
-				if(coursesToJSON[i].title.split("#")[0] = $(e.target).text()){
+				if(coursesToJSON[i].id + coursesToJSON[i].title.split("#")[0] == $(e.target).text()){
 					var currCourse = coursesToJSON[i];
 				}
 			}
@@ -123,6 +150,7 @@ function setHover(assignmentsToJSON, coursesToJSON){
 		if(currAssign!==undefined){
 			$(".testClass").prepend("<p> Number of Students:"+ currAssign["title"].split("(")[1].split(")")[0]+"</p>");
         	        $(".testClass").prepend("<p> Meeting:" + currAssign["meeting"] + "</p>");	
+			$(".testClass").prepend("<p> Course: "+ atoc[currAssign.id].title +"</p>");
 			$(".testClass").prepend("<p> Code: "+ currAssign["title"].split("(")[0]+ "</p>");        		
 		}else{
                         $(".testClass").prepend("<p> Number of Students:"+ currCourse["title"].split("#")[1]+"</p>");

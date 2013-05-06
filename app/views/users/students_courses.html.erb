@@ -13,7 +13,11 @@
 
         var coursesToJSON = <%= raw @courses.to_json %>
         var assignmentsToJSON = <%= raw @assignments.to_json %>
-
+	<% ht = Hash.new%>
+	<% @assignments.each do |ass| %>
+	<% ht[ass.id] = ass.courses.first %>
+	<% end %>
+	var atoc = <%= raw ht.to_json %>
 
 	$(document).ready(function(){
 	
@@ -23,8 +27,18 @@
 
 
         document.addEventListener("DOMSubtreeModified", function(e){
+
+                if($(e.target).attr("class") == "fc-event fc-event-skin fc-event-vert fc-corner-top fc-corner-bottom"){
+                        var node = $(e.target).find(".fc-event-title");
+                        if (!node.has("div").length){
+                                var curr = node.text();
+                                node.empty();
+                                node.html("<div style='display:none'>"+curr.split("#")[1]+"</div>" + curr.split("#")[0]);       
+                        }
+                }
+
                 if($(".fc-event")[0] && set == 0){
-                        setHover(assignmentsToJSON, coursesToJSON);
+                        setHover(assignmentsToJSON, coursesToJSON, atoc);
                 	set = 1;
 		}if(!$(".fc-event")[0]){
 			set = 0;
