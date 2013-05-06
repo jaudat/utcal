@@ -26,12 +26,24 @@ class ProfessorsController < ApplicationController
       @temp_arr
   end
 
+  def addHashTag(courses)
+    @tagged = []
+    courses.each do |c|
+      size = c.std_crs.length
+
+      c.code = c.code + "#" + size.to_s
+      @tagged.push(c.code)
+    end
+    @tagged
+  end
+
   def show
 
 
   
     @professor = Professor.find_by_user_id(params[:id])
       @courses = current_user.mycourses
+      @course_tagged = addHashTag(@courses)
       @temp_tutorials = []
       @temp_students = []
       @temp_assignments = []
@@ -49,7 +61,7 @@ class ProfessorsController < ApplicationController
 
       respond_to do |format|
         format.html # show.html.erb
-        format.json { render :json => {:professor => @professor, :courses => @courses,
+        format.json { render :json => {:professor => @professor, :courses => @course_tagged,
                                        :tutorials => @tutorials}}
       
       end

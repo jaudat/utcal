@@ -66,7 +66,7 @@ class UsersController < ApplicationController
         x = u
         x.code = x.code + "#" +lgth.to_s()
        
-	@final.push(x) unless c > 0
+	      @final.push(x) unless c > 0
     end 
     @final
   end
