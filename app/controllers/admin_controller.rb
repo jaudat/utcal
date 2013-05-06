@@ -74,13 +74,12 @@ XMLDIR_p = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/ProfessorCSV.
 								@LogProf.push(log)
 								profLog.puts(log)
 							else
-								@user_prof.courses << @course_object
-								log =""
-								log = @utorid + ": Course " + @course_code+ 
-									" with meeting " + c + "found!Associations complete"
-								@LogProf.push(log)
-								profLog.puts(log)
-
+									@user_prof.courses << @course_object
+									log =""
+									log = @utorid + ": Course " + @course_code+ 
+										" with meeting " + c + "found!Associations complete"
+									@LogProf.push(log)
+									profLog.puts(log)
 
 							end
 						end

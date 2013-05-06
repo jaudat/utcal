@@ -37,6 +37,20 @@ class ProfessorsController < ApplicationController
     @tagged
   end
 
+  def removeAsgn(arr)
+    @final = []
+    arr.each do |u|
+    c = @final.find_all {|e| e == u}.size
+    lgth = arr.find_all {|e| e == u}.size
+    x = u
+    x.title = x.title + "(" +lgth.to_s()+")"
+        @final.push(x) unless c > 0
+    end
+    @final  
+  end
+
+
+
   def show
 
 
@@ -53,7 +67,8 @@ class ProfessorsController < ApplicationController
         @temp_assignments.push(c.get_assignments)
       end
       @students = removeDupes(@temp_students)
-      @assignments = removeDupes(@temp_assignments)
+      @assign_t = removeDupes(@temp_assignments)
+      @assignments = removeAsgn(@assign_t)
       @tutorials = removeDupes(@temp_tutorials)
 
       #get all tutorials and practicals
