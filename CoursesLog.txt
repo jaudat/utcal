@@ -1,25 +1,486 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2013-05-06 23:31:21 -0400: ACMD91H3 Y Successfully added
+2013-05-06 23:31:21 -0400: ANTA01H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTA01H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTA01H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTA01H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTA02H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTA02H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTA02H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTA02H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTC03H3 Y Successfully added
+2013-05-06 23:31:21 -0400: ANTC04H3 Y Successfully added
+2013-05-06 23:31:21 -0400: ANTC23H3 Y Course already exists
+2013-05-06 23:31:21 -0400: ANTC61H3 Y Course already exists
+2013-05-06 23:31:22 -0400: ANTD31H3 Y Successfully added
+2013-05-06 23:31:22 -0400: ANTD32H3 Y Successfully added
+2013-05-06 23:31:22 -0400: ASTD01H3 Y Successfully added
+2013-05-06 23:31:22 -0400: ASTD02H3 Y Successfully added
+2013-05-06 23:31:22 -0400: BIOA01H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA01H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA01H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA01H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA01H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA02H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA02H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA02H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA02H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA02H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOA02H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB10Y3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB10Y3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB10Y3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB11H3 S Course already exists
+2013-05-06 23:31:22 -0400: BIOB11H3 S Course already exists
+2013-05-06 23:31:22 -0400: BIOB11H3 S Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB33H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB34H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB34H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOB98H3 Y Successfully added
+2013-05-06 23:31:22 -0400: BIOB99H3 Y Successfully added
+2013-05-06 23:31:22 -0400: BIOC12H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC13H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC15H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC15H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC15H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC15H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC17H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC17H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC17H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC17H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC17H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC23H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC23H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC23H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOC67H3 Y Successfully added
+2013-05-06 23:31:22 -0400: BIOC99H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOD21H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOD21H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOD21H3 Y Course already exists
+2013-05-06 23:31:22 -0400: BIOD95H3 Y Successfully added
+2013-05-06 23:31:22 -0400: BIOD98Y3 Y Successfully added
+2013-05-06 23:31:22 -0400: BIOD99Y3 Y Successfully added
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMA11H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB42H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB62H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMB62H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMD90Y3 Y Successfully added
+2013-05-06 23:31:22 -0400: CHMD91H3 Y Successfully added
+2013-05-06 23:31:22 -0400: CHMD92H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CHMD92H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CITB03H3 Y Successfully added
+2013-05-06 23:31:22 -0400: CITC08H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CLAA05H3 Y Course already exists
+2013-05-06 23:31:22 -0400: COPD07Y3 S Course already exists
+2013-05-06 23:31:22 -0400: CSCA20H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCA20H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCA20H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCA20H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB36H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB36H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCB58H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCC43H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCC43H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCC43H3 Y Course already exists
+2013-05-06 23:31:22 -0400: CSCC63H3 Y Course already exists
+2013-05-06 23:31:23 -0400: CSCC63H3 Y Course already exists
+2013-05-06 23:31:23 -0400: CSCC69H3 Y Successfully added
+2013-05-06 23:31:23 -0400: CSCC69H3 Y Course already exists
+2013-05-06 23:31:23 -0400: CSCC69H3 Y Successfully added
+2013-05-06 23:31:23 -0400: CSCC69H3 Y Course already exists
+2013-05-06 23:31:23 -0400: CSCC69H3 Y Course already exists
+2013-05-06 23:31:23 -0400: CSCD94H3 Y Successfully added
+2013-05-06 23:31:23 -0400: CSCD95H3 Y Successfully added
+2013-05-06 23:31:23 -0400: CTLA01H3 Y Successfully added
+2013-05-06 23:31:23 -0400: CTLB03H3 Y Course already exists
+2013-05-06 23:31:23 -0400: EESA09H3 Y Course already exists
+2013-05-06 23:31:23 -0400: EESA10H3 Y Course already exists
+2013-05-06 23:31:23 -0400: EESC24H3 Y Successfully added
+2013-05-06 23:31:23 -0400: EESD09H3 Y Successfully added
+2013-05-06 23:31:23 -0400: EESD10Y3 Y Successfully added
+2013-05-06 23:31:23 -0400: ENGB03H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGB04H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGB05H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGB05H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGB33H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGB38H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGC10H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGC26H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGC76H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGD08H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGD26Y3 Y Successfully added
+2013-05-06 23:31:23 -0400: ENGD27Y3 Y Successfully added
+2013-05-06 23:31:23 -0400: ENGD28Y3 Y Successfully added
+2013-05-06 23:31:23 -0400: ENGD91H3 Y Course already exists
+2013-05-06 23:31:23 -0400: ENGD91H3 Y Course already exists
+2013-05-06 23:31:23 -0400: FREA96H3 F Course already exists
+2013-05-06 23:31:23 -0400: FREA96H3 F Course already exists
+2013-05-06 23:31:23 -0400: FREA97H3 S Course already exists
+2013-05-06 23:31:23 -0400: FREA97H3 S Course already exists
+2013-05-06 23:31:23 -0400: FREB17H3 F Course already exists
+2013-05-06 23:31:23 -0400: FREB17H3 F Course already exists
+2013-05-06 23:31:23 -0400: FREB18H3 Y Course already exists
+2013-05-06 23:31:23 -0400: FRED02H3 Y Successfully added
+2013-05-06 23:31:23 -0400: FRED03H3 Y Successfully added
+2013-05-06 23:31:23 -0400: FRED04H3 Y Successfully added
+2013-05-06 23:31:23 -0400: FRED05H3 Y Successfully added
+2013-05-06 23:31:23 -0400: FRED07H3 Y Successfully added
+2013-05-06 23:31:23 -0400: GGRB05H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB05H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB05H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB05H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB13H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB13H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB13H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB13H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB28H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB28H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB28H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB28H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRB28H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRC45H3 Y Course already exists
+2013-05-06 23:31:23 -0400: GGRD01H3 Y Successfully added
+2013-05-06 23:31:23 -0400: HISA04H3 Y Course already exists
+2013-05-06 23:31:23 -0400: HISA04H3 Y Course already exists
+2013-05-06 23:31:23 -0400: HISA04H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HISA04H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HISA04H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HISA04H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HISD01H3 Y Successfully added
+2013-05-06 23:31:24 -0400: HISD02H3 Y Successfully added
+2013-05-06 23:31:24 -0400: HLTB15H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HLTC05H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HLTC23H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HLTC43H3 Y Course already exists
+2013-05-06 23:31:24 -0400: HLTD01H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IDSD14H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IDSD15H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IMCB06H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IMCB06H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IMCB07H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IMCB07H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IMCB08H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IMCB08H3 Y Successfully added
+2013-05-06 23:31:24 -0400: IMCC01H3 Y Successfully added
+2013-05-06 23:31:24 -0400: ISTD01H3 Y Successfully added
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LINA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: LIND01H3 Y Successfully added
+2013-05-06 23:31:24 -0400: LIND02H3 Y Successfully added
+2013-05-06 23:31:24 -0400: MATA02H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA02H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA02H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA02H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA02H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA23H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA23H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA23H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA23H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA23H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA23H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA33H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA35H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA35H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA35H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA36H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA36H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA36H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA36H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA36H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA37H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA37H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA37H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA37H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATA37H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MATD94H3 Y Successfully added
+2013-05-06 23:31:24 -0400: MATD95H3 Y Successfully added
+2013-05-06 23:31:24 -0400: MDSA01H3 Y Course already exists
+2013-05-06 23:31:24 -0400: MGAB01H3 S Course already exists
+2013-05-06 23:31:24 -0400: MGAB01H3 S Course already exists
+2013-05-06 23:31:24 -0400: MGAB01H3 S Course already exists
+2013-05-06 23:31:24 -0400: MGAB02H3 S Course already exists
+2013-05-06 23:31:24 -0400: MGAB02H3 S Course already exists
+2013-05-06 23:31:24 -0400: MGAB02H3 S Course already exists
+2013-05-06 23:31:24 -0400: MGAB03H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAB03H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAB03H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAB03H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAB03H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAB03H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAC01H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAC01H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAC01H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAC01H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAC01H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAC01H3 F Course already exists
+2013-05-06 23:31:24 -0400: MGAC02H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAC02H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAC02H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAC03H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAC03H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAC50H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGAC60H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGAD10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGAD20H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAD20H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAD30H3 S Course already exists
+2013-05-06 23:31:25 -0400: MGAD30H3 S Course already exists
+2013-05-06 23:31:25 -0400: MGAD50H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAD50H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAD70H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGAD70H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGEA02H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEA06H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB02H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB02H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB06H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB06H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB06H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB11H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB12H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEB12H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC02H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC06H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC11H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC31H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC40H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC40H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC41H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC61H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC61H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC71H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC71H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC72H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGEC93H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGED90H3 Y Successfully added
+2013-05-06 23:31:25 -0400: MGED91H3 Y Successfully added
+2013-05-06 23:31:25 -0400: MGFB10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGFB10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGFC10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGFC10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGFC10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGFC20H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGHB12H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGHC02H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGHC02H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGHC02H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGHC02H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGIA01H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGMA01H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGMA01H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGMA01H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGMA01H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGMB01H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGMC02H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGMC12H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGMC12H3 F Course already exists
+2013-05-06 23:31:25 -0400: MGOC10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGOC10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGOC10H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGSC14H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGSC30H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGSC30H3 Y Successfully added
+2013-05-06 23:31:25 -0400: MGSC44H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGSC46H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTA01H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTA02H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTA36H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTA36H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTA36H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB23H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB27Y3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB27Y3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB29H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB90H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB90H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB90H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB90H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTB90H3 Y Course already exists
+2013-05-06 23:31:25 -0400: MGTD80H3 Y Successfully added
+2013-05-06 23:31:25 -0400: NROB60H3 Y Successfully added
+2013-05-06 23:31:25 -0400: NROB60H3 Y Course already exists
+2013-05-06 23:31:25 -0400: NROB60H3 Y Course already exists
+2013-05-06 23:31:25 -0400: NROB60H3 Y Course already exists
+2013-05-06 23:31:25 -0400: PHLB06H3 Y Course already exists
+2013-05-06 23:31:25 -0400: PHLD90H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD91H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD92H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD93H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD94H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD95H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD96H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD97H3 Y Successfully added
+2013-05-06 23:31:25 -0400: PHLD98H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PHLD99H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PHYA22H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PHYA22H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PHYA22H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PHYA22H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PHYA22H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PHYD01H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PHYD11H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PHYD72H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PLID01H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PLID02H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PLID03H3 Y Successfully added
+2013-05-06 23:31:26 -0400: POLB70H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB70H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB70H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB80H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB80H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB80H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB80H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB90H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB90H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB90H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLB90H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLC88H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLD50H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLD52H3 Y Course already exists
+2013-05-06 23:31:26 -0400: POLD98H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSCD10H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYA01H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYA02H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYA90H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYB01H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYB30H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYB32H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYB45H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYB51H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYB57H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYB64H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYC02H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC02H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC02H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC02H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC02H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC08H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC08H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC08H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC08H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC08H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC11H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC12H3 Y Successfully added
+2013-05-06 23:31:26 -0400: PSYC18H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC26H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYC85H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYD15H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYD20H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYD22H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYD32H3 Y Course already exists
+2013-05-06 23:31:26 -0400: PSYD33H3 Y Course already exists
+2013-05-06 23:31:26 -0400: SOCB05H3 Y Course already exists
+2013-05-06 23:31:26 -0400: SOCB05H3 Y Course already exists
+2013-05-06 23:31:26 -0400: SOCB05H3 Y Course already exists
+2013-05-06 23:31:26 -0400: SOCB05H3 Y Course already exists
+2013-05-06 23:31:26 -0400: SOCB22H3 Y Course already exists
+2013-05-06 23:31:26 -0400: SOCB50H3 Y Course already exists
+2013-05-06 23:31:26 -0400: SOCC52H3 Y Course already exists
+2013-05-06 23:31:27 -0400: SOCD40H3 Y Successfully added
+2013-05-06 23:31:27 -0400: SOCD41H3 Y Successfully added
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB22H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB52H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB52H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB52H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB52H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB52H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAB52H3 Y Course already exists
+2013-05-06 23:31:27 -0400: STAD94H3 Y Successfully added
+2013-05-06 23:31:27 -0400: STEB07H3 Y Successfully added
+2013-05-06 23:31:27 -0400: STEB07H3 Y Successfully added
+2013-05-06 23:31:27 -0400: VPAD14H3 Y Successfully added
+2013-05-06 23:31:27 -0400: VPHC42H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPMA69H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPMA93H3 F Course already exists
+2013-05-06 23:31:27 -0400: VPMA93H3 F Course already exists
+2013-05-06 23:31:27 -0400: VPMB69H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPMB78H3 S Course already exists
+2013-05-06 23:31:27 -0400: VPMB78H3 S Course already exists
+2013-05-06 23:31:27 -0400: VPMC69H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPSA61H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPSA62H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPSA73H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPSA74H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPSA74H3 Y Course already exists
+2013-05-06 23:31:27 -0400: VPSB67H3 Y Course already exists
+2013-05-06 23:31:27 -0400: WSTA03H3 Y Course already exists
+2013-05-06 23:31:27 -0400: WSTA03H3 Y Course already exists
+2013-05-06 23:31:27 -0400: WSTA03H3 Y Course already exists
+2013-05-06 23:31:27 -0400: WSTA03H3 Y Course already exists
+2013-05-06 23:31:27 -0400: WSTA03H3 Y Course already exists
+2013-05-06 23:31:27 -0400: WSTC13H3 Y Course already exists

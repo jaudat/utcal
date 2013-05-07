@@ -264,7 +264,7 @@ XMLDIR_p = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/ProfessorCSV.
 
 	    @check = Course.find(:all, :conditions => ["code LIKE ? AND meeting LIKE ? AND days LIKE ? AND start = ? AND end = ?",@code,@meeting,@days,@start,@end])
         if @check.empty? or @check.nil?
-	      if k <= count #CONDITION FOR TESTING
+	     # if k <= count #CONDITION FOR TESTING
 
 		        @course_object = Course.create(:code => @code, :section => @section,
 		                        :restrictions => @restrictions, :days => @days, :start => @start, 
@@ -274,12 +274,12 @@ XMLDIR_p = "/home/cevdet/Workbench/RubyProjects/RailProjects/utcal/ProfessorCSV.
 	    		dateForLog = Time.now.to_s
 	    		log = dateForLog + ": " + @code_t.text + " Successfully added"
 		        @LogArrayCourses.push(log)
-		        courseLog.puts
-	      end
-	      count = count +1#CONDITION FOR TESTING
-	      if count == n#CONDITION FOR TESTING
-	        break#CONDITION FOR TESTING
-	      end #CONDITION FOR TESTING
+		        courseLog.puts(log)
+	      # end
+	      # count = count +1#CONDITION FOR TESTING
+	      # if count == n#CONDITION FOR TESTING
+	      #   break#CONDITION FOR TESTING
+	      # end #CONDITION FOR TESTING
 
 	    else
 	    	dateForLog = Time.now.to_s

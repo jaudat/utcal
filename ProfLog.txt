@@ -1,5 +1,5 @@
 alan: Found user!
-alan: Course BIOB10Y3 with meeting LEC01 not found! No associations made.
+alan: Course BIOB10Y3 with meeting LEC01found!Associations complete
 alan: Course BIOB10Y3 with meeting TUT0001found!Associations complete
 Professor with utorid paco not found. Ask the professor to create login.
 Professor with utorid jaudat not found. Ask the professor to create login.
